@@ -33,14 +33,35 @@ export default function Home() {
   if (loading) return <div className="min-h-screen flex items-center justify-center">Loading jobs...</div>
   if (error) return <div className="min-h-screen flex items-center justify-center text-red-600">Error: {error}</div>
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "name": "Canadian Resource Job Board",
+    "description": "Find career opportunities in Canada's resource sectors including mining, oil & gas, forestry, and renewable energy",
+    "url": "https://canadian-resourse-jobboard.vercel.app",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Canadian Resource Job Board"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "addressCountry": "CA"
+    }
+  }
+
   return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <h1 className="text-3xl font-bold text-gray-900">Canadian Resource Job Board</h1>
-          <p className="text-gray-600 mt-2">Find opportunities in Canada's resource sectors</p>
-        </div>
-      </header>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <div className="min-h-screen bg-gray-50">
+        <header className="bg-white shadow-sm border-b">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <h1 className="text-3xl font-bold text-gray-900">Canadian Resource Job Board</h1>
+            <p className="text-gray-600 mt-2">Find opportunities in Canada's resource sectors</p>
+          </div>
+        </header>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="mb-6">
@@ -98,6 +119,7 @@ export default function Home() {
           </div>
         )}
       </main>
-    </div>
+      </div>
+    </>
   )
 }
