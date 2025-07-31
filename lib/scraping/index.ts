@@ -25,11 +25,22 @@ export * from '../../types/scraping'
 export function createScrapingSystem() {
   const { ScraperManager } = require('./scraper-manager')
   const { ScrapingScheduler } = require('./scheduler')
+  const { DatabaseManager } = require('./database-manager')
+  const { DuplicateDetector } = require('./duplicate-detector')
+  const { IndeedScraper } = require('./scrapers/indeed-scraper')
+  const { JobBankScraper } = require('./scrapers/jobbank-scraper')
+  
+  const manager = new ScraperManager()
+  const scheduler = new ScrapingScheduler()
+  
+  // Register scrapers
+  manager.registerScraper('indeed', new IndeedScraper())
+  manager.registerScraper('jobbank', new JobBankScraper())
   
   return {
-    manager: new ScraperManager(),
-    scheduler: new ScrapingScheduler(),
-    database: DatabaseManager,
-    duplicateDetector: DuplicateDetector
+    manager,
+    scheduler,
+    database: new DatabaseManager(),
+    duplicateDetector: new DuplicateDetector()
   }
 }

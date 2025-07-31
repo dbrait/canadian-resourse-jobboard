@@ -124,7 +124,6 @@ export class ScrapingScheduler {
     const task = cron.schedule(config.cronExpression, async () => {
       await this.executeScheduledTask(name, config)
     }, {
-      scheduled: true,
       timezone: "America/Toronto" // Canadian timezone
     })
 
@@ -324,8 +323,8 @@ export class ScrapingScheduler {
   getStatus() {
     const tasks = Array.from(this.scheduledTasks.entries()).map(([name, task]) => ({
       name,
-      running: !task.destroyed,
-      nextExecution: task.nextDate()?.toISOString()
+      running: (task as any).running || false,
+      nextExecution: (task as any).nextDate?.()?.toISOString()
     }))
 
     return {

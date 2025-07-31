@@ -1,12 +1,18 @@
 {
-  "name": "canadian-resource-jobboard",
-  "version": "0.1.0",
+  "name": "resourcecareers-ca",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "scrape": "tsx scripts/start-scraping.ts",
+    "notifications:immediate": "tsx scripts/notification-cron.ts immediate",
+    "notifications:daily": "tsx scripts/notification-cron.ts daily",
+    "notifications:weekly": "tsx scripts/notification-cron.ts weekly",
+    "notifications:analytics": "tsx scripts/notification-cron.ts analytics",
+    "notifications:cleanup": "tsx scripts/notification-cron.ts cleanup"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.52.1",
@@ -19,7 +25,8 @@
     "node-cron": "^4.2.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "scrapingbee": "^1.7.5"
+    "scrapingbee": "^1.7.5",
+    "zod": "^4.0.14"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -28,6 +35,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
+    "tsx": "^4.20.3",
     "typescript": "^5"
   }
 }

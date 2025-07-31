@@ -1,6 +1,10 @@
 #!/usr/bin/env npx tsx
 
+import { config } from 'dotenv'
 import { createScrapingSystem } from '../lib/scraping'
+
+// Load environment variables from .env.local
+config({ path: '.env.local' })
 
 async function main() {
   console.log('🚀 Starting Canadian Resource Job Board Scraping System...')
@@ -39,16 +43,14 @@ async function main() {
       process.exit(0)
     })
 
-    // Test scraping (optional - uncomment to run immediately)
-    /*
-    console.log('🧪 Running test scrape...')
+    // Test scraping - run immediately to populate database
+    console.log('🧪 Running test scrape to populate database...')
     const testResult = await scrapingSystem.manager.scrapePlatform('indeed', {
-      maxPages: 1,
-      dateRange: 'today',
-      sectors: ['mining']
+      maxPages: 2,
+      dateRange: 'week',
+      sectors: ['mining', 'oil_gas', 'forestry', 'renewable', 'utilities']
     })
     console.log('🧪 Test result:', testResult)
-    */
 
   } catch (error) {
     console.error('❌ Error starting scraping system:', error)

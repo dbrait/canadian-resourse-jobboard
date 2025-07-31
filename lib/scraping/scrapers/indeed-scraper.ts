@@ -121,7 +121,7 @@ export class IndeedScraper extends BaseScraper {
       '.slider_container .slider_item'
     ]
 
-    let jobCards: cheerio.Cheerio<cheerio.Element> = $()
+    let jobCards: any = $('')
     
     for (const selector of jobCardSelectors) {
       jobCards = $(selector)
@@ -130,7 +130,7 @@ export class IndeedScraper extends BaseScraper {
 
     console.log(`Found ${jobCards.length} job cards on Indeed`)
 
-    jobCards.each((index, element) => {
+    jobCards.each((index: number, element: any) => {
       try {
         const job = this.parseJobCard($.html(element) || '', sourceUrl)
         if (job) {
@@ -149,33 +149,33 @@ export class IndeedScraper extends BaseScraper {
 
     try {
       // Extract job details using multiple potential selectors
-      const title = this.extractText($, [
+      const title = this.extractText($ as any, [
         'h2.jobTitle a span[title]',
         '.jobTitle a',
         'h2 a span',
         '[data-testid="job-title"]'
       ])
 
-      const company = this.extractText($, [
+      const company = this.extractText($ as any, [
         '.companyName',
         'span.companyName a',
         '[data-testid="company-name"]',
         '.companyOverviewLink'
       ])
 
-      const location = this.extractText($, [
+      const location = this.extractText($ as any, [
         '.companyLocation',
         '[data-testid="job-location"]',
         '.locationsContainer'
       ])
 
-      const description = this.extractText($, [
+      const description = this.extractText($ as any, [
         '.job-snippet',
         '[data-testid="job-snippet"]',
         '.summary'
       ])
 
-      const salary = this.extractText($, [
+      const salary = this.extractText($ as any, [
         '.salary-snippet',
         '.salaryText',
         '[data-testid="job-salary"]'

@@ -136,7 +136,7 @@ export abstract class CompanyBaseScraper extends BaseScraper {
     const jobs: ScrapedJob[] = []
 
     // Try multiple selectors for job cards
-    let jobCards: cheerio.Cheerio<cheerio.Element> = $()
+    let jobCards: any = $('')
     
     for (const selector of this.companyConfig.selectors.jobCard) {
       jobCards = $(selector)
@@ -145,7 +145,7 @@ export abstract class CompanyBaseScraper extends BaseScraper {
 
     console.log(`Found ${jobCards.length} job cards for ${this.companyConfig.name}`)
 
-    jobCards.each((index, element) => {
+    jobCards.each((index: number, element: any) => {
       try {
         const job = this.parseJobCard($.html(element) || '', sourceUrl)
         if (job) {
@@ -168,14 +168,14 @@ export abstract class CompanyBaseScraper extends BaseScraper {
 
     try {
       // Extract job details using multiple potential selectors
-      const title = this.extractText($, this.companyConfig.selectors.title)
-      const location = this.extractText($, this.companyConfig.selectors.location)
+      const title = this.extractText($ as any, this.companyConfig.selectors.title)
+      const location = this.extractText($ as any, this.companyConfig.selectors.location)
       const department = this.companyConfig.selectors.department ? 
-        this.extractText($, this.companyConfig.selectors.department) : ''
+        this.extractText($ as any, this.companyConfig.selectors.department) : ''
       const jobType = this.companyConfig.selectors.jobType ? 
-        this.extractText($, this.companyConfig.selectors.jobType) : ''
+        this.extractText($ as any, this.companyConfig.selectors.jobType) : ''
       const description = this.companyConfig.selectors.description ? 
-        this.extractText($, this.companyConfig.selectors.description) : ''
+        this.extractText($ as any, this.companyConfig.selectors.description) : ''
 
       // Extract apply link
       let applicationUrl = ''
@@ -259,9 +259,9 @@ export abstract class CompanyBaseScraper extends BaseScraper {
       }
 
       return {
-        description: this.extractText($, detailSelectors.description),
-        requirements: this.extractText($, detailSelectors.requirements),
-        employment_type: this.extractText($, detailSelectors.jobType)
+        description: this.extractText($ as any, detailSelectors.description),
+        requirements: this.extractText($ as any, detailSelectors.requirements),
+        employment_type: this.extractText($ as any, detailSelectors.jobType)
       }
 
     } catch (error) {
