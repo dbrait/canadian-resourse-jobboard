@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "scrape": "tsx scripts/start-scraping.ts",
+    "scrape:companies": "tsx scripts/register-company-scrapers.ts",
+    "scrape:companies:test": "tsx scripts/register-company-scrapers.ts --test",
     "notifications:immediate": "tsx scripts/notification-cron.ts immediate",
     "notifications:daily": "tsx scripts/notification-cron.ts daily",
     "notifications:weekly": "tsx scripts/notification-cron.ts weekly",

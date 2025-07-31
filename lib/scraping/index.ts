@@ -29,13 +29,38 @@ export function createScrapingSystem() {
   const { DuplicateDetector } = require('./duplicate-detector')
   const { IndeedScraper } = require('./scrapers/indeed-scraper')
   const { JobBankScraper } = require('./scrapers/jobbank-scraper')
+  const { CompanyScraperFactory } = require('./company-scraper-factory')
   
   const manager = new ScraperManager()
   const scheduler = new ScrapingScheduler()
   
-  // Register scrapers
+  // Register job board scrapers
   manager.registerScraper('indeed', new IndeedScraper())
   manager.registerScraper('jobbank', new JobBankScraper())
+  
+  // Register all company scrapers
+  try {
+    const factory = new CompanyScraperFactory(manager)
+    const companyScrapers = factory.createAllCompanyScrapers()
+    
+    console.log(`Registering ${companyScrapers.length} company scrapers...`)
+    
+    let registeredCount = 0
+    for (const scraper of companyScrapers) {
+      try {
+        const scraperId = (scraper as any).platform
+        manager.registerScraper(scraperId, scraper)
+        registeredCount++
+      } catch (error) {
+        console.error(`Failed to register company scraper: ${error}`)
+      }
+    }
+    
+    console.log(`Successfully registered ${registeredCount} company scrapers`)
+    
+  } catch (error) {
+    console.error('Error setting up company scrapers:', error)
+  }
   
   return {
     manager,
