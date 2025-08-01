@@ -1,49 +1,13 @@
-import { Suspense } from 'react'
-import { supabase } from '../lib/supabase'
+'use client'
+
+import { Suspense, useEffect, useState } from 'react'
 import { Job } from '../types/job'
 import { generateCollectionPageSchema } from '@/lib/seo/structured-data'
-import { generateMetadata } from '@/lib/seo/metadata'
 import Link from 'next/link'
 
-export const metadata = generateMetadata({
-  title: 'Canada\'s Premier Natural Resource Job Board',
-  description: 'Discover thousands of career opportunities in mining, oil & gas, forestry, renewable energy, and utilities across Canada. Start your resource sector career today.',
-  keywords: ['canadian natural resource jobs', 'mining careers canada', 'oil gas jobs', 'forestry employment', 'renewable energy careers', 'utilities jobs canada']
-})
-
-async function getJobs(): Promise<Job[]> {
-  const { data, error } = await supabase
-    .from('jobs')
-    .select('*')
-    .eq('is_active', true)
-    .order('posted_date', { ascending: false })
-    .limit(50)
-
-  if (error) {
-    console.error('Error fetching jobs:', error)
-    return []
-  }
-
-  return data || []
-}
-
-async function getJobStats() {
-  const { count: totalJobs } = await supabase
-    .from('jobs')
-    .select('*', { count: 'exact' })
-    .eq('is_active', true)
-
-  const { data: sectorCounts } = await supabase
-    .from('jobs')
-    .select('sector')
-    .eq('is_active', true)
-
-  const sectors = sectorCounts?.reduce((acc: Record<string, number>, job) => {
-    acc[job.sector] = (acc[job.sector] || 0) + 1
-    return acc
-  }, {}) || {}
-
-  return { totalJobs: totalJobs || 0, sectors }
+interface JobStats {
+  totalJobs: number
+  sectors: Record<string, number>
 }
 
 function JobCard({ job }: { job: Job }) {
@@ -153,24 +117,69 @@ function SectorStats({ sectors }: { sectors: Record<string, number> }) {
   )
 }
 
-export default async function Home() {
-  const [jobs, stats] = await Promise.all([
-    getJobs(),
-    getJobStats()
-  ])
+export default function Home() {
+  const [jobs, setJobs] = useState<Job[]>([])
+  const [stats, setStats] = useState<JobStats>({ totalJobs: 0, sectors: {} })
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
 
-  const collectionSchema = generateCollectionPageSchema(
-    'Natural Resource Jobs in Canada',
-    'Browse the latest career opportunities in Canada\'s natural resource sectors',
-    jobs,
-    'https://resourcecareers.ca'
-  )
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        // Fetch jobs
+        const jobsResponse = await fetch('/api/jobs?limit=50')
+        if (jobsResponse.ok) {
+          const jobsData = await jobsResponse.json()
+          setJobs(Array.isArray(jobsData) ? jobsData : [])
+        } else {
+          console.error('Failed to fetch jobs:', jobsResponse.status)
+        }
+
+        // Fetch stats
+        const statsResponse = await fetch('/api/jobs/stats')
+        if (statsResponse.ok) {
+          const statsData = await statsResponse.json()
+          setStats({
+            totalJobs: statsData.totalJobs || 0,
+            sectors: statsData.sectorBreakdown || {}
+          })
+        } else {
+          console.error('Failed to fetch stats:', statsResponse.status)
+        }
+      } catch (err) {
+        console.error('Error fetching data:', err)
+        setError('Failed to load job data')
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchData()
+  }, [])
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600">Loading job opportunities...</p>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+        dangerouslySetInnerHTML={{ 
+          __html: JSON.stringify(generateCollectionPageSchema(
+            'Natural Resource Jobs in Canada',
+            'Browse the latest career opportunities in Canada\'s natural resource sectors',
+            jobs,
+            'https://resourcecareers.ca'
+          ))
+        }}
       />
       
       <div className="min-h-screen bg-gray-50">
@@ -252,13 +261,17 @@ export default async function Home() {
               ))}
             </div>
 
-            {jobs.length === 0 && (
+            {jobs.length === 0 && !loading && (
               <div className="text-center py-12">
                 <svg className="mx-auto h-12 w-12 text-gray-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255a23.931 23.931 0 01-1.787 4.654c-.395.714-.948 1.29-1.634 1.635a3.989 3.989 0 01-2.456.256c-.744-.127-1.49-.394-2.21-.816a15.923 15.923 0 01-2.346-1.506 11.96 11.96 0 01-1.964-2.09A9.868 9.868 0 017.5 12c0-5.523 4.477-10 10-10s10 4.477 10 10a9.95 9.95 0 01-.5 3.255z" />
                 </svg>
-                <h3 className="text-lg font-medium text-gray-900 mb-2">No jobs available</h3>
-                <p className="text-gray-500">Check back soon for new opportunities or set up job alerts.</p>
+                <h3 className="text-lg font-medium text-gray-900 mb-2">
+                  {error ? 'Error Loading Jobs' : 'No jobs available'}
+                </h3>
+                <p className="text-gray-500">
+                  {error || 'Check back soon for new opportunities or set up job alerts.'}
+                </p>
                 <Link
                   href="/notifications"
                   className="mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors"
