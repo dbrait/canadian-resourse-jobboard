@@ -1,21 +1,22 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // SEO and performance optimizations
+  // Basic optimizations only
   compress: true,
   poweredByHeader: false,
   
   // Image optimization
   images: {
-    formats: ['image/webp', 'image/avif'],
+    formats: ['image/webp'],
     minimumCacheTTL: 60,
   },
 
-  // Headers for SEO and security
+  // Only apply security headers to non-API routes
   async headers() {
     return [
       {
-        source: '/(.*)',
+        // Apply security headers to all non-API routes
+        source: '/((?!api).*)',
         headers: [
           {
             key: 'X-Frame-Options',
@@ -33,29 +34,6 @@ const nextConfig: NextConfig = {
       },
     ]
   },
-
-  // Redirects for SEO
-  async redirects() {
-    return [
-      {
-        source: '/jobs/:path*',
-        has: [
-          {
-            type: 'query',
-            key: 'page',
-            value: '1',
-          },
-        ],
-        destination: '/jobs/:path*',
-        permanent: true,
-      },
-    ]
-  },
-
-  // Removed experimental features for stable deployment
-  // experimental: {
-  //   scrollRestoration: true,
-  // },
 };
 
 export default nextConfig;
