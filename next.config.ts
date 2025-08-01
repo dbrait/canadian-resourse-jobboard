@@ -52,10 +52,10 @@ const nextConfig: NextConfig = {
     ]
   },
 
-  // Experimental features for performance
-  experimental: {
-    scrollRestoration: true,
-  },
+  // Removed experimental features for stable deployment
+  // experimental: {
+  //   scrollRestoration: true,
+  // },
 };
 
 export default nextConfig;

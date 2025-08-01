@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs  
+.next/
+out/
+dist/
+
+# Environment files
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files and results
+batch-*.json
+company-scraping-*.json
+*.html
+*.txt
+career-analysis-*.html
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Testing and development
+coverage/
+.nyc_output/
+scripts/test-*.ts
+scripts/diagnose-*.ts
+
+# Documentation
+docs/
+README.md
+SETUP_INSTRUCTIONS.md
