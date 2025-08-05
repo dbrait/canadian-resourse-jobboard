@@ -15,7 +15,7 @@ export async function GET() {
       )
     }
 
-    const supabase = createClient(supabaseUrl, supabaseKey)
+    const supabase = createClient(supabaseUrl, supabaseKey.trim())
     // Get total active jobs
     const { count: totalJobs, error: totalError } = await supabase
       .from('jobs')

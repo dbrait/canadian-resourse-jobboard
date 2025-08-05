@@ -11,6 +11,10 @@ export async function GET(request: NextRequest) {
       hasUrl: !!supabaseUrl,
       hasKey: !!supabaseKey,
       urlPrefix: supabaseUrl?.substring(0, 30),
+      keyLength: supabaseKey?.length,
+      keyHasNewlines: supabaseKey?.includes('\n'),
+      keyHasCarriageReturn: supabaseKey?.includes('\r'),
+      keyTrimmedLength: supabaseKey?.trim().length,
       projectId: supabaseUrl?.match(/https:\/\/(.+?)\.supabase/)?.[1],
       timestamp: new Date().toISOString()
     }
@@ -22,8 +26,8 @@ export async function GET(request: NextRequest) {
       }, { status: 500 })
     }
 
-    // Try to connect and count jobs
-    const supabase = createClient(supabaseUrl, supabaseKey)
+    // Try to connect and count jobs (trim the key to remove whitespace)
+    const supabase = createClient(supabaseUrl, supabaseKey.trim())
     
     const { count, error } = await supabase
       .from('jobs')
