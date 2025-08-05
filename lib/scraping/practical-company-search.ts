@@ -285,15 +285,10 @@ export class EnhancedIndeedCompanyScraper extends BaseScraper {
     return new Promise(resolve => setTimeout(resolve, ms))
   }
 
-  // Abstract methods required by BaseScraper
+  // Abstract method required by BaseScraper
   protected parseJobCard(html: string, baseUrl: string): ScrapedJob | null {
     // This class uses parseJobsFromHtml instead
     return null
-  }
-
-  protected buildSearchUrl(options?: ScrapingOptions): string {
-    // This class uses buildSearchUrls (plural) instead
-    return ''
   }
 }
 
