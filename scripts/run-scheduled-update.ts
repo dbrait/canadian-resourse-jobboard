@@ -60,7 +60,7 @@ async function runScheduledUpdate(updateType: 'daily' | 'weekly' = 'weekly') {
           console.log(`   ✅ Success: ${result.jobs.length} jobs found`)
           
           // Check scraping stats for new vs updated jobs
-          const stats = await scrapingSystem.databaseManager.getScrapingStats(scraperId)
+          const stats = await scrapingSystem.database.getScrapingStats(scraperId)
           if (stats && stats.length > 0) {
             const latestStats = stats[0]
             totalUpdatedJobs += latestStats.jobs_updated || 0
