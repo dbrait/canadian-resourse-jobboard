@@ -14,10 +14,7 @@
     "notifications:daily": "tsx scripts/notification-cron.ts daily",
     "notifications:weekly": "tsx scripts/notification-cron.ts weekly",
     "notifications:analytics": "tsx scripts/notification-cron.ts analytics",
-    "notifications:cleanup": "tsx scripts/notification-cron.ts cleanup",
-    "scrape:initial": "tsx scripts/run-initial-scrape.ts",
-    "scrape:update:daily": "tsx scripts/run-scheduled-update.ts daily",
-    "scrape:update:weekly": "tsx scripts/run-scheduled-update.ts weekly"
+    "notifications:cleanup": "tsx scripts/notification-cron.ts cleanup"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.52.1",

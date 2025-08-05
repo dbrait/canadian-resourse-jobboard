@@ -1,0 +1,253 @@
+{
+  "batchNumber": 6,
+  "scrapedAt": "2025-07-31T23:31:27.673Z",
+  "totalCompanies": 20,
+  "successfulCompanies": 3,
+  "totalJobs": 5,
+  "results": [
+    {
+      "company": "Innergex Renewable Energy Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 10103,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Northland Power Inc.",
+      "sector": "utilities",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Northland Power Inc.",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.northlandpower.com/en/about-northland/board-of-directors.aspx",
+          "sourceUrl": "https://www.northlandpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:28:37.089Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Northland Power Inc.",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.northlandpower.com/en/about-northland/board-of-directors.aspx",
+          "sourceUrl": "https://www.northlandpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:28:37.089Z"
+        }
+      ],
+      "timeElapsed": 10371,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Boralex Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7328,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Canadian Wind Energy Association Members:",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3852,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Canadian Solar Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 19308,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Solantro Semiconductor Corp.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4484,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Heliene Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 11710,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Brookfield Renewable Partners L.P.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4506,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Innergex Renewable Energy Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8209,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "ATCO Power",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4862,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Canadian National Railway Company (CN)",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4792,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Canadian Pacific Kansas City Limited (CPKC)",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5745,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Ontario Northland Railway",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 14659,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Via Rail Canada Inc.",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 11275,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Rocky Mountaineer",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9277,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "White Pass and Yukon Route",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7141,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Enbridge Inc.",
+      "sector": "transportation",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Enbridge Inc.",
+          "location": "Canada",
+          "sector": "transportation",
+          "applicationUrl": "https://www.enbridge.com/about-us/executive-leadership/board-of-directors",
+          "sourceUrl": "https://www.enbridge.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:30:57.476Z"
+        }
+      ],
+      "timeElapsed": 8110,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "TC Energy Corporation",
+      "sector": "transportation",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Analyst coverage",
+          "company": "TC Energy Corporation",
+          "location": "Canada",
+          "sector": "transportation",
+          "applicationUrl": "https://www.tcenergy.com/investors/stock-information/",
+          "sourceUrl": "https://www.tcenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:31:11.823Z"
+        },
+        {
+          "title": "Engineering & Projects",
+          "company": "TC Energy Corporation",
+          "location": "Canada",
+          "sector": "transportation",
+          "applicationUrl": "https://tcenergy.wd3.myworkdayjobs.com/en-US/CAREER_SITE_TC?jobFamilyGroup=69babe4ce6380100bf60d67436e90000&jobFamilyGroup=69babe4ce6380100bf60da16e1e10000",
+          "sourceUrl": "https://www.tcenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:31:11.825Z"
+        }
+      ],
+      "timeElapsed": 13345,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Kinder Morgan Canada",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8380,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Pembina Pipeline Corporation",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4430,
+      "discoveryMethod": "none"
+    }
+  ]
+}

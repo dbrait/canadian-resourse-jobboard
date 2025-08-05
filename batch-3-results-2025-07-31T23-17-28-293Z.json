@@ -1,0 +1,547 @@
+{
+  "batchNumber": 3,
+  "scrapedAt": "2025-07-31T23:17:28.293Z",
+  "totalCompanies": 20,
+  "successfulCompanies": 8,
+  "totalJobs": 34,
+  "results": [
+    {
+      "company": "Centerra Gold Inc.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Centerra Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.centerragold.com/company/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.centerragold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:25.073Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Centerra Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.centerragold.com/investor-relations/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.centerragold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:25.073Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Centerra Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.centerragold.com/company/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.centerragold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:25.073Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Centerra Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.centerragold.com/investor-relations/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.centerragold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:25.073Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Centerra Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.centerragold.com/company/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.centerragold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:25.074Z"
+        }
+      ],
+      "timeElapsed": 6000,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "New Gold Inc.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "New Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://newgold.com/about/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.newgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:40.279Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "New Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://newgold.com/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.newgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:40.279Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "New Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://newgold.com/about/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.newgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:40.283Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "New Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://newgold.com/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.newgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:40.283Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "New Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://newgold.com/about/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.newgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:40.283Z"
+        }
+      ],
+      "timeElapsed": 14205,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Osisko Gold Royalties Ltd.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8377,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Franco-Nevada Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5609,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Teck Resources Limited",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/about/board-of-directors/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:06.547Z"
+        },
+        {
+          "title": "Interactive Analyst Centre",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/investors/interactive-analyst-centre/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:06.548Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:06.548Z"
+        },
+        {
+          "title": "Interactive Analyst Centre",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/investors/interactive-analyst-centre/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:06.549Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:06.549Z"
+        }
+      ],
+      "timeElapsed": 9265,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "First Quantum Minerals Ltd.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6433,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Lundin Mining Corporation",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Lundin Mining Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.lundinmining.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.lundinmining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:25.822Z"
+        },
+        {
+          "title": "Corporate Directory",
+          "company": "Lundin Mining Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.lundinmining.com/about-us/corporate-directory/",
+          "sourceUrl": "https://www.lundinmining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:25.822Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Lundin Mining Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.lundinmining.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.lundinmining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:25.823Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Lundin Mining Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.lundinmining.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.lundinmining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:25.823Z"
+        },
+        {
+          "title": "Corporate Directory",
+          "company": "Lundin Mining Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.lundinmining.com/about-us/corporate-directory/",
+          "sourceUrl": "https://www.lundinmining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:25.823Z"
+        }
+      ],
+      "timeElapsed": 10831,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Hudbay Minerals Inc.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 3,
+      "jobs": [
+        {
+          "title": "Analyst Coverage",
+          "company": "Hudbay Minerals Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://hudbayminerals.com/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.hudbayminerals.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:40.397Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Hudbay Minerals Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://hudbayminerals.com/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.hudbayminerals.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:40.397Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Hudbay Minerals Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://hudbayminerals.com/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.hudbayminerals.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:40.398Z"
+        }
+      ],
+      "timeElapsed": 13566,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Ivanhoe Mines Ltd.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8572,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Capstone Mining Corp.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Analyst coverage",
+          "company": "Capstone Mining Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://capstonecopper.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.capstonemining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:00.772Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Capstone Mining Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://capstonecopper.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.capstonemining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:00.773Z"
+        },
+        {
+          "title": "Directory",
+          "company": "Capstone Mining Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://capstonecopper.com/about-us/directory/",
+          "sourceUrl": "https://www.capstonemining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:00.773Z"
+        },
+        {
+          "title": "Analyst coverage",
+          "company": "Capstone Mining Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://capstonecopper.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.capstonemining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:00.773Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Capstone Mining Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://capstonecopper.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.capstonemining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:00.774Z"
+        }
+      ],
+      "timeElapsed": 9790,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Taseko Mines Limited",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Taseko Mines Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.tasekomines.com/about/board-of-directors/",
+          "sourceUrl": "https://www.tasekomines.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:17.070Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Taseko Mines Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.tasekomines.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.tasekomines.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:17.070Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Taseko Mines Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.tasekomines.com/about/board-of-directors/",
+          "sourceUrl": "https://www.tasekomines.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:17.070Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Taseko Mines Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.tasekomines.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.tasekomines.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:17.070Z"
+        },
+        {
+          "title": "Senior Tailings and Water Engineer",
+          "company": "Taseko Mines Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.tasekomines.com/tasekomines/job/oCB9wfwC",
+          "sourceUrl": "https://www.tasekomines.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:17.070Z"
+        }
+      ],
+      "timeElapsed": 15287,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Turquoise Hill Resources Ltd.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 108910,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Sherritt International Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4415,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "ArcelorMittal Dofasco",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 10970,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Champion Iron Limited",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9837,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Labrador Iron Ore Royalty Corp.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4558,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Algoma Steel Group Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 79644,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Nutrien Ltd.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Find an engineering position",
+          "company": "Nutrien Ltd.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://jobs.nutrien.com/North-America/go/Engineering-BU-US-NA/2654417/",
+          "sourceUrl": "https://www.nutrien.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:17:13.733Z"
+        }
+      ],
+      "timeElapsed": 11286,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Mosaic Company Canada",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4451,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "K+S Potash Canada GP",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7084,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "batchNumber": 4,
+  "scrapedAt": "2025-07-31T23:21:28.414Z",
+  "totalCompanies": 20,
+  "successfulCompanies": 4,
+  "totalJobs": 18,
+  "results": [
+    {
+      "company": "Teck Coal Limited",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 11253,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Conuma Coal Resources Limited",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 14386,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Riverside Resources Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7079,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "De Beers Canada Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6360,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Dominion Diamond Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8798,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Stornoway Diamond Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 17516,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Lithium Americas Corp.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Lithium Americas Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://lithiumamericas.com/about-us/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.lithiumamericas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:18:53.472Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Lithium Americas Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://lithiumamericas.com/investor/Analyst-Coverage/default.aspx",
+          "sourceUrl": "https://www.lithiumamericas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:18:53.472Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Lithium Americas Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://lithiumamericas.com/about-us/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.lithiumamericas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:18:53.472Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Lithium Americas Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://lithiumamericas.com/investor/Analyst-Coverage/default.aspx",
+          "sourceUrl": "https://www.lithiumamericas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:18:53.472Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Lithium Americas Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://lithiumamericas.com/about-us/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.lithiumamericas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:18:53.472Z"
+        }
+      ],
+      "timeElapsed": 8743,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Sigma Lithium Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4849,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Neo Performance Materials Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5855,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Avalon Advanced Materials Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9575,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "West Fraser Timber Co. Ltd.",
+      "sector": "forestry",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Co-Ops & Apprenticeships",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/careers/building-your-future",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:26.878Z"
+        },
+        {
+          "title": "Mill support Technician",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/jobs/mill-support-technician",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:26.878Z"
+        },
+        {
+          "title": "Machine Operator Trainee",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/jobs/machine-operator-trainee",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:26.878Z"
+        },
+        {
+          "title": "EHS Supervisor",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/jobs/ehs-supervisor-0",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:26.878Z"
+        },
+        {
+          "title": "Production Operator Apprentice",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/jobs/production-operator-apprentice",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:26.878Z"
+        }
+      ],
+      "timeElapsed": 9094,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Canfor Corporation",
+      "sector": "forestry",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Engineered Wood",
+          "company": "Canfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.canfor.com/products/engineered-wood",
+          "sourceUrl": "https://www.canfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:32.860Z"
+        },
+        {
+          "title": "Forklift OperatorProduction and General LaborUrbana, AR, US",
+          "company": "Canfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://jobs.canfor.com/job/Urbana-Forklift-Operator-AR-71768/1296379300/",
+          "sourceUrl": "https://www.canfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:32.861Z"
+        },
+        {
+          "title": "Manager, Employee Benefits, and RetirementHuman Resources & SafetyVancouver, BC, CA",
+          "company": "Canfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://jobs.canfor.com/job/Vancouver-Manager%2C-Employee-Benefits%2C-and-Retirement-BC/1296978300/",
+          "sourceUrl": "https://www.canfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:32.861Z"
+        },
+        {
+          "title": "Edger OperatorProduction and General LaborGraham, NC, US",
+          "company": "Canfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://jobs.canfor.com/job/Graham-Edger-Operator-NC/1306935700/",
+          "sourceUrl": "https://www.canfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:32.861Z"
+        },
+        {
+          "title": "Maintenance SupervisorManagement & SupervisoryWhitecourt, AB, CA",
+          "company": "Canfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://jobs.canfor.com/job/Whitecourt-Maintenance-Supervisor-AB/1299045200/",
+          "sourceUrl": "https://www.canfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:32.861Z"
+        }
+      ],
+      "timeElapsed": 4978,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Interfor Corporation",
+      "sector": "forestry",
+      "success": true,
+      "jobsFound": 3,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Interfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://interfor.com/about/directors/",
+          "sourceUrl": "https://www.interfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:49.360Z"
+        },
+        {
+          "title": "Engineered Wood Products",
+          "company": "Interfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://interfor.com/products/engineered-wood-products/",
+          "sourceUrl": "https://www.interfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:49.360Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Interfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://interfor.com/investors/analysts/",
+          "sourceUrl": "https://www.interfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:49.360Z"
+        }
+      ],
+      "timeElapsed": 15490,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Resolute Forest Products Inc.",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 42466,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Catalyst Paper Corporation",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9957,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Paper Excellence Group",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9320,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Weyerhaeuser Company Limited",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 12406,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Tolko Industries Ltd.",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5552,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Conifex Timber Inc.",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5339,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Western Forest Products Inc.",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5952,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "batchNumber": 8,
+  "scrapedAt": "2025-07-31T23:39:22.574Z",
+  "totalCompanies": 20,
+  "successfulCompanies": 2,
+  "totalJobs": 7,
+  "results": [
+    {
+      "company": "SNC-Lavalin Group Inc.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7450,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Stantec Inc.",
+      "sector": "construction",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Stantec Inc.",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.stantec.com/en/about/corporate-governance/board-of-directors.html",
+          "sourceUrl": "https://www.stantec.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:36:06.741Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Stantec Inc.",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.stantec.com/en/about/corporate-governance/board-of-directors.html",
+          "sourceUrl": "https://www.stantec.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:36:06.742Z"
+        }
+      ],
+      "timeElapsed": 6385,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "AECOM Canada Ltd.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6444,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Hatch Ltd.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 10265,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Worley Canada",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4377,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Wood Canada Limited",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5489,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Fluor Canada Ltd.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 80658,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "KBR Canada Co.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3960,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Jacobs Canada Inc.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 11462,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Aecon Group Inc.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5144,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "PCL Construction",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4745,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "EllisDon Corporation",
+      "sector": "construction",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Civil (Ground Engineering)",
+          "company": "EllisDon Corporation",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.ellisdon.com/actions/construct/civil-engineering",
+          "sourceUrl": "https://www.ellisdon.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:38:35.809Z"
+        },
+        {
+          "title": "Software Engineering & DevOps",
+          "company": "EllisDon Corporation",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.ellisdon.com/actions/digitize/software-engineering-and-devops",
+          "sourceUrl": "https://www.ellisdon.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:38:35.809Z"
+        },
+        {
+          "title": "Construction Engineering Services",
+          "company": "EllisDon Corporation",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.ellisdon.com/actions/construct/construction-engineering-services",
+          "sourceUrl": "https://www.ellisdon.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:38:35.809Z"
+        },
+        {
+          "title": "Civil (Ground Engineering)",
+          "company": "EllisDon Corporation",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.ellisdon.com/actions/construct/civil-engineering",
+          "sourceUrl": "https://www.ellisdon.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:38:35.809Z"
+        },
+        {
+          "title": "Software Engineering & DevOps",
+          "company": "EllisDon Corporation",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.ellisdon.com/actions/digitize/software-engineering-and-devops",
+          "sourceUrl": "https://www.ellisdon.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:38:35.809Z"
+        }
+      ],
+      "timeElapsed": 6464,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Graham Group Ltd.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8219,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Bird Construction Inc.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8716,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Oil & Gas:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5368,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Mining:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4181,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Forestry:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 10858,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Renewable Energy & Utilities:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 108,
+      "discoveryMethod": "none",
+      "error": "HTTP 401"
+    },
+    {
+      "company": "Transportation:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 112,
+      "discoveryMethod": "none",
+      "error": "HTTP 401"
+    },
+    {
+      "company": "Agriculture:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 109,
+      "discoveryMethod": "none",
+      "error": "HTTP 401"
+    }
+  ]
+}

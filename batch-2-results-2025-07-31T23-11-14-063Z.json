@@ -1,0 +1,445 @@
+{
+  "batchNumber": 2,
+  "scrapedAt": "2025-07-31T23:11:14.063Z",
+  "totalCompanies": 20,
+  "successfulCompanies": 6,
+  "totalJobs": 24,
+  "results": [
+    {
+      "company": "Peyto Exploration & Development Corp.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5543,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "NuVista Energy Ltd.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://nvaenergy.com/about-nuvista/board-directors/",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.065Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://nvaenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.066Z"
+        },
+        {
+          "title": "Contract Plant and Field Operator – Grande Prairie, AB",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=708418d6-2219-4269-8de3-f9ef2c874294&ccId=19000101_000001&lang=en_CA&selectedMenuKey=CareerCenter&jobId=472289",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.066Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://nvaenergy.com/about-nuvista/board-directors/",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.067Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://nvaenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.067Z"
+        }
+      ],
+      "timeElapsed": 9007,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Tamarack Valley Energy Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3841,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Spartan Delta Corp.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 72528,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Schlumberger Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5930,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Halliburton Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4734,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Baker Hughes Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 18131,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Weatherford Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6430,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Trican Well Service Ltd.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Trican Well Service Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tricanwellservice.com/board-of-directors/",
+          "sourceUrl": "https://www.tricanwellservice.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:08:30.425Z"
+        }
+      ],
+      "timeElapsed": 9716,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Calfrac Well Services Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3879,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Essential Energy Services Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5553,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Step Energy Services Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8079,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Barrick Gold Corporation",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Governance & Board of Directors",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.barrick.com/English/about/governance/default.aspx",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.947Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.barrick.com/English/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.947Z"
+        },
+        {
+          "title": "Analyst Centre",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://apps.indigotools.com/IR/IAC/?Ticker=GOLD&Exchange=NYSE",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.947Z"
+        },
+        {
+          "title": "Governance & Board of Directors",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.barrick.com/English/about/governance/default.aspx",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.948Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.barrick.com/English/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.948Z"
+        }
+      ],
+      "timeElapsed": 9997,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Newmont Canada",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 12422,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Agnico Eagle Mines Limited",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8588,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Kinross Gold Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 71287,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Eldorado Gold Corporation",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 4,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Eldorado Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.eldoradogold.com/our-company/board-of-directors",
+          "sourceUrl": "https://www.eldoradogold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:10:46.058Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Eldorado Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.eldoradogold.com/investors/analyst-coverage",
+          "sourceUrl": "https://www.eldoradogold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:10:46.059Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Eldorado Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.eldoradogold.com/our-company/board-of-directors",
+          "sourceUrl": "https://www.eldoradogold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:10:46.059Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Eldorado Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.eldoradogold.com/investors/analyst-coverage",
+          "sourceUrl": "https://www.eldoradogold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:10:46.059Z"
+        }
+      ],
+      "timeElapsed": 7792,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Yamana Gold Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4655,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "B2Gold Corp.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "B2Gold Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.b2gold.com/about/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.b2gold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:06.491Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "B2Gold Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.b2gold.com/investors/why-invest/default.aspx#analyst-coverage",
+          "sourceUrl": "https://www.b2gold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:06.491Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "B2Gold Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.b2gold.com/about/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.b2gold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:06.491Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "B2Gold Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.b2gold.com/investors/why-invest/default.aspx#analyst-coverage",
+          "sourceUrl": "https://www.b2gold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:06.492Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "B2Gold Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.b2gold.com/about/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.b2gold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:06.492Z"
+        }
+      ],
+      "timeElapsed": 13761,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Alamos Gold Inc.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 4,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Alamos Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.alamosgold.com/about/default.aspx#board-of-directors",
+          "sourceUrl": "https://www.alamosgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:13.049Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Alamos Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.alamosgold.com/investors/default.aspx#analyst-coverage",
+          "sourceUrl": "https://www.alamosgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:13.049Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Alamos Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.alamosgold.com/about/default.aspx#board-of-directors",
+          "sourceUrl": "https://www.alamosgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:13.050Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Alamos Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.alamosgold.com/investors/default.aspx#analyst-coverage",
+          "sourceUrl": "https://www.alamosgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:13.050Z"
+        }
+      ],
+      "timeElapsed": 5547,
+      "discoveryMethod": "quick_extraction"
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "batchNumber": 5,
+  "scrapedAt": "2025-07-31T23:28:10.603Z",
+  "totalCompanies": 20,
+  "successfulCompanies": 7,
+  "totalJobs": 23,
+  "results": [
+    {
+      "company": "Domtar Corporation",
+      "sector": "forestry",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Georgia – Engineered Absorbent Materials (EAM)",
+          "company": "Domtar Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.domtar.com/go/Georgia-Engineered-Absorbent-Materials-%28EAM%29/9705200/",
+          "sourceUrl": "https://www.domtar.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:21:46.629Z"
+        },
+        {
+          "title": "Engineers",
+          "company": "Domtar Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.domtar.com/go/Engineers/9704100/",
+          "sourceUrl": "https://www.domtar.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:21:46.629Z"
+        },
+        {
+          "title": "Maintenance technicians",
+          "company": "Domtar Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.domtar.com/go/Maintenance-technicians/9704000/",
+          "sourceUrl": "https://www.domtar.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:21:46.629Z"
+        },
+        {
+          "title": "Operators",
+          "company": "Domtar Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.domtar.com/go/Operators/9092800/",
+          "sourceUrl": "https://www.domtar.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:21:46.629Z"
+        },
+        {
+          "title": "Georgia – Engineered Absorbent Materials (EAM)",
+          "company": "Domtar Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.domtar.com/go/Georgia-Engineered-Absorbent-Materials-%28EAM%29/9705200/",
+          "sourceUrl": "https://www.domtar.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:21:46.629Z"
+        }
+      ],
+      "timeElapsed": 13199,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Irving Pulp & Paper Limited",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 12235,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Kruger Inc.",
+      "sector": "forestry",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "ENGINEERING CAREER OPPORTUNITIES",
+          "company": "Kruger Inc.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?cws=77&org=KRUGER2&type=805",
+          "sourceUrl": "https://www.kruger.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:22:08.763Z"
+        }
+      ],
+      "timeElapsed": 7886,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Cascades Inc.",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5099,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Hydro-Québec",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 10532,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "BC Hydro",
+      "sector": "utilities",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Technical info for engineers, contractors & developers",
+          "company": "BC Hydro",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.bchydro.com/accounts-billing/electrical-connections/nav-technical-info.html",
+          "sourceUrl": "https://www.bchydro.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:22:39.273Z"
+        },
+        {
+          "title": "Apprenticeships, training, and co-ops",
+          "company": "BC Hydro",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.bchydro.com/work-with-us/Careers/apprenticeships-training-coops.html",
+          "sourceUrl": "https://www.bchydro.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:22:39.275Z"
+        },
+        {
+          "title": "Apprenticeships",
+          "company": "BC Hydro",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.bchydro.com/work-with-us/Careers/apprenticeships-training-coops/apprenticeships.html",
+          "sourceUrl": "https://www.bchydro.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:22:39.275Z"
+        },
+        {
+          "title": "Pre-apprentice programs",
+          "company": "BC Hydro",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.bchydro.com/work-with-us/Careers/apprenticeships-training-coops/pre-apprentice-programs.html",
+          "sourceUrl": "https://www.bchydro.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:22:39.275Z"
+        },
+        {
+          "title": "Engineers-in-training program",
+          "company": "BC Hydro",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.bchydro.com/work-with-us/Careers/apprenticeships-training-coops/engineers-in-training-progarm.html",
+          "sourceUrl": "https://www.bchydro.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:22:39.275Z"
+        }
+      ],
+      "timeElapsed": 11858,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Ontario Power Generation Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 26859,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Hydro One Limited",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 24737,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Manitoba Hydro",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 79535,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "SaskPower",
+      "sector": "utilities",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Past Presidents and Managers",
+          "company": "SaskPower",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.saskpower.com/about-us/senior-leadership/past-presidents-and-managers",
+          "sourceUrl": "https://www.saskpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:05.338Z"
+        },
+        {
+          "title": "Electrical Engineering Technologists",
+          "company": "SaskPower",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.saskpower.com/careers/jobs-in-demand/electrical-engineering-technologists",
+          "sourceUrl": "https://www.saskpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:05.340Z"
+        },
+        {
+          "title": "Power Engineers",
+          "company": "SaskPower",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.saskpower.com/careers/jobs-in-demand/power-engineers",
+          "sourceUrl": "https://www.saskpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:05.340Z"
+        },
+        {
+          "title": "Power Line Technicians",
+          "company": "SaskPower",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.saskpower.com/careers/jobs-in-demand/power-line-technicians",
+          "sourceUrl": "https://www.saskpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:05.340Z"
+        },
+        {
+          "title": "Electrical Engineering Technologists",
+          "company": "SaskPower",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.saskpower.com/careers/jobs-in-demand/electrical-engineering-technologists",
+          "sourceUrl": "https://www.saskpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:05.340Z"
+        }
+      ],
+      "timeElapsed": 10906,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Newfoundland and Labrador Hydro",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3558,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Nova Scotia Power Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 11191,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "NB Power",
+      "sector": "utilities",
+      "success": true,
+      "jobsFound": 3,
+      "jobs": [
+        {
+          "title": "ENERGY STAR® Portfolio Manager®",
+          "company": "NB Power",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.nbpower.com/en/save-energy/energy-star-portfolio-manager",
+          "sourceUrl": "https://www.nbpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:30.362Z"
+        },
+        {
+          "title": "Transmission & System Operator",
+          "company": "NB Power",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.nbpower.com/en/about-us/divisions/transmission-system-operator",
+          "sourceUrl": "https://www.nbpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:30.365Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "NB Power",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.nbpower.com/en/about-us/who-we-are/board-of-directors",
+          "sourceUrl": "https://www.nbpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:30.365Z"
+        }
+      ],
+      "timeElapsed": 7244,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Fortis Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 80074,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Canadian Utilities Limited",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5934,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "ATCO Ltd.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8628,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Capital Power Corporation",
+      "sector": "utilities",
+      "success": true,
+      "jobsFound": 3,
+      "jobs": [
+        {
+          "title": "Shareholder & Analyst Information",
+          "company": "Capital Power Corporation",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.capitalpower.com/investors/shareholder-analyst-information/",
+          "sourceUrl": "https://www.capitalpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:27:44.631Z"
+        },
+        {
+          "title": "Shareholder & Analyst Information",
+          "company": "Capital Power Corporation",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.capitalpower.com/investors/shareholder-analyst-information/",
+          "sourceUrl": "https://www.capitalpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:27:44.632Z"
+        },
+        {
+          "title": "Shareholder & Analyst Information",
+          "company": "Capital Power Corporation",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.capitalpower.com/investors/shareholder-analyst-information/",
+          "sourceUrl": "https://www.capitalpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:27:44.632Z"
+        }
+      ],
+      "timeElapsed": 35596,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "TransAlta Corporation",
+      "sector": "utilities",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Analyst Coverage",
+          "company": "TransAlta Corporation",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://transalta.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.transalta.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:27:55.560Z"
+        }
+      ],
+      "timeElapsed": 9923,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Algonquin Power & Utilities Corp.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3173,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Emera Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8840,
+      "discoveryMethod": "none"
+    }
+  ]
+}

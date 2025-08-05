@@ -62,9 +62,16 @@ export abstract class CompanyBaseScraper extends BaseScraper {
     }
 
     try {
+      const maxJobs = options?.maxJobsPerCompany || 50 // Default to 50 jobs per company
       const searchUrls = this.buildSearchUrls(options)
       
       for (const url of searchUrls) {
+        // Stop if we've reached the job limit
+        if (results.jobs.length >= maxJobs) {
+          console.log(`Reached job limit of ${maxJobs} for ${this.companyConfig.name}`)
+          break
+        }
+        
         try {
           console.log(`Scraping ${this.companyConfig.name} URL: ${url}`)
           
@@ -75,7 +82,13 @@ export abstract class CompanyBaseScraper extends BaseScraper {
           })
 
           const jobs = this.parseJobsFromHtml(html, url)
-          results.jobs.push(...jobs)
+          
+          // Only add jobs up to the limit
+          const remainingSlots = maxJobs - results.jobs.length
+          const jobsToAdd = jobs.slice(0, remainingSlots)
+          results.jobs.push(...jobsToAdd)
+          
+          console.log(`Added ${jobsToAdd.length} jobs from ${url} (${results.jobs.length}/${maxJobs})`)
           
           // Add delay between pages
           await this.delay(2000)

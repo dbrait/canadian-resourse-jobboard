@@ -1,0 +1,3368 @@
+{
+  "completedAt": "2025-07-31T23:39:29.169Z",
+  "totalCompanies": 161,
+  "successfulCompanies": 44,
+  "successRate": "27.3%",
+  "totalJobs": 148,
+  "averageJobsPerCompany": "3.4",
+  "topCompanies": [
+    {
+      "company": "MEG Energy Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.148Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.150Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.151Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.151Z"
+        },
+        {
+          "title": "Play\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\tZOYAProduction Engineering Co-op StudentMEG's Co-op Student Program",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/wp-content/uploads/2023/01/Zoya.jpg",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.151Z"
+        }
+      ],
+      "timeElapsed": 8778,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Tourmaline Oil Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Field Operator - Northeast B.C.chevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/Z2MBc5bqstJ98pZu_FieldOperator-NEBC.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.250Z"
+        },
+        {
+          "title": "Lead Operator - Fort St. Johnchevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/aEMlRLh8WN-LVxUY_LeadOp-FSJ.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.250Z"
+        },
+        {
+          "title": "Deep Basin Lead Operatorchevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/aDSm4ydWJ-7kSjW3_LeadOperator-DeepBasin.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.251Z"
+        },
+        {
+          "title": "Facilities Construction Engineer (June 2025)chevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/aFGPcrNJEFaPYCQi_FacilitiesConstructionEngineerJune2025.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.251Z"
+        },
+        {
+          "title": "Facilities Construction Technician (June 2025)chevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/aFGPyLNJEFaPYCQy_FacilitiesConstructionTechnicianJune2025.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.251Z"
+        }
+      ],
+      "timeElapsed": 5565,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Arc Resources Ltd.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Our Board of Directors",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/who-we-are/board-of-directors/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.090Z"
+        },
+        {
+          "title": "Interactive Analyst Centre",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/investors/interactive-analyst-centre/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.090Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/who-we-are/board-of-directors/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.090Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/who-we-are/board-of-directors/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.091Z"
+        },
+        {
+          "title": "Interactive Analyst Centre",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/investors/interactive-analyst-centre/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.091Z"
+        }
+      ],
+      "timeElapsed": 5838,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "NuVista Energy Ltd.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://nvaenergy.com/about-nuvista/board-directors/",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.065Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://nvaenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.066Z"
+        },
+        {
+          "title": "Contract Plant and Field Operator – Grande Prairie, AB",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=708418d6-2219-4269-8de3-f9ef2c874294&ccId=19000101_000001&lang=en_CA&selectedMenuKey=CareerCenter&jobId=472289",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.066Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://nvaenergy.com/about-nuvista/board-directors/",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.067Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://nvaenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.067Z"
+        }
+      ],
+      "timeElapsed": 9007,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Barrick Gold Corporation",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Governance & Board of Directors",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.barrick.com/English/about/governance/default.aspx",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.947Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.barrick.com/English/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.947Z"
+        },
+        {
+          "title": "Analyst Centre",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://apps.indigotools.com/IR/IAC/?Ticker=GOLD&Exchange=NYSE",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.947Z"
+        },
+        {
+          "title": "Governance & Board of Directors",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.barrick.com/English/about/governance/default.aspx",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.948Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.barrick.com/English/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.948Z"
+        }
+      ],
+      "timeElapsed": 9997,
+      "discoveryMethod": "quick_extraction"
+    }
+  ],
+  "results": [
+    {
+      "company": "Suncor Energy Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5946,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Canadian Natural Resources Limited (CNRL)",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3589,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Cenovus Energy Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6360,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Imperial Oil Limited",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8206,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Husky Energy Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5116,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "MEG Energy Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.148Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.150Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.151Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.151Z"
+        },
+        {
+          "title": "Play\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\tZOYAProduction Engineering Co-op StudentMEG's Co-op Student Program",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/wp-content/uploads/2023/01/Zoya.jpg",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.151Z"
+        }
+      ],
+      "timeElapsed": 8778,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Enbridge Inc.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Enbridge Inc.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.enbridge.com/about-us/executive-leadership/board-of-directors",
+          "sourceUrl": "https://www.enbridge.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:05.342Z"
+        }
+      ],
+      "timeElapsed": 11187,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "TC Energy Corporation",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Analyst coverage",
+          "company": "TC Energy Corporation",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.tcenergy.com/investors/stock-information/",
+          "sourceUrl": "https://www.tcenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:14.545Z"
+        },
+        {
+          "title": "Engineering & Projects",
+          "company": "TC Energy Corporation",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tcenergy.wd3.myworkdayjobs.com/en-US/CAREER_SITE_TC?jobFamilyGroup=69babe4ce6380100bf60d67436e90000&jobFamilyGroup=69babe4ce6380100bf60da16e1e10000",
+          "sourceUrl": "https://www.tcenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:14.546Z"
+        }
+      ],
+      "timeElapsed": 8196,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Kinder Morgan Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4771,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Pembina Pipeline Corporation",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7547,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Inter Pipeline Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6652,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Keyera Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Keyera Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.keyera.com/about/board-of-directors/",
+          "sourceUrl": "https://www.keyera.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:48.843Z"
+        },
+        {
+          "title": "Analyst coverage",
+          "company": "Keyera Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.keyera.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.keyera.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:48.843Z"
+        }
+      ],
+      "timeElapsed": 11297,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "AltaGas Ltd.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "AltaGas Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.altagas.com/about/governance/board-directors",
+          "sourceUrl": "https://www.altagas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:58.287Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "AltaGas Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.altagas.com/invest/share-information/analyst-coverage",
+          "sourceUrl": "https://www.altagas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:58.288Z"
+        }
+      ],
+      "timeElapsed": 8437,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Veresen Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5390,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Tourmaline Oil Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Field Operator - Northeast B.C.chevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/Z2MBc5bqstJ98pZu_FieldOperator-NEBC.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.250Z"
+        },
+        {
+          "title": "Lead Operator - Fort St. Johnchevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/aEMlRLh8WN-LVxUY_LeadOp-FSJ.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.250Z"
+        },
+        {
+          "title": "Deep Basin Lead Operatorchevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/aDSm4ydWJ-7kSjW3_LeadOperator-DeepBasin.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.251Z"
+        },
+        {
+          "title": "Facilities Construction Engineer (June 2025)chevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/aFGPcrNJEFaPYCQi_FacilitiesConstructionEngineerJune2025.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.251Z"
+        },
+        {
+          "title": "Facilities Construction Technician (June 2025)chevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/aFGPyLNJEFaPYCQy_FacilitiesConstructionTechnicianJune2025.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.251Z"
+        }
+      ],
+      "timeElapsed": 5565,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Arc Resources Ltd.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Our Board of Directors",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/who-we-are/board-of-directors/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.090Z"
+        },
+        {
+          "title": "Interactive Analyst Centre",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/investors/interactive-analyst-centre/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.090Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/who-we-are/board-of-directors/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.090Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/who-we-are/board-of-directors/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.091Z"
+        },
+        {
+          "title": "Interactive Analyst Centre",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/investors/interactive-analyst-centre/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.091Z"
+        }
+      ],
+      "timeElapsed": 5838,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Birchcliff Energy Ltd.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 4,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Birchcliff Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.birchcliffenergy.com/who-we-are/board-of-directors",
+          "sourceUrl": "https://www.birchcliffenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:32.669Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Birchcliff Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.birchcliffenergy.com/investors#analyst-coverage",
+          "sourceUrl": "https://www.birchcliffenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:32.669Z"
+        },
+        {
+          "title": "Plant Operator",
+          "company": "Birchcliff Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.birchcliffenergy.com/sites/default/files/2025-07/Plant%20Operator%20%2816-31%29%2007292025.pdf",
+          "sourceUrl": "https://www.birchcliffenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:32.670Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Birchcliff Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.birchcliffenergy.com/who-we-are/board-of-directors",
+          "sourceUrl": "https://www.birchcliffenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:32.670Z"
+        }
+      ],
+      "timeElapsed": 13564,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Crescent Point Energy Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Crescent Point Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.wcap.ca/about/board-directors",
+          "sourceUrl": "https://www.crescentpointenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:46.672Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Crescent Point Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.wcap.ca/investors/analyst-coverage",
+          "sourceUrl": "https://www.crescentpointenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:46.672Z"
+        }
+      ],
+      "timeElapsed": 12985,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Baytex Energy Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Baytex Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.baytexenergy.com/about-baytex/board-of-directors/",
+          "sourceUrl": "https://www.baytexenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:54.510Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Baytex Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.baytexenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.baytexenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:54.510Z"
+        }
+      ],
+      "timeElapsed": 6824,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Whitecap Resources Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4967,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Peyto Exploration & Development Corp.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5543,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "NuVista Energy Ltd.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://nvaenergy.com/about-nuvista/board-directors/",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.065Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://nvaenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.066Z"
+        },
+        {
+          "title": "Contract Plant and Field Operator – Grande Prairie, AB",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=708418d6-2219-4269-8de3-f9ef2c874294&ccId=19000101_000001&lang=en_CA&selectedMenuKey=CareerCenter&jobId=472289",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.066Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://nvaenergy.com/about-nuvista/board-directors/",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.067Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "NuVista Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://nvaenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.nuvistaenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:06:22.067Z"
+        }
+      ],
+      "timeElapsed": 9007,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Tamarack Valley Energy Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3841,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Spartan Delta Corp.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 72528,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Schlumberger Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5930,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Halliburton Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4734,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Baker Hughes Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 18131,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Weatherford Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6430,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Trican Well Service Ltd.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Trican Well Service Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tricanwellservice.com/board-of-directors/",
+          "sourceUrl": "https://www.tricanwellservice.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:08:30.425Z"
+        }
+      ],
+      "timeElapsed": 9716,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Calfrac Well Services Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3879,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Essential Energy Services Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5553,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Step Energy Services Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8079,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Barrick Gold Corporation",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Governance & Board of Directors",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.barrick.com/English/about/governance/default.aspx",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.947Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.barrick.com/English/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.947Z"
+        },
+        {
+          "title": "Analyst Centre",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://apps.indigotools.com/IR/IAC/?Ticker=GOLD&Exchange=NYSE",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.947Z"
+        },
+        {
+          "title": "Governance & Board of Directors",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.barrick.com/English/about/governance/default.aspx",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.948Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Barrick Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.barrick.com/English/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.barrick.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:09:01.948Z"
+        }
+      ],
+      "timeElapsed": 9997,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Newmont Canada",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 12422,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Agnico Eagle Mines Limited",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8588,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Kinross Gold Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 71287,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Eldorado Gold Corporation",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 4,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Eldorado Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.eldoradogold.com/our-company/board-of-directors",
+          "sourceUrl": "https://www.eldoradogold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:10:46.058Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Eldorado Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.eldoradogold.com/investors/analyst-coverage",
+          "sourceUrl": "https://www.eldoradogold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:10:46.059Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Eldorado Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.eldoradogold.com/our-company/board-of-directors",
+          "sourceUrl": "https://www.eldoradogold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:10:46.059Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Eldorado Gold Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.eldoradogold.com/investors/analyst-coverage",
+          "sourceUrl": "https://www.eldoradogold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:10:46.059Z"
+        }
+      ],
+      "timeElapsed": 7792,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Yamana Gold Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4655,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "B2Gold Corp.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "B2Gold Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.b2gold.com/about/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.b2gold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:06.491Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "B2Gold Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.b2gold.com/investors/why-invest/default.aspx#analyst-coverage",
+          "sourceUrl": "https://www.b2gold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:06.491Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "B2Gold Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.b2gold.com/about/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.b2gold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:06.491Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "B2Gold Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.b2gold.com/investors/why-invest/default.aspx#analyst-coverage",
+          "sourceUrl": "https://www.b2gold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:06.492Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "B2Gold Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.b2gold.com/about/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.b2gold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:06.492Z"
+        }
+      ],
+      "timeElapsed": 13761,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Alamos Gold Inc.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 4,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Alamos Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.alamosgold.com/about/default.aspx#board-of-directors",
+          "sourceUrl": "https://www.alamosgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:13.049Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Alamos Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.alamosgold.com/investors/default.aspx#analyst-coverage",
+          "sourceUrl": "https://www.alamosgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:13.049Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Alamos Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.alamosgold.com/about/default.aspx#board-of-directors",
+          "sourceUrl": "https://www.alamosgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:13.050Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Alamos Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.alamosgold.com/investors/default.aspx#analyst-coverage",
+          "sourceUrl": "https://www.alamosgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:13.050Z"
+        }
+      ],
+      "timeElapsed": 5547,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Centerra Gold Inc.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Centerra Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.centerragold.com/company/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.centerragold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:25.073Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Centerra Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.centerragold.com/investor-relations/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.centerragold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:25.073Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Centerra Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.centerragold.com/company/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.centerragold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:25.073Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Centerra Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.centerragold.com/investor-relations/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.centerragold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:25.073Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Centerra Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.centerragold.com/company/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.centerragold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:25.074Z"
+        }
+      ],
+      "timeElapsed": 6000,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "New Gold Inc.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "New Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://newgold.com/about/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.newgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:40.279Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "New Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://newgold.com/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.newgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:40.279Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "New Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://newgold.com/about/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.newgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:40.283Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "New Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://newgold.com/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.newgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:40.283Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "New Gold Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://newgold.com/about/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.newgold.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:11:40.283Z"
+        }
+      ],
+      "timeElapsed": 14205,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Osisko Gold Royalties Ltd.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8377,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Franco-Nevada Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5609,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Teck Resources Limited",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/about/board-of-directors/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:06.547Z"
+        },
+        {
+          "title": "Interactive Analyst Centre",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/investors/interactive-analyst-centre/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:06.548Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:06.548Z"
+        },
+        {
+          "title": "Interactive Analyst Centre",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/investors/interactive-analyst-centre/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:06.549Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:06.549Z"
+        }
+      ],
+      "timeElapsed": 9265,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "First Quantum Minerals Ltd.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6433,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Lundin Mining Corporation",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Lundin Mining Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.lundinmining.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.lundinmining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:25.822Z"
+        },
+        {
+          "title": "Corporate Directory",
+          "company": "Lundin Mining Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.lundinmining.com/about-us/corporate-directory/",
+          "sourceUrl": "https://www.lundinmining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:25.822Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Lundin Mining Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.lundinmining.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.lundinmining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:25.823Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Lundin Mining Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.lundinmining.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.lundinmining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:25.823Z"
+        },
+        {
+          "title": "Corporate Directory",
+          "company": "Lundin Mining Corporation",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.lundinmining.com/about-us/corporate-directory/",
+          "sourceUrl": "https://www.lundinmining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:25.823Z"
+        }
+      ],
+      "timeElapsed": 10831,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Hudbay Minerals Inc.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 3,
+      "jobs": [
+        {
+          "title": "Analyst Coverage",
+          "company": "Hudbay Minerals Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://hudbayminerals.com/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.hudbayminerals.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:40.397Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Hudbay Minerals Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://hudbayminerals.com/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.hudbayminerals.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:40.397Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Hudbay Minerals Inc.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://hudbayminerals.com/investors/analyst-coverage/default.aspx",
+          "sourceUrl": "https://www.hudbayminerals.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:12:40.398Z"
+        }
+      ],
+      "timeElapsed": 13566,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Ivanhoe Mines Ltd.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8572,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Capstone Mining Corp.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Analyst coverage",
+          "company": "Capstone Mining Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://capstonecopper.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.capstonemining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:00.772Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Capstone Mining Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://capstonecopper.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.capstonemining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:00.773Z"
+        },
+        {
+          "title": "Directory",
+          "company": "Capstone Mining Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://capstonecopper.com/about-us/directory/",
+          "sourceUrl": "https://www.capstonemining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:00.773Z"
+        },
+        {
+          "title": "Analyst coverage",
+          "company": "Capstone Mining Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://capstonecopper.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.capstonemining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:00.773Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Capstone Mining Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://capstonecopper.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.capstonemining.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:00.774Z"
+        }
+      ],
+      "timeElapsed": 9790,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Taseko Mines Limited",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Taseko Mines Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.tasekomines.com/about/board-of-directors/",
+          "sourceUrl": "https://www.tasekomines.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:17.070Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Taseko Mines Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.tasekomines.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.tasekomines.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:17.070Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Taseko Mines Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.tasekomines.com/about/board-of-directors/",
+          "sourceUrl": "https://www.tasekomines.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:17.070Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Taseko Mines Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.tasekomines.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.tasekomines.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:17.070Z"
+        },
+        {
+          "title": "Senior Tailings and Water Engineer",
+          "company": "Taseko Mines Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.tasekomines.com/tasekomines/job/oCB9wfwC",
+          "sourceUrl": "https://www.tasekomines.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:13:17.070Z"
+        }
+      ],
+      "timeElapsed": 15287,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Turquoise Hill Resources Ltd.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 108910,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Sherritt International Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4415,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "ArcelorMittal Dofasco",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 10970,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Champion Iron Limited",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9837,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Labrador Iron Ore Royalty Corp.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4558,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Algoma Steel Group Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 79644,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Nutrien Ltd.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Find an engineering position",
+          "company": "Nutrien Ltd.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://jobs.nutrien.com/North-America/go/Engineering-BU-US-NA/2654417/",
+          "sourceUrl": "https://www.nutrien.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:17:13.733Z"
+        }
+      ],
+      "timeElapsed": 11286,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Mosaic Company Canada",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4451,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "K+S Potash Canada GP",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7084,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Teck Coal Limited",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 11253,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Conuma Coal Resources Limited",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 14386,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Riverside Resources Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7079,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "De Beers Canada Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6360,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Dominion Diamond Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8798,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Stornoway Diamond Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 17516,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Lithium Americas Corp.",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Lithium Americas Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://lithiumamericas.com/about-us/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.lithiumamericas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:18:53.472Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Lithium Americas Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://lithiumamericas.com/investor/Analyst-Coverage/default.aspx",
+          "sourceUrl": "https://www.lithiumamericas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:18:53.472Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Lithium Americas Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://lithiumamericas.com/about-us/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.lithiumamericas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:18:53.472Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Lithium Americas Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://lithiumamericas.com/investor/Analyst-Coverage/default.aspx",
+          "sourceUrl": "https://www.lithiumamericas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:18:53.472Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Lithium Americas Corp.",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://lithiumamericas.com/about-us/board-of-directors/default.aspx",
+          "sourceUrl": "https://www.lithiumamericas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:18:53.472Z"
+        }
+      ],
+      "timeElapsed": 8743,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Sigma Lithium Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4849,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Neo Performance Materials Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5855,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Avalon Advanced Materials Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9575,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "West Fraser Timber Co. Ltd.",
+      "sector": "forestry",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Co-Ops & Apprenticeships",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/careers/building-your-future",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:26.878Z"
+        },
+        {
+          "title": "Mill support Technician",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/jobs/mill-support-technician",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:26.878Z"
+        },
+        {
+          "title": "Machine Operator Trainee",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/jobs/machine-operator-trainee",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:26.878Z"
+        },
+        {
+          "title": "EHS Supervisor",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/jobs/ehs-supervisor-0",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:26.878Z"
+        },
+        {
+          "title": "Production Operator Apprentice",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/jobs/production-operator-apprentice",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:26.878Z"
+        }
+      ],
+      "timeElapsed": 9094,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Canfor Corporation",
+      "sector": "forestry",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Engineered Wood",
+          "company": "Canfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.canfor.com/products/engineered-wood",
+          "sourceUrl": "https://www.canfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:32.860Z"
+        },
+        {
+          "title": "Forklift OperatorProduction and General LaborUrbana, AR, US",
+          "company": "Canfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://jobs.canfor.com/job/Urbana-Forklift-Operator-AR-71768/1296379300/",
+          "sourceUrl": "https://www.canfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:32.861Z"
+        },
+        {
+          "title": "Manager, Employee Benefits, and RetirementHuman Resources & SafetyVancouver, BC, CA",
+          "company": "Canfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://jobs.canfor.com/job/Vancouver-Manager%2C-Employee-Benefits%2C-and-Retirement-BC/1296978300/",
+          "sourceUrl": "https://www.canfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:32.861Z"
+        },
+        {
+          "title": "Edger OperatorProduction and General LaborGraham, NC, US",
+          "company": "Canfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://jobs.canfor.com/job/Graham-Edger-Operator-NC/1306935700/",
+          "sourceUrl": "https://www.canfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:32.861Z"
+        },
+        {
+          "title": "Maintenance SupervisorManagement & SupervisoryWhitecourt, AB, CA",
+          "company": "Canfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://jobs.canfor.com/job/Whitecourt-Maintenance-Supervisor-AB/1299045200/",
+          "sourceUrl": "https://www.canfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:32.861Z"
+        }
+      ],
+      "timeElapsed": 4978,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Interfor Corporation",
+      "sector": "forestry",
+      "success": true,
+      "jobsFound": 3,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Interfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://interfor.com/about/directors/",
+          "sourceUrl": "https://www.interfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:49.360Z"
+        },
+        {
+          "title": "Engineered Wood Products",
+          "company": "Interfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://interfor.com/products/engineered-wood-products/",
+          "sourceUrl": "https://www.interfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:49.360Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Interfor Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://interfor.com/investors/analysts/",
+          "sourceUrl": "https://www.interfor.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:19:49.360Z"
+        }
+      ],
+      "timeElapsed": 15490,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Resolute Forest Products Inc.",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 42466,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Catalyst Paper Corporation",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9957,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Paper Excellence Group",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9320,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Weyerhaeuser Company Limited",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 12406,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Tolko Industries Ltd.",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5552,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Conifex Timber Inc.",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5339,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Western Forest Products Inc.",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5952,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Domtar Corporation",
+      "sector": "forestry",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Georgia – Engineered Absorbent Materials (EAM)",
+          "company": "Domtar Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.domtar.com/go/Georgia-Engineered-Absorbent-Materials-%28EAM%29/9705200/",
+          "sourceUrl": "https://www.domtar.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:21:46.629Z"
+        },
+        {
+          "title": "Engineers",
+          "company": "Domtar Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.domtar.com/go/Engineers/9704100/",
+          "sourceUrl": "https://www.domtar.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:21:46.629Z"
+        },
+        {
+          "title": "Maintenance technicians",
+          "company": "Domtar Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.domtar.com/go/Maintenance-technicians/9704000/",
+          "sourceUrl": "https://www.domtar.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:21:46.629Z"
+        },
+        {
+          "title": "Operators",
+          "company": "Domtar Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.domtar.com/go/Operators/9092800/",
+          "sourceUrl": "https://www.domtar.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:21:46.629Z"
+        },
+        {
+          "title": "Georgia – Engineered Absorbent Materials (EAM)",
+          "company": "Domtar Corporation",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.domtar.com/go/Georgia-Engineered-Absorbent-Materials-%28EAM%29/9705200/",
+          "sourceUrl": "https://www.domtar.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:21:46.629Z"
+        }
+      ],
+      "timeElapsed": 13199,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Irving Pulp & Paper Limited",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 12235,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Kruger Inc.",
+      "sector": "forestry",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "ENGINEERING CAREER OPPORTUNITIES",
+          "company": "Kruger Inc.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?cws=77&org=KRUGER2&type=805",
+          "sourceUrl": "https://www.kruger.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:22:08.763Z"
+        }
+      ],
+      "timeElapsed": 7886,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Cascades Inc.",
+      "sector": "forestry",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5099,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Hydro-Québec",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 10532,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "BC Hydro",
+      "sector": "utilities",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Technical info for engineers, contractors & developers",
+          "company": "BC Hydro",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.bchydro.com/accounts-billing/electrical-connections/nav-technical-info.html",
+          "sourceUrl": "https://www.bchydro.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:22:39.273Z"
+        },
+        {
+          "title": "Apprenticeships, training, and co-ops",
+          "company": "BC Hydro",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.bchydro.com/work-with-us/Careers/apprenticeships-training-coops.html",
+          "sourceUrl": "https://www.bchydro.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:22:39.275Z"
+        },
+        {
+          "title": "Apprenticeships",
+          "company": "BC Hydro",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.bchydro.com/work-with-us/Careers/apprenticeships-training-coops/apprenticeships.html",
+          "sourceUrl": "https://www.bchydro.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:22:39.275Z"
+        },
+        {
+          "title": "Pre-apprentice programs",
+          "company": "BC Hydro",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.bchydro.com/work-with-us/Careers/apprenticeships-training-coops/pre-apprentice-programs.html",
+          "sourceUrl": "https://www.bchydro.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:22:39.275Z"
+        },
+        {
+          "title": "Engineers-in-training program",
+          "company": "BC Hydro",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.bchydro.com/work-with-us/Careers/apprenticeships-training-coops/engineers-in-training-progarm.html",
+          "sourceUrl": "https://www.bchydro.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:22:39.275Z"
+        }
+      ],
+      "timeElapsed": 11858,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Ontario Power Generation Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 26859,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Hydro One Limited",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 24737,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Manitoba Hydro",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 79535,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "SaskPower",
+      "sector": "utilities",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Past Presidents and Managers",
+          "company": "SaskPower",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.saskpower.com/about-us/senior-leadership/past-presidents-and-managers",
+          "sourceUrl": "https://www.saskpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:05.338Z"
+        },
+        {
+          "title": "Electrical Engineering Technologists",
+          "company": "SaskPower",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.saskpower.com/careers/jobs-in-demand/electrical-engineering-technologists",
+          "sourceUrl": "https://www.saskpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:05.340Z"
+        },
+        {
+          "title": "Power Engineers",
+          "company": "SaskPower",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.saskpower.com/careers/jobs-in-demand/power-engineers",
+          "sourceUrl": "https://www.saskpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:05.340Z"
+        },
+        {
+          "title": "Power Line Technicians",
+          "company": "SaskPower",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.saskpower.com/careers/jobs-in-demand/power-line-technicians",
+          "sourceUrl": "https://www.saskpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:05.340Z"
+        },
+        {
+          "title": "Electrical Engineering Technologists",
+          "company": "SaskPower",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.saskpower.com/careers/jobs-in-demand/electrical-engineering-technologists",
+          "sourceUrl": "https://www.saskpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:05.340Z"
+        }
+      ],
+      "timeElapsed": 10906,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Newfoundland and Labrador Hydro",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3558,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Nova Scotia Power Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 11191,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "NB Power",
+      "sector": "utilities",
+      "success": true,
+      "jobsFound": 3,
+      "jobs": [
+        {
+          "title": "ENERGY STAR® Portfolio Manager®",
+          "company": "NB Power",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.nbpower.com/en/save-energy/energy-star-portfolio-manager",
+          "sourceUrl": "https://www.nbpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:30.362Z"
+        },
+        {
+          "title": "Transmission & System Operator",
+          "company": "NB Power",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.nbpower.com/en/about-us/divisions/transmission-system-operator",
+          "sourceUrl": "https://www.nbpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:30.365Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "NB Power",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.nbpower.com/en/about-us/who-we-are/board-of-directors",
+          "sourceUrl": "https://www.nbpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:25:30.365Z"
+        }
+      ],
+      "timeElapsed": 7244,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Fortis Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 80074,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Canadian Utilities Limited",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5934,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "ATCO Ltd.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8628,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Capital Power Corporation",
+      "sector": "utilities",
+      "success": true,
+      "jobsFound": 3,
+      "jobs": [
+        {
+          "title": "Shareholder & Analyst Information",
+          "company": "Capital Power Corporation",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.capitalpower.com/investors/shareholder-analyst-information/",
+          "sourceUrl": "https://www.capitalpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:27:44.631Z"
+        },
+        {
+          "title": "Shareholder & Analyst Information",
+          "company": "Capital Power Corporation",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.capitalpower.com/investors/shareholder-analyst-information/",
+          "sourceUrl": "https://www.capitalpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:27:44.632Z"
+        },
+        {
+          "title": "Shareholder & Analyst Information",
+          "company": "Capital Power Corporation",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.capitalpower.com/investors/shareholder-analyst-information/",
+          "sourceUrl": "https://www.capitalpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:27:44.632Z"
+        }
+      ],
+      "timeElapsed": 35596,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "TransAlta Corporation",
+      "sector": "utilities",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Analyst Coverage",
+          "company": "TransAlta Corporation",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://transalta.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.transalta.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:27:55.560Z"
+        }
+      ],
+      "timeElapsed": 9923,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Algonquin Power & Utilities Corp.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3173,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Emera Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8840,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Innergex Renewable Energy Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 10103,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Northland Power Inc.",
+      "sector": "utilities",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Northland Power Inc.",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.northlandpower.com/en/about-northland/board-of-directors.aspx",
+          "sourceUrl": "https://www.northlandpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:28:37.089Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Northland Power Inc.",
+          "location": "Canada",
+          "sector": "utilities",
+          "applicationUrl": "https://www.northlandpower.com/en/about-northland/board-of-directors.aspx",
+          "sourceUrl": "https://www.northlandpower.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:28:37.089Z"
+        }
+      ],
+      "timeElapsed": 10371,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Boralex Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7328,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Canadian Wind Energy Association Members:",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3852,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Canadian Solar Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 19308,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Solantro Semiconductor Corp.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4484,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Heliene Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 11710,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Brookfield Renewable Partners L.P.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4506,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Innergex Renewable Energy Inc.",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8209,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "ATCO Power",
+      "sector": "utilities",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4862,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Canadian National Railway Company (CN)",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4792,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Canadian Pacific Kansas City Limited (CPKC)",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5745,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Ontario Northland Railway",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 14659,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Via Rail Canada Inc.",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 11275,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Rocky Mountaineer",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9277,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "White Pass and Yukon Route",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7141,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Enbridge Inc.",
+      "sector": "transportation",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Enbridge Inc.",
+          "location": "Canada",
+          "sector": "transportation",
+          "applicationUrl": "https://www.enbridge.com/about-us/executive-leadership/board-of-directors",
+          "sourceUrl": "https://www.enbridge.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:30:57.476Z"
+        }
+      ],
+      "timeElapsed": 8110,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "TC Energy Corporation",
+      "sector": "transportation",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Analyst coverage",
+          "company": "TC Energy Corporation",
+          "location": "Canada",
+          "sector": "transportation",
+          "applicationUrl": "https://www.tcenergy.com/investors/stock-information/",
+          "sourceUrl": "https://www.tcenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:31:11.823Z"
+        },
+        {
+          "title": "Engineering & Projects",
+          "company": "TC Energy Corporation",
+          "location": "Canada",
+          "sector": "transportation",
+          "applicationUrl": "https://tcenergy.wd3.myworkdayjobs.com/en-US/CAREER_SITE_TC?jobFamilyGroup=69babe4ce6380100bf60d67436e90000&jobFamilyGroup=69babe4ce6380100bf60da16e1e10000",
+          "sourceUrl": "https://www.tcenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:31:11.825Z"
+        }
+      ],
+      "timeElapsed": 13345,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Kinder Morgan Canada",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8380,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Pembina Pipeline Corporation",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4430,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Inter Pipeline Ltd.",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9072,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Port of Vancouver",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9085,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Port of Montreal",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 13533,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Thunder Bay Port Authority",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5748,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Hamilton-Oshawa Port Authority",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3912,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Seaway Marine Transport",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 11848,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Algoma Central Corporation",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4643,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Cargill Limited",
+      "sector": "agriculture",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Engineering",
+          "company": "Cargill Limited",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://www.cargill.com/engineeringroles",
+          "sourceUrl": "https://www.cargill.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:32:44.150Z"
+        }
+      ],
+      "timeElapsed": 6582,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Richardson International Limited",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7619,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Viterra Inc.",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8534,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Maple Leaf Foods Inc.",
+      "sector": "agriculture",
+      "success": true,
+      "jobsFound": 4,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Maple Leaf Foods Inc.",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://www.mapleleaffoods.com/about/board-of-directors/",
+          "sourceUrl": "https://www.mapleleaffoods.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:33:09.405Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Maple Leaf Foods Inc.",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://www.mapleleaffoods.com/about/board-of-directors/",
+          "sourceUrl": "https://www.mapleleaffoods.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:33:09.405Z"
+        },
+        {
+          "title": "Engineering",
+          "company": "Maple Leaf Foods Inc.",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://www.mapleleaffoods.com/careers/career-paths/engineering/",
+          "sourceUrl": "https://www.mapleleaffoods.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:33:09.406Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Maple Leaf Foods Inc.",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://www.mapleleaffoods.com/about/board-of-directors/",
+          "sourceUrl": "https://www.mapleleaffoods.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:33:09.406Z"
+        }
+      ],
+      "timeElapsed": 6089,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "McCain Foods Limited",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 86706,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Tyson Foods Canada",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7805,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "JBS Canada",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6063,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Nutrien Ltd.",
+      "sector": "agriculture",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Find an engineering position",
+          "company": "Nutrien Ltd.",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://jobs.nutrien.com/North-America/go/Engineering-BU-US-NA/2654417/",
+          "sourceUrl": "https://www.nutrien.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:34:59.977Z"
+        }
+      ],
+      "timeElapsed": 5981,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Mosaic Company Canada",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3175,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Yara Canada Inc.",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6273,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Saputo Inc.",
+      "sector": "agriculture",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Board Of Directors",
+          "company": "Saputo Inc.",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://www.saputo.com/en/our-company/governance/board-of-directors-and-committees",
+          "sourceUrl": "https://www.saputo.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:35:20.980Z"
+        }
+      ],
+      "timeElapsed": 8551,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Agropur Cooperative",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 12871,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Gay Lea Foods Co-operative Ltd.",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 10004,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "SNC-Lavalin Group Inc.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7450,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Stantec Inc.",
+      "sector": "construction",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Stantec Inc.",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.stantec.com/en/about/corporate-governance/board-of-directors.html",
+          "sourceUrl": "https://www.stantec.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:36:06.741Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Stantec Inc.",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.stantec.com/en/about/corporate-governance/board-of-directors.html",
+          "sourceUrl": "https://www.stantec.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:36:06.742Z"
+        }
+      ],
+      "timeElapsed": 6385,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "AECOM Canada Ltd.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6444,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Hatch Ltd.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 10265,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Worley Canada",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4377,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Wood Canada Limited",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5489,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Fluor Canada Ltd.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 80658,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "KBR Canada Co.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3960,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Jacobs Canada Inc.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 11462,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Aecon Group Inc.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5144,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "PCL Construction",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4745,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "EllisDon Corporation",
+      "sector": "construction",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Civil (Ground Engineering)",
+          "company": "EllisDon Corporation",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.ellisdon.com/actions/construct/civil-engineering",
+          "sourceUrl": "https://www.ellisdon.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:38:35.809Z"
+        },
+        {
+          "title": "Software Engineering & DevOps",
+          "company": "EllisDon Corporation",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.ellisdon.com/actions/digitize/software-engineering-and-devops",
+          "sourceUrl": "https://www.ellisdon.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:38:35.809Z"
+        },
+        {
+          "title": "Construction Engineering Services",
+          "company": "EllisDon Corporation",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.ellisdon.com/actions/construct/construction-engineering-services",
+          "sourceUrl": "https://www.ellisdon.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:38:35.809Z"
+        },
+        {
+          "title": "Civil (Ground Engineering)",
+          "company": "EllisDon Corporation",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.ellisdon.com/actions/construct/civil-engineering",
+          "sourceUrl": "https://www.ellisdon.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:38:35.809Z"
+        },
+        {
+          "title": "Software Engineering & DevOps",
+          "company": "EllisDon Corporation",
+          "location": "Canada",
+          "sector": "construction",
+          "applicationUrl": "https://www.ellisdon.com/actions/digitize/software-engineering-and-devops",
+          "sourceUrl": "https://www.ellisdon.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:38:35.809Z"
+        }
+      ],
+      "timeElapsed": 6464,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Graham Group Ltd.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8219,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Bird Construction Inc.",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8716,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Oil & Gas:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5368,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Mining:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4181,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Forestry:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 10858,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Renewable Energy & Utilities:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 108,
+      "discoveryMethod": "none",
+      "error": "HTTP 401"
+    },
+    {
+      "company": "Transportation:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 112,
+      "discoveryMethod": "none",
+      "error": "HTTP 401"
+    },
+    {
+      "company": "Agriculture:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 109,
+      "discoveryMethod": "none",
+      "error": "HTTP 401"
+    },
+    {
+      "company": "Engineering & Construction:",
+      "sector": "construction",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 553,
+      "discoveryMethod": "none",
+      "error": "HTTP 401"
+    }
+  ]
+}

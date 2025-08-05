@@ -1,0 +1,275 @@
+{
+  "batchNumber": 7,
+  "scrapedAt": "2025-07-31T23:35:46.883Z",
+  "totalCompanies": 20,
+  "successfulCompanies": 4,
+  "totalJobs": 7,
+  "results": [
+    {
+      "company": "Inter Pipeline Ltd.",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9072,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Port of Vancouver",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 9085,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Port of Montreal",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 13533,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Thunder Bay Port Authority",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5748,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Hamilton-Oshawa Port Authority",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3912,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Seaway Marine Transport",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 11848,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Algoma Central Corporation",
+      "sector": "transportation",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4643,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Cargill Limited",
+      "sector": "agriculture",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Engineering",
+          "company": "Cargill Limited",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://www.cargill.com/engineeringroles",
+          "sourceUrl": "https://www.cargill.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:32:44.150Z"
+        }
+      ],
+      "timeElapsed": 6582,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Richardson International Limited",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7619,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Viterra Inc.",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8534,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Maple Leaf Foods Inc.",
+      "sector": "agriculture",
+      "success": true,
+      "jobsFound": 4,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Maple Leaf Foods Inc.",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://www.mapleleaffoods.com/about/board-of-directors/",
+          "sourceUrl": "https://www.mapleleaffoods.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:33:09.405Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Maple Leaf Foods Inc.",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://www.mapleleaffoods.com/about/board-of-directors/",
+          "sourceUrl": "https://www.mapleleaffoods.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:33:09.405Z"
+        },
+        {
+          "title": "Engineering",
+          "company": "Maple Leaf Foods Inc.",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://www.mapleleaffoods.com/careers/career-paths/engineering/",
+          "sourceUrl": "https://www.mapleleaffoods.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:33:09.406Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Maple Leaf Foods Inc.",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://www.mapleleaffoods.com/about/board-of-directors/",
+          "sourceUrl": "https://www.mapleleaffoods.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:33:09.406Z"
+        }
+      ],
+      "timeElapsed": 6089,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "McCain Foods Limited",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 86706,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Tyson Foods Canada",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7805,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "JBS Canada",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6063,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Nutrien Ltd.",
+      "sector": "agriculture",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Find an engineering position",
+          "company": "Nutrien Ltd.",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://jobs.nutrien.com/North-America/go/Engineering-BU-US-NA/2654417/",
+          "sourceUrl": "https://www.nutrien.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:34:59.977Z"
+        }
+      ],
+      "timeElapsed": 5981,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Mosaic Company Canada",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3175,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Yara Canada Inc.",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6273,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Saputo Inc.",
+      "sector": "agriculture",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Board Of Directors",
+          "company": "Saputo Inc.",
+          "location": "Canada",
+          "sector": "agriculture",
+          "applicationUrl": "https://www.saputo.com/en/our-company/governance/board-of-directors-and-committees",
+          "sourceUrl": "https://www.saputo.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:35:20.980Z"
+        }
+      ],
+      "timeElapsed": 8551,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Agropur Cooperative",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 12871,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Gay Lea Foods Co-operative Ltd.",
+      "sector": "agriculture",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 10004,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    }
+  ]
+}

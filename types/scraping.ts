@@ -33,6 +33,8 @@ export interface ScrapingOptions {
   dateRange?: 'today' | 'week' | 'month'
   maxPages?: number
   sectors?: string[]
+  maxJobsPerCompany?: number // Limit jobs scraped per company
+  updateMode?: 'initial' | 'update' // Initial scrape vs update scrape
 }
 
 export interface PlatformConfig {

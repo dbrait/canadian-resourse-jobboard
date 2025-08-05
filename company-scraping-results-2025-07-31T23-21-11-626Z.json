@@ -1,0 +1,519 @@
+{
+  "scrapedAt": "2025-07-31T23:21:11.626Z",
+  "totalCompanies": 50,
+  "successfulCompanies": 1,
+  "totalJobs": 1,
+  "averageTimePerCompany": 26635.48,
+  "results": [
+    {
+      "company": "Suncor Energy Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 17643,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Canadian Natural Resources Limited (CNRL)",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 24095,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Cenovus Energy Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 31950,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Imperial Oil Limited",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 19298,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Husky Energy Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 64752,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "MEG Energy Corp.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 27137,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Enbridge Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 19028,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "TC Energy Corporation",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 24681,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Kinder Morgan Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 31517,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Pembina Pipeline Corporation",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 21784,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Inter Pipeline Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 17502,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Keyera Corp.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 16630,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "AltaGas Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 32014,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Veresen Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 22145,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Tourmaline Oil Corp.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 228399,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Arc Resources Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 19603,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Birchcliff Energy Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 16427,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Crescent Point Energy Corp.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 41219,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Baytex Energy Corp.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 21342,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Whitecap Resources Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 20112,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Peyto Exploration & Development Corp.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 19820,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "NuVista Energy Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 23033,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Tamarack Valley Energy Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 14995,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Spartan Delta Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Join the Spartan Team",
+          "company": "Spartan Delta Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.spartandeltacorp.commailto:careers@spartandeltacorp.com",
+          "sourceUrl": "https://www.spartandeltacorp.com/careers",
+          "discoveryMethod": "structured_extraction",
+          "scrapedAt": "2025-07-31T23:11:07.738Z"
+        }
+      ],
+      "timeElapsed": 6965,
+      "discoveryMethod": "direct_career_page"
+    },
+    {
+      "company": "Schlumberger Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 21485,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Halliburton Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 16104,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Baker Hughes Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 21237,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Weatherford Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 32400,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Trican Well Service Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 28130,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Calfrac Well Services Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 21809,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Essential Energy Services Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 12837,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Step Energy Services Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 20923,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Barrick Gold Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 34466,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Newmont Canada",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 18602,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Agnico Eagle Mines Limited",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 20869,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Kinross Gold Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 21571,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Eldorado Gold Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 26664,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Yamana Gold Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 12406,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "B2Gold Corp.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 15020,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Alamos Gold Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 24108,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Centerra Gold Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 15383,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "New Gold Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 28680,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Osisko Gold Royalties Ltd.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 23339,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Franco-Nevada Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 16013,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Teck Resources Limited",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 15300,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "First Quantum Minerals Ltd.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 18781,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Lundin Mining Corporation",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 13969,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Hudbay Minerals Inc.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 29237,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Ivanhoe Mines Ltd.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 21132,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    },
+    {
+      "company": "Capstone Mining Corp.",
+      "sector": "mining",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 19218,
+      "discoveryMethod": "failed",
+      "error": "No working career URLs found"
+    }
+  ]
+}

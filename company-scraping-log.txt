@@ -1,0 +1,1828 @@
+[dotenv@17.2.1] injecting env (8) from .env.local -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+🇨🇦 Canadian Resource Companies - Mass Scraping System
+🎯 Scraping all companies for direct job opportunities
+======================================================================
+📋 Parsed 161 companies from markdown
+\n📊 SCRAPING PLAN:
+   Companies to scrape: 161
+   Estimated time: 21 minutes
+   Rate limit: 2 second delay between companies
+\n🏭 Companies by sector:
+   • oil_gas: 32 companies
+   • mining: 38 companies
+   • forestry: 14 companies
+   • utilities: 26 companies
+   • transportation: 17 companies
+   • agriculture: 13 companies
+   • construction: 21 companies
+\n🚀 Starting mass scraping...
+======================================================================
+\n[1/161] Progress: 0.6%
+\n🏢 Scraping Suncor Energy Inc. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.suncorenergyinc.com/careers
+   ❌ Failed https://www.suncorenergyinc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.suncorenergyinc.com/careers/
+   ❌ Failed https://www.suncorenergyinc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.suncorenergyinc.com/en/careers
+   ❌ Failed https://www.suncorenergyinc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 17.6s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[2/161] Progress: 1.2%
+\n🏢 Scraping Canadian Natural Resources Limited (CNRL) (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.canadiannaturalresourceslimitedcnrl.com/careers
+   ❌ Failed https://www.canadiannaturalresourceslimitedcnrl.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.canadiannaturalresourceslimitedcnrl.com/careers/
+   ❌ Failed https://www.canadiannaturalresourceslimitedcnrl.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.canadiannaturalresourceslimitedcnrl.com/en/careers
+   ❌ Failed https://www.canadiannaturalresourceslimitedcnrl.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 24.1s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[3/161] Progress: 1.9%
+\n🏢 Scraping Cenovus Energy Inc. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.cenovusenergyinc.com/careers
+   ❌ Failed https://www.cenovusenergyinc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.cenovusenergyinc.com/careers/
+   ❌ Failed https://www.cenovusenergyinc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.cenovusenergyinc.com/en/careers
+   ❌ Failed https://www.cenovusenergyinc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 31.9s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[4/161] Progress: 2.5%
+\n🏢 Scraping Imperial Oil Limited (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.imperialoillimited.com/careers
+   ❌ Failed https://www.imperialoillimited.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.imperialoillimited.com/careers/
+   ❌ Failed https://www.imperialoillimited.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.imperialoillimited.com/en/careers
+   ❌ Failed https://www.imperialoillimited.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 19.3s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[5/161] Progress: 3.1%
+\n🏢 Scraping Husky Energy Inc. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.huskyenergyinc.com/careers
+   ❌ Failed https://www.huskyenergyinc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.huskyenergyinc.com/careers/
+   ❌ Failed https://www.huskyenergyinc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.huskyenergyinc.com/en/careers
+   ❌ Failed https://www.huskyenergyinc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 64.8s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[6/161] Progress: 3.7%
+\n🏢 Scraping MEG Energy Corp. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.megenergycorp.com/careers
+   ❌ Failed https://www.megenergycorp.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.megenergycorp.com/careers/
+   ❌ Failed https://www.megenergycorp.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.megenergycorp.com/en/careers
+   ❌ Failed https://www.megenergycorp.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 27.1s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[7/161] Progress: 4.3%
+\n🏢 Scraping Enbridge Inc. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.enbridgeinc.com/careers
+   ❌ Failed https://www.enbridgeinc.com/careers: ScrapingBee failed: 404 NOT FOUND
+   🧪 Testing: https://www.enbridgeinc.com/careers/
+   ❌ Failed https://www.enbridgeinc.com/careers/: ScrapingBee failed: 404 NOT FOUND
+   🧪 Testing: https://www.enbridgeinc.com/en/careers
+   ❌ Failed https://www.enbridgeinc.com/en/careers: ScrapingBee failed: 404 NOT FOUND
+   ⏱️  Completed in 19.0s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[8/161] Progress: 5.0%
+\n🏢 Scraping TC Energy Corporation (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.tcenergycorporation.com/careers
+   ❌ Failed https://www.tcenergycorporation.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.tcenergycorporation.com/careers/
+   ❌ Failed https://www.tcenergycorporation.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.tcenergycorporation.com/en/careers
+   ❌ Failed https://www.tcenergycorporation.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 24.7s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[9/161] Progress: 5.6%
+\n🏢 Scraping Kinder Morgan Canada (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.kindermorgancanada.com/careers
+   ❌ Failed https://www.kindermorgancanada.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.kindermorgancanada.com/careers/
+   ❌ Failed https://www.kindermorgancanada.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.kindermorgancanada.com/en/careers
+   ❌ Failed https://www.kindermorgancanada.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 31.5s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[10/161] Progress: 6.2%
+\n🏢 Scraping Pembina Pipeline Corporation (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.pembinapipelinecorporation.com/careers
+   ❌ Failed https://www.pembinapipelinecorporation.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.pembinapipelinecorporation.com/careers/
+   ❌ Failed https://www.pembinapipelinecorporation.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.pembinapipelinecorporation.com/en/careers
+   ❌ Failed https://www.pembinapipelinecorporation.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 21.8s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[11/161] Progress: 6.8%
+\n🏢 Scraping Inter Pipeline Ltd. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.interpipelineltd.com/careers
+   ❌ Failed https://www.interpipelineltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.interpipelineltd.com/careers/
+   ❌ Failed https://www.interpipelineltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.interpipelineltd.com/en/careers
+   ❌ Failed https://www.interpipelineltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 17.5s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[12/161] Progress: 7.5%
+\n🏢 Scraping Keyera Corp. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.keyeracorp.com/careers
+   ❌ Failed https://www.keyeracorp.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.keyeracorp.com/careers/
+   ❌ Failed https://www.keyeracorp.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.keyeracorp.com/en/careers
+   ❌ Failed https://www.keyeracorp.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 16.6s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[13/161] Progress: 8.1%
+\n🏢 Scraping AltaGas Ltd. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.altagasltd.com/careers
+   ❌ Failed https://www.altagasltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.altagasltd.com/careers/
+   ❌ Failed https://www.altagasltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.altagasltd.com/en/careers
+   ❌ Failed https://www.altagasltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 32.0s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[14/161] Progress: 8.7%
+\n🏢 Scraping Veresen Inc. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.vereseninc.com/careers
+   ❌ Failed https://www.vereseninc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.vereseninc.com/careers/
+   ❌ Failed https://www.vereseninc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.vereseninc.com/en/careers
+   ❌ Failed https://www.vereseninc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 22.1s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[15/161] Progress: 9.3%
+\n🏢 Scraping Tourmaline Oil Corp. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.tourmalineoilcorp.com/careers
+   ❌ Failed https://www.tourmalineoilcorp.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.tourmalineoilcorp.com/careers/
+   ❌ Failed https://www.tourmalineoilcorp.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.tourmalineoilcorp.com/en/careers
+   ❌ Failed https://www.tourmalineoilcorp.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 228.4s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[16/161] Progress: 9.9%
+\n🏢 Scraping Arc Resources Ltd. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.arcresourcesltd.com/careers
+   ❌ Failed https://www.arcresourcesltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.arcresourcesltd.com/careers/
+   ❌ Failed https://www.arcresourcesltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.arcresourcesltd.com/en/careers
+   ❌ Failed https://www.arcresourcesltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 19.6s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[17/161] Progress: 10.6%
+\n🏢 Scraping Birchcliff Energy Ltd. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.birchcliffenergyltd.com/careers
+   ❌ Failed https://www.birchcliffenergyltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.birchcliffenergyltd.com/careers/
+   ❌ Failed https://www.birchcliffenergyltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.birchcliffenergyltd.com/en/careers
+   ❌ Failed https://www.birchcliffenergyltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 16.4s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[18/161] Progress: 11.2%
+\n🏢 Scraping Crescent Point Energy Corp. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.crescentpointenergycorp.com/careers
+   ✅ Valid career page found (101130 chars)
+   🧪 Testing: https://www.crescentpointenergycorp.com/careers/
+   ❌ Not a career page or too small
+   🧪 Testing: https://www.crescentpointenergycorp.com/en/careers
+   ✅ Valid career page found (100959 chars)
+   ⏱️  Completed in 41.2s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[19/161] Progress: 11.8%
+\n🏢 Scraping Baytex Energy Corp. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.baytexenergycorp.com/careers
+   ❌ Failed https://www.baytexenergycorp.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.baytexenergycorp.com/careers/
+   ❌ Failed https://www.baytexenergycorp.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.baytexenergycorp.com/en/careers
+   ❌ Failed https://www.baytexenergycorp.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 21.3s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[20/161] Progress: 12.4%
+\n🏢 Scraping Whitecap Resources Inc. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.whitecapresourcesinc.com/careers
+   ❌ Failed https://www.whitecapresourcesinc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.whitecapresourcesinc.com/careers/
+   ❌ Failed https://www.whitecapresourcesinc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.whitecapresourcesinc.com/en/careers
+   ❌ Failed https://www.whitecapresourcesinc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 20.1s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[21/161] Progress: 13.0%
+\n🏢 Scraping Peyto Exploration & Development Corp. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.peytoexplorationdevelopmentcorp.com/careers
+   ❌ Failed https://www.peytoexplorationdevelopmentcorp.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.peytoexplorationdevelopmentcorp.com/careers/
+   ❌ Failed https://www.peytoexplorationdevelopmentcorp.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.peytoexplorationdevelopmentcorp.com/en/careers
+   ❌ Failed https://www.peytoexplorationdevelopmentcorp.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 19.8s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[22/161] Progress: 13.7%
+\n🏢 Scraping NuVista Energy Ltd. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.nuvistaenergyltd.com/careers
+   ❌ Failed https://www.nuvistaenergyltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.nuvistaenergyltd.com/careers/
+   ❌ Failed https://www.nuvistaenergyltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.nuvistaenergyltd.com/en/careers
+   ❌ Failed https://www.nuvistaenergyltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 23.0s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[23/161] Progress: 14.3%
+\n🏢 Scraping Tamarack Valley Energy Ltd. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.tamarackvalleyenergyltd.com/careers
+   ❌ Failed https://www.tamarackvalleyenergyltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.tamarackvalleyenergyltd.com/careers/
+   ❌ Failed https://www.tamarackvalleyenergyltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.tamarackvalleyenergyltd.com/en/careers
+   ❌ Failed https://www.tamarackvalleyenergyltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 15.0s
+   📊 Running totals: 0 successful, 0 jobs found
+\n[24/161] Progress: 14.9%
+\n🏢 Scraping Spartan Delta Corp. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.spartandeltacorp.com/careers
+   ✅ Valid career page found (110684 chars)
+   🎉 Found 1 jobs!
+      1. Join the Spartan Team
+   ⏱️  Completed in 7.0s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[25/161] Progress: 15.5%
+\n🏢 Scraping Schlumberger Canada (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.schlumbergercanada.com/careers
+   ❌ Failed https://www.schlumbergercanada.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.schlumbergercanada.com/careers/
+   ❌ Failed https://www.schlumbergercanada.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.schlumbergercanada.com/en/careers
+   ❌ Failed https://www.schlumbergercanada.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 21.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n💾 Results saved to company-scraping-results-2025-07-31T23-11-33-250Z.json
+   💾 Intermediate save completed
+\n[26/161] Progress: 16.1%
+\n🏢 Scraping Halliburton Canada (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.halliburtoncanada.com/careers
+   ❌ Failed https://www.halliburtoncanada.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.halliburtoncanada.com/careers/
+   ❌ Failed https://www.halliburtoncanada.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.halliburtoncanada.com/en/careers
+   ❌ Failed https://www.halliburtoncanada.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 16.1s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[27/161] Progress: 16.8%
+\n🏢 Scraping Baker Hughes Canada (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.bakerhughescanada.com/careers
+   ❌ Failed https://www.bakerhughescanada.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.bakerhughescanada.com/careers/
+   ❌ Failed https://www.bakerhughescanada.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.bakerhughescanada.com/en/careers
+   ❌ Failed https://www.bakerhughescanada.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 21.2s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[28/161] Progress: 17.4%
+\n🏢 Scraping Weatherford Canada (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.weatherfordcanada.com/careers
+   ❌ Failed https://www.weatherfordcanada.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.weatherfordcanada.com/careers/
+   ❌ Failed https://www.weatherfordcanada.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.weatherfordcanada.com/en/careers
+   ❌ Failed https://www.weatherfordcanada.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 32.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[29/161] Progress: 18.0%
+\n🏢 Scraping Trican Well Service Ltd. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.tricanwellserviceltd.com/careers
+   ❌ Failed https://www.tricanwellserviceltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.tricanwellserviceltd.com/careers/
+   ❌ Failed https://www.tricanwellserviceltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.tricanwellserviceltd.com/en/careers
+   ❌ Failed https://www.tricanwellserviceltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 28.1s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[30/161] Progress: 18.6%
+\n🏢 Scraping Calfrac Well Services Ltd. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.calfracwellservicesltd.com/careers
+   ❌ Failed https://www.calfracwellservicesltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.calfracwellservicesltd.com/careers/
+   ❌ Failed https://www.calfracwellservicesltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.calfracwellservicesltd.com/en/careers
+   ❌ Failed https://www.calfracwellservicesltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 21.8s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[31/161] Progress: 19.3%
+\n🏢 Scraping Essential Energy Services Ltd. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.essentialenergyservicesltd.com/careers
+   ❌ Failed https://www.essentialenergyservicesltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.essentialenergyservicesltd.com/careers/
+   ❌ Failed https://www.essentialenergyservicesltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.essentialenergyservicesltd.com/en/careers
+   ❌ Failed https://www.essentialenergyservicesltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 12.8s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[32/161] Progress: 19.9%
+\n🏢 Scraping Step Energy Services Ltd. (oil_gas)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.stepenergyservicesltd.com/careers
+   ❌ Failed https://www.stepenergyservicesltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.stepenergyservicesltd.com/careers/
+   ❌ Failed https://www.stepenergyservicesltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.stepenergyservicesltd.com/en/careers
+   ❌ Failed https://www.stepenergyservicesltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 20.9s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[33/161] Progress: 20.5%
+\n🏢 Scraping Barrick Gold Corporation (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.barrickgoldcorporation.com/careers
+   ✅ Valid career page found (99903 chars)
+   🧪 Testing: https://www.barrickgoldcorporation.com/careers/
+   ✅ Valid career page found (44107 chars)
+   🧪 Testing: https://www.barrickgoldcorporation.com/en/careers
+   ✅ Valid career page found (37492 chars)
+   ⏱️  Completed in 34.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[34/161] Progress: 21.1%
+\n🏢 Scraping Newmont Canada (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.newmontcanada.com/careers
+   ❌ Not a career page or too small
+   🧪 Testing: https://www.newmontcanada.com/careers/
+   ❌ Not a career page or too small
+   🧪 Testing: https://www.newmontcanada.com/en/careers
+   ❌ Not a career page or too small
+   ⏱️  Completed in 18.6s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[35/161] Progress: 21.7%
+\n🏢 Scraping Agnico Eagle Mines Limited (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.agnicoeaglemineslimited.com/careers
+   ❌ Failed https://www.agnicoeaglemineslimited.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.agnicoeaglemineslimited.com/careers/
+   ❌ Failed https://www.agnicoeaglemineslimited.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.agnicoeaglemineslimited.com/en/careers
+   ❌ Failed https://www.agnicoeaglemineslimited.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 20.9s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[36/161] Progress: 22.4%
+\n🏢 Scraping Kinross Gold Corporation (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.kinrossgoldcorporation.com/careers
+   ❌ Not a career page or too small
+   🧪 Testing: https://www.kinrossgoldcorporation.com/careers/
+   ❌ Not a career page or too small
+   🧪 Testing: https://www.kinrossgoldcorporation.com/en/careers
+   ❌ Not a career page or too small
+   ⏱️  Completed in 21.6s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[37/161] Progress: 23.0%
+\n🏢 Scraping Eldorado Gold Corporation (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.eldoradogoldcorporation.com/careers
+   ❌ Failed https://www.eldoradogoldcorporation.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.eldoradogoldcorporation.com/careers/
+   ❌ Failed https://www.eldoradogoldcorporation.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.eldoradogoldcorporation.com/en/careers
+   ❌ Failed https://www.eldoradogoldcorporation.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 26.7s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[38/161] Progress: 23.6%
+\n🏢 Scraping Yamana Gold Inc. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.yamanagoldinc.com/careers
+   ❌ Failed https://www.yamanagoldinc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.yamanagoldinc.com/careers/
+   ❌ Failed https://www.yamanagoldinc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.yamanagoldinc.com/en/careers
+   ❌ Failed https://www.yamanagoldinc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 12.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[39/161] Progress: 24.2%
+\n🏢 Scraping B2Gold Corp. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.b2goldcorp.com/careers
+   ❌ Failed https://www.b2goldcorp.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.b2goldcorp.com/careers/
+   ❌ Failed https://www.b2goldcorp.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.b2goldcorp.com/en/careers
+   ❌ Failed https://www.b2goldcorp.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 15.0s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[40/161] Progress: 24.8%
+\n🏢 Scraping Alamos Gold Inc. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.alamosgoldinc.com/careers
+   ✅ Valid career page found (30202 chars)
+   🧪 Testing: https://www.alamosgoldinc.com/careers/
+   ❌ Not a career page or too small
+   🧪 Testing: https://www.alamosgoldinc.com/en/careers
+   ❌ Not a career page or too small
+   ⏱️  Completed in 24.1s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[41/161] Progress: 25.5%
+\n🏢 Scraping Centerra Gold Inc. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.centerragoldinc.com/careers
+   ❌ Failed https://www.centerragoldinc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.centerragoldinc.com/careers/
+   ❌ Failed https://www.centerragoldinc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.centerragoldinc.com/en/careers
+   ❌ Failed https://www.centerragoldinc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 15.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[42/161] Progress: 26.1%
+\n🏢 Scraping New Gold Inc. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.newgoldinc.com/careers
+   ❌ Failed https://www.newgoldinc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.newgoldinc.com/careers/
+   ❌ Failed https://www.newgoldinc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.newgoldinc.com/en/careers
+   ❌ Failed https://www.newgoldinc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 28.7s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[43/161] Progress: 26.7%
+\n🏢 Scraping Osisko Gold Royalties Ltd. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.osiskogoldroyaltiesltd.com/careers
+   ❌ Failed https://www.osiskogoldroyaltiesltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.osiskogoldroyaltiesltd.com/careers/
+   ❌ Failed https://www.osiskogoldroyaltiesltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.osiskogoldroyaltiesltd.com/en/careers
+   ❌ Failed https://www.osiskogoldroyaltiesltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 23.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[44/161] Progress: 27.3%
+\n🏢 Scraping Franco-Nevada Corporation (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.franconevadacorporation.com/careers
+   ❌ Failed https://www.franconevadacorporation.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.franconevadacorporation.com/careers/
+   ❌ Failed https://www.franconevadacorporation.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.franconevadacorporation.com/en/careers
+   ❌ Failed https://www.franconevadacorporation.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 16.0s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[45/161] Progress: 28.0%
+\n🏢 Scraping Teck Resources Limited (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.teckresourceslimited.com/careers
+   ❌ Failed https://www.teckresourceslimited.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.teckresourceslimited.com/careers/
+   ❌ Failed https://www.teckresourceslimited.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.teckresourceslimited.com/en/careers
+   ❌ Failed https://www.teckresourceslimited.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 15.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[46/161] Progress: 28.6%
+\n🏢 Scraping First Quantum Minerals Ltd. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.firstquantummineralsltd.com/careers
+   ❌ Failed https://www.firstquantummineralsltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.firstquantummineralsltd.com/careers/
+   ❌ Failed https://www.firstquantummineralsltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.firstquantummineralsltd.com/en/careers
+   ❌ Failed https://www.firstquantummineralsltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 18.8s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[47/161] Progress: 29.2%
+\n🏢 Scraping Lundin Mining Corporation (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.lundinminingcorporation.com/careers
+   ❌ Failed https://www.lundinminingcorporation.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.lundinminingcorporation.com/careers/
+   ❌ Failed https://www.lundinminingcorporation.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.lundinminingcorporation.com/en/careers
+   ❌ Failed https://www.lundinminingcorporation.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 14.0s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[48/161] Progress: 29.8%
+\n🏢 Scraping Hudbay Minerals Inc. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.hudbaymineralsinc.com/careers
+   ❌ Failed https://www.hudbaymineralsinc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.hudbaymineralsinc.com/careers/
+   ❌ Failed https://www.hudbaymineralsinc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.hudbaymineralsinc.com/en/careers
+   ❌ Failed https://www.hudbaymineralsinc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 29.2s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[49/161] Progress: 30.4%
+\n🏢 Scraping Ivanhoe Mines Ltd. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.ivanhoeminesltd.com/careers
+   ❌ Failed https://www.ivanhoeminesltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.ivanhoeminesltd.com/careers/
+   ❌ Failed https://www.ivanhoeminesltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.ivanhoeminesltd.com/en/careers
+   ❌ Failed https://www.ivanhoeminesltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 21.1s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[50/161] Progress: 31.1%
+\n🏢 Scraping Capstone Mining Corp. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.capstoneminingcorp.com/careers
+   ❌ Not a career page or too small
+   🧪 Testing: https://www.capstoneminingcorp.com/careers/
+   ❌ Not a career page or too small
+   🧪 Testing: https://www.capstoneminingcorp.com/en/careers
+   ✅ Valid career page found (14932 chars)
+   ⏱️  Completed in 19.2s
+   📊 Running totals: 1 successful, 1 jobs found
+\n💾 Results saved to company-scraping-results-2025-07-31T23-21-11-626Z.json
+   💾 Intermediate save completed
+\n[51/161] Progress: 31.7%
+\n🏢 Scraping Taseko Mines Limited (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.tasekomineslimited.com/careers
+   ❌ Failed https://www.tasekomineslimited.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.tasekomineslimited.com/careers/
+   ❌ Failed https://www.tasekomineslimited.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.tasekomineslimited.com/en/careers
+   ❌ Failed https://www.tasekomineslimited.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 14.2s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[52/161] Progress: 32.3%
+\n🏢 Scraping Turquoise Hill Resources Ltd. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.turquoisehillresourcesltd.com/careers
+   ❌ Failed https://www.turquoisehillresourcesltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.turquoisehillresourcesltd.com/careers/
+   ❌ Failed https://www.turquoisehillresourcesltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.turquoisehillresourcesltd.com/en/careers
+   ❌ Failed https://www.turquoisehillresourcesltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 23.8s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[53/161] Progress: 32.9%
+\n🏢 Scraping Sherritt International Corporation (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.sherrittinternationalcorporation.com/careers
+   ❌ Failed https://www.sherrittinternationalcorporation.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.sherrittinternationalcorporation.com/careers/
+   ❌ Failed https://www.sherrittinternationalcorporation.com/careers/: ScrapingBee failed: 503 Service Unavailable
+   🧪 Testing: https://www.sherrittinternationalcorporation.com/en/careers
+   ❌ Failed https://www.sherrittinternationalcorporation.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 19.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[54/161] Progress: 33.5%
+\n🏢 Scraping ArcelorMittal Dofasco (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.arcelormittaldofasco.com/careers
+   ❌ Failed https://www.arcelormittaldofasco.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.arcelormittaldofasco.com/careers/
+   ❌ Failed https://www.arcelormittaldofasco.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.arcelormittaldofasco.com/en/careers
+   ❌ Failed https://www.arcelormittaldofasco.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 26.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[55/161] Progress: 34.2%
+\n🏢 Scraping Champion Iron Limited (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.championironlimited.com/careers
+   ❌ Failed https://www.championironlimited.com/careers: ScrapingBee failed: 404 NOT FOUND
+   🧪 Testing: https://www.championironlimited.com/careers/
+   ❌ Failed https://www.championironlimited.com/careers/: ScrapingBee failed: 404 NOT FOUND
+   🧪 Testing: https://www.championironlimited.com/en/careers
+   ❌ Failed https://www.championironlimited.com/en/careers: ScrapingBee failed: 404 NOT FOUND
+   ⏱️  Completed in 21.6s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[56/161] Progress: 34.8%
+\n🏢 Scraping Labrador Iron Ore Royalty Corp. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.labradorironoreroyaltycorp.com/careers
+   ❌ Failed https://www.labradorironoreroyaltycorp.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.labradorironoreroyaltycorp.com/careers/
+   ❌ Failed https://www.labradorironoreroyaltycorp.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.labradorironoreroyaltycorp.com/en/careers
+   ❌ Failed https://www.labradorironoreroyaltycorp.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 23.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[57/161] Progress: 35.4%
+\n🏢 Scraping Algoma Steel Group Inc. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.algomasteelgroupinc.com/careers
+   ❌ Not a career page or too small
+   🧪 Testing: https://www.algomasteelgroupinc.com/careers/
+   ❌ Not a career page or too small
+   🧪 Testing: https://www.algomasteelgroupinc.com/en/careers
+   ✅ Valid career page found (30304 chars)
+   ⏱️  Completed in 19.7s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[58/161] Progress: 36.0%
+\n🏢 Scraping Nutrien Ltd. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.nutrienltd.com/careers
+   ❌ Failed https://www.nutrienltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.nutrienltd.com/careers/
+   ❌ Failed https://www.nutrienltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.nutrienltd.com/en/careers
+   ❌ Failed https://www.nutrienltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 254.0s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[59/161] Progress: 36.6%
+\n🏢 Scraping Mosaic Company Canada (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.mosaiccompanycanada.com/careers
+   ❌ Failed https://www.mosaiccompanycanada.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.mosaiccompanycanada.com/careers/
+   ❌ Failed https://www.mosaiccompanycanada.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.mosaiccompanycanada.com/en/careers
+   ❌ Failed https://www.mosaiccompanycanada.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 25.1s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[60/161] Progress: 37.3%
+\n🏢 Scraping K+S Potash Canada GP (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.kspotashcanadagp.com/careers
+   ❌ Failed https://www.kspotashcanadagp.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.kspotashcanadagp.com/careers/
+   ❌ Failed https://www.kspotashcanadagp.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.kspotashcanadagp.com/en/careers
+   ❌ Failed https://www.kspotashcanadagp.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 21.7s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[61/161] Progress: 37.9%
+\n🏢 Scraping Teck Coal Limited (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.teckcoallimited.com/careers
+   ❌ Failed https://www.teckcoallimited.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.teckcoallimited.com/careers/
+   ❌ Failed https://www.teckcoallimited.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.teckcoallimited.com/en/careers
+   ❌ Failed https://www.teckcoallimited.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 12.8s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[62/161] Progress: 38.5%
+\n🏢 Scraping Conuma Coal Resources Limited (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.conumacoalresourceslimited.com/careers
+   ❌ Failed https://www.conumacoalresourceslimited.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.conumacoalresourceslimited.com/careers/
+   ❌ Failed https://www.conumacoalresourceslimited.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.conumacoalresourceslimited.com/en/careers
+   ❌ Failed https://www.conumacoalresourceslimited.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 22.2s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[63/161] Progress: 39.1%
+\n🏢 Scraping Riverside Resources Inc. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.riversideresourcesinc.com/careers
+   ❌ Failed https://www.riversideresourcesinc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.riversideresourcesinc.com/careers/
+   ❌ Failed https://www.riversideresourcesinc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.riversideresourcesinc.com/en/careers
+   ❌ Failed https://www.riversideresourcesinc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 21.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[64/161] Progress: 39.8%
+\n🏢 Scraping De Beers Canada Inc. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.debeerscanadainc.com/careers
+   ❌ Failed https://www.debeerscanadainc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.debeerscanadainc.com/careers/
+   ❌ Failed https://www.debeerscanadainc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.debeerscanadainc.com/en/careers
+   ❌ Failed https://www.debeerscanadainc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 30.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[65/161] Progress: 40.4%
+\n🏢 Scraping Dominion Diamond Corporation (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.dominiondiamondcorporation.com/careers
+   ✅ Valid career page found (13290 chars)
+   🧪 Testing: https://www.dominiondiamondcorporation.com/careers/
+   ❌ Not a career page or too small
+   🧪 Testing: https://www.dominiondiamondcorporation.com/en/careers
+   ❌ Not a career page or too small
+   ⏱️  Completed in 24.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[66/161] Progress: 41.0%
+\n🏢 Scraping Stornoway Diamond Corporation (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.stornowaydiamondcorporation.com/careers
+   ❌ Failed https://www.stornowaydiamondcorporation.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.stornowaydiamondcorporation.com/careers/
+   ❌ Failed https://www.stornowaydiamondcorporation.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.stornowaydiamondcorporation.com/en/careers
+   ❌ Failed https://www.stornowaydiamondcorporation.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 23.2s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[67/161] Progress: 41.6%
+\n🏢 Scraping Lithium Americas Corp. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.lithiumamericascorp.com/careers
+   ❌ Failed https://www.lithiumamericascorp.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.lithiumamericascorp.com/careers/
+   ❌ Failed https://www.lithiumamericascorp.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.lithiumamericascorp.com/en/careers
+   ❌ Failed https://www.lithiumamericascorp.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 232.9s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[68/161] Progress: 42.2%
+\n🏢 Scraping Sigma Lithium Corporation (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.sigmalithiumcorporation.com/careers
+   ❌ Failed https://www.sigmalithiumcorporation.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.sigmalithiumcorporation.com/careers/
+   ❌ Failed https://www.sigmalithiumcorporation.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.sigmalithiumcorporation.com/en/careers
+   ❌ Failed https://www.sigmalithiumcorporation.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 17.8s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[69/161] Progress: 42.9%
+\n🏢 Scraping Neo Performance Materials Inc. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.neoperformancematerialsinc.com/careers
+   ❌ Failed https://www.neoperformancematerialsinc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.neoperformancematerialsinc.com/careers/
+   ❌ Failed https://www.neoperformancematerialsinc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.neoperformancematerialsinc.com/en/careers
+   ❌ Failed https://www.neoperformancematerialsinc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 33.9s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[70/161] Progress: 43.5%
+\n🏢 Scraping Avalon Advanced Materials Inc. (mining)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.avalonadvancedmaterialsinc.com/careers
+   ❌ Failed https://www.avalonadvancedmaterialsinc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.avalonadvancedmaterialsinc.com/careers/
+   ❌ Failed https://www.avalonadvancedmaterialsinc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.avalonadvancedmaterialsinc.com/en/careers
+   ❌ Failed https://www.avalonadvancedmaterialsinc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 23.9s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[71/161] Progress: 44.1%
+\n🏢 Scraping West Fraser Timber Co. Ltd. (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.westfrasertimbercoltd.com/careers
+   ❌ Failed https://www.westfrasertimbercoltd.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.westfrasertimbercoltd.com/careers/
+   ❌ Failed https://www.westfrasertimbercoltd.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.westfrasertimbercoltd.com/en/careers
+   ❌ Failed https://www.westfrasertimbercoltd.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 27.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[72/161] Progress: 44.7%
+\n🏢 Scraping Canfor Corporation (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.canforcorporation.com/careers
+   ❌ Failed https://www.canforcorporation.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.canforcorporation.com/careers/
+   ❌ Failed https://www.canforcorporation.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.canforcorporation.com/en/careers
+   ❌ Failed https://www.canforcorporation.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 22.2s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[73/161] Progress: 45.3%
+\n🏢 Scraping Interfor Corporation (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.interforcorporation.com/careers
+   ❌ Failed https://www.interforcorporation.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.interforcorporation.com/careers/
+   ❌ Failed https://www.interforcorporation.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.interforcorporation.com/en/careers
+   ❌ Failed https://www.interforcorporation.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 21.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[74/161] Progress: 46.0%
+\n🏢 Scraping Resolute Forest Products Inc. (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.resoluteforestproductsinc.com/careers
+   ❌ Failed https://www.resoluteforestproductsinc.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.resoluteforestproductsinc.com/careers/
+   ❌ Failed https://www.resoluteforestproductsinc.com/careers/: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.resoluteforestproductsinc.com/en/careers
+   ❌ Failed https://www.resoluteforestproductsinc.com/en/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   ⏱️  Completed in 22.2s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[75/161] Progress: 46.6%
+\n🏢 Scraping Catalyst Paper Corporation (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.catalystpapercorporation.com/careers
+   ❌ Failed https://www.catalystpapercorporation.com/careers: ScrapingBee failed: 500 INTERNAL SERVER ERROR
+   🧪 Testing: https://www.catalystpapercorporation.com/careers/
+   ❌ Failed https://www.catalystpapercorporation.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.catalystpapercorporation.com/en/careers
+   ❌ Failed https://www.catalystpapercorporation.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 80.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n💾 Results saved to company-scraping-results-2025-07-31T23-39-47-564Z.json
+   💾 Intermediate save completed
+\n[76/161] Progress: 47.2%
+\n🏢 Scraping Paper Excellence Group (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.paperexcellencegroup.com/careers
+   ❌ Failed https://www.paperexcellencegroup.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.paperexcellencegroup.com/careers/
+   ❌ Failed https://www.paperexcellencegroup.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.paperexcellencegroup.com/en/careers
+   ❌ Failed https://www.paperexcellencegroup.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[77/161] Progress: 47.8%
+\n🏢 Scraping Weyerhaeuser Company Limited (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.weyerhaeusercompanylimited.com/careers
+   ❌ Failed https://www.weyerhaeusercompanylimited.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.weyerhaeusercompanylimited.com/careers/
+   ❌ Failed https://www.weyerhaeusercompanylimited.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.weyerhaeusercompanylimited.com/en/careers
+   ❌ Failed https://www.weyerhaeusercompanylimited.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[78/161] Progress: 48.4%
+\n🏢 Scraping Tolko Industries Ltd. (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.tolkoindustriesltd.com/careers
+   ❌ Failed https://www.tolkoindustriesltd.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.tolkoindustriesltd.com/careers/
+   ❌ Failed https://www.tolkoindustriesltd.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.tolkoindustriesltd.com/en/careers
+   ❌ Failed https://www.tolkoindustriesltd.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[79/161] Progress: 49.1%
+\n🏢 Scraping Conifex Timber Inc. (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.conifextimberinc.com/careers
+   ❌ Failed https://www.conifextimberinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.conifextimberinc.com/careers/
+   ❌ Failed https://www.conifextimberinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.conifextimberinc.com/en/careers
+   ❌ Failed https://www.conifextimberinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[80/161] Progress: 49.7%
+\n🏢 Scraping Western Forest Products Inc. (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.westernforestproductsinc.com/careers
+   ❌ Failed https://www.westernforestproductsinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.westernforestproductsinc.com/careers/
+   ❌ Failed https://www.westernforestproductsinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.westernforestproductsinc.com/en/careers
+   ❌ Failed https://www.westernforestproductsinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[81/161] Progress: 50.3%
+\n🏢 Scraping Domtar Corporation (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.domtarcorporation.com/careers
+   ❌ Failed https://www.domtarcorporation.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.domtarcorporation.com/careers/
+   ❌ Failed https://www.domtarcorporation.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.domtarcorporation.com/en/careers
+   ❌ Failed https://www.domtarcorporation.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[82/161] Progress: 50.9%
+\n🏢 Scraping Irving Pulp & Paper Limited (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.irvingpulppaperlimited.com/careers
+   ❌ Failed https://www.irvingpulppaperlimited.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.irvingpulppaperlimited.com/careers/
+   ❌ Failed https://www.irvingpulppaperlimited.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.irvingpulppaperlimited.com/en/careers
+   ❌ Failed https://www.irvingpulppaperlimited.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[83/161] Progress: 51.6%
+\n🏢 Scraping Kruger Inc. (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.krugerinc.com/careers
+   ❌ Failed https://www.krugerinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.krugerinc.com/careers/
+   ❌ Failed https://www.krugerinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.krugerinc.com/en/careers
+   ❌ Failed https://www.krugerinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[84/161] Progress: 52.2%
+\n🏢 Scraping Cascades Inc. (forestry)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.cascadesinc.com/careers
+   ❌ Failed https://www.cascadesinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.cascadesinc.com/careers/
+   ❌ Failed https://www.cascadesinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.cascadesinc.com/en/careers
+   ❌ Failed https://www.cascadesinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[85/161] Progress: 52.8%
+\n🏢 Scraping Hydro-Québec (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.hydroqubec.com/careers
+   ❌ Failed https://www.hydroqubec.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.hydroqubec.com/careers/
+   ❌ Failed https://www.hydroqubec.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.hydroqubec.com/en/careers
+   ❌ Failed https://www.hydroqubec.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[86/161] Progress: 53.4%
+\n🏢 Scraping BC Hydro (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.bchydro.com/careers
+   ❌ Failed https://www.bchydro.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.bchydro.com/careers/
+   ❌ Failed https://www.bchydro.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.bchydro.com/en/careers
+   ❌ Failed https://www.bchydro.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[87/161] Progress: 54.0%
+\n🏢 Scraping Ontario Power Generation Inc. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.ontariopowergenerationinc.com/careers
+   ❌ Failed https://www.ontariopowergenerationinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.ontariopowergenerationinc.com/careers/
+   ❌ Failed https://www.ontariopowergenerationinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.ontariopowergenerationinc.com/en/careers
+   ❌ Failed https://www.ontariopowergenerationinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[88/161] Progress: 54.7%
+\n🏢 Scraping Hydro One Limited (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.hydroonelimited.com/careers
+   ❌ Failed https://www.hydroonelimited.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.hydroonelimited.com/careers/
+   ❌ Failed https://www.hydroonelimited.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.hydroonelimited.com/en/careers
+   ❌ Failed https://www.hydroonelimited.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[89/161] Progress: 55.3%
+\n🏢 Scraping Manitoba Hydro (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.manitobahydro.com/careers
+   ❌ Failed https://www.manitobahydro.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.manitobahydro.com/careers/
+   ❌ Failed https://www.manitobahydro.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.manitobahydro.com/en/careers
+   ❌ Failed https://www.manitobahydro.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[90/161] Progress: 55.9%
+\n🏢 Scraping SaskPower (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.saskpower.com/careers
+   ❌ Failed https://www.saskpower.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.saskpower.com/careers/
+   ❌ Failed https://www.saskpower.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.saskpower.com/en/careers
+   ❌ Failed https://www.saskpower.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[91/161] Progress: 56.5%
+\n🏢 Scraping Newfoundland and Labrador Hydro (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.newfoundlandandlabradorhydro.com/careers
+   ❌ Failed https://www.newfoundlandandlabradorhydro.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.newfoundlandandlabradorhydro.com/careers/
+   ❌ Failed https://www.newfoundlandandlabradorhydro.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.newfoundlandandlabradorhydro.com/en/careers
+   ❌ Failed https://www.newfoundlandandlabradorhydro.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[92/161] Progress: 57.1%
+\n🏢 Scraping Nova Scotia Power Inc. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.novascotiapowerinc.com/careers
+   ❌ Failed https://www.novascotiapowerinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.novascotiapowerinc.com/careers/
+   ❌ Failed https://www.novascotiapowerinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.novascotiapowerinc.com/en/careers
+   ❌ Failed https://www.novascotiapowerinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[93/161] Progress: 57.8%
+\n🏢 Scraping NB Power (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.nbpower.com/careers
+   ❌ Failed https://www.nbpower.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.nbpower.com/careers/
+   ❌ Failed https://www.nbpower.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.nbpower.com/en/careers
+   ❌ Failed https://www.nbpower.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[94/161] Progress: 58.4%
+\n🏢 Scraping Fortis Inc. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.fortisinc.com/careers
+   ❌ Failed https://www.fortisinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.fortisinc.com/careers/
+   ❌ Failed https://www.fortisinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.fortisinc.com/en/careers
+   ❌ Failed https://www.fortisinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[95/161] Progress: 59.0%
+\n🏢 Scraping Canadian Utilities Limited (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.canadianutilitieslimited.com/careers
+   ❌ Failed https://www.canadianutilitieslimited.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.canadianutilitieslimited.com/careers/
+   ❌ Failed https://www.canadianutilitieslimited.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.canadianutilitieslimited.com/en/careers
+   ❌ Failed https://www.canadianutilitieslimited.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[96/161] Progress: 59.6%
+\n🏢 Scraping ATCO Ltd. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.atcoltd.com/careers
+   ❌ Failed https://www.atcoltd.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.atcoltd.com/careers/
+   ❌ Failed https://www.atcoltd.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.atcoltd.com/en/careers
+   ❌ Failed https://www.atcoltd.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[97/161] Progress: 60.2%
+\n🏢 Scraping Capital Power Corporation (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.capitalpowercorporation.com/careers
+   ❌ Failed https://www.capitalpowercorporation.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.capitalpowercorporation.com/careers/
+   ❌ Failed https://www.capitalpowercorporation.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.capitalpowercorporation.com/en/careers
+   ❌ Failed https://www.capitalpowercorporation.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[98/161] Progress: 60.9%
+\n🏢 Scraping TransAlta Corporation (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.transaltacorporation.com/careers
+   ❌ Failed https://www.transaltacorporation.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.transaltacorporation.com/careers/
+   ❌ Failed https://www.transaltacorporation.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.transaltacorporation.com/en/careers
+   ❌ Failed https://www.transaltacorporation.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[99/161] Progress: 61.5%
+\n🏢 Scraping Algonquin Power & Utilities Corp. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.algonquinpowerutilitiescorp.com/careers
+   ❌ Failed https://www.algonquinpowerutilitiescorp.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.algonquinpowerutilitiescorp.com/careers/
+   ❌ Failed https://www.algonquinpowerutilitiescorp.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.algonquinpowerutilitiescorp.com/en/careers
+   ❌ Failed https://www.algonquinpowerutilitiescorp.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[100/161] Progress: 62.1%
+\n🏢 Scraping Emera Inc. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.emerainc.com/careers
+   ❌ Failed https://www.emerainc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.emerainc.com/careers/
+   ❌ Failed https://www.emerainc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.emerainc.com/en/careers
+   ❌ Failed https://www.emerainc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n💾 Results saved to company-scraping-results-2025-07-31T23-40-47-588Z.json
+   💾 Intermediate save completed
+\n[101/161] Progress: 62.7%
+\n🏢 Scraping Innergex Renewable Energy Inc. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.innergexrenewableenergyinc.com/careers
+   ❌ Failed https://www.innergexrenewableenergyinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.innergexrenewableenergyinc.com/careers/
+   ❌ Failed https://www.innergexrenewableenergyinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.innergexrenewableenergyinc.com/en/careers
+   ❌ Failed https://www.innergexrenewableenergyinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[102/161] Progress: 63.4%
+\n🏢 Scraping Northland Power Inc. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.northlandpowerinc.com/careers
+   ❌ Failed https://www.northlandpowerinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.northlandpowerinc.com/careers/
+   ❌ Failed https://www.northlandpowerinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.northlandpowerinc.com/en/careers
+   ❌ Failed https://www.northlandpowerinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[103/161] Progress: 64.0%
+\n🏢 Scraping Boralex Inc. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.boralexinc.com/careers
+   ❌ Failed https://www.boralexinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.boralexinc.com/careers/
+   ❌ Failed https://www.boralexinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.boralexinc.com/en/careers
+   ❌ Failed https://www.boralexinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[104/161] Progress: 64.6%
+\n🏢 Scraping Canadian Wind Energy Association Members: (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.canadianwindenergyassociationmembers.com/careers
+   ❌ Failed https://www.canadianwindenergyassociationmembers.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.canadianwindenergyassociationmembers.com/careers/
+   ❌ Failed https://www.canadianwindenergyassociationmembers.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.canadianwindenergyassociationmembers.com/en/careers
+   ❌ Failed https://www.canadianwindenergyassociationmembers.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[105/161] Progress: 65.2%
+\n🏢 Scraping Canadian Solar Inc. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.canadiansolarinc.com/careers
+   ❌ Failed https://www.canadiansolarinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.canadiansolarinc.com/careers/
+   ❌ Failed https://www.canadiansolarinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.canadiansolarinc.com/en/careers
+   ❌ Failed https://www.canadiansolarinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[106/161] Progress: 65.8%
+\n🏢 Scraping Solantro Semiconductor Corp. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.solantrosemiconductorcorp.com/careers
+   ❌ Failed https://www.solantrosemiconductorcorp.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.solantrosemiconductorcorp.com/careers/
+   ❌ Failed https://www.solantrosemiconductorcorp.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.solantrosemiconductorcorp.com/en/careers
+   ❌ Failed https://www.solantrosemiconductorcorp.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[107/161] Progress: 66.5%
+\n🏢 Scraping Heliene Inc. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.helieneinc.com/careers
+   ❌ Failed https://www.helieneinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.helieneinc.com/careers/
+   ❌ Failed https://www.helieneinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.helieneinc.com/en/careers
+   ❌ Failed https://www.helieneinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[108/161] Progress: 67.1%
+\n🏢 Scraping Brookfield Renewable Partners L.P. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.brookfieldrenewablepartnerslp.com/careers
+   ❌ Failed https://www.brookfieldrenewablepartnerslp.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.brookfieldrenewablepartnerslp.com/careers/
+   ❌ Failed https://www.brookfieldrenewablepartnerslp.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.brookfieldrenewablepartnerslp.com/en/careers
+   ❌ Failed https://www.brookfieldrenewablepartnerslp.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[109/161] Progress: 67.7%
+\n🏢 Scraping Innergex Renewable Energy Inc. (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.innergexrenewableenergyinc.com/careers
+   ❌ Failed https://www.innergexrenewableenergyinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.innergexrenewableenergyinc.com/careers/
+   ❌ Failed https://www.innergexrenewableenergyinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.innergexrenewableenergyinc.com/en/careers
+   ❌ Failed https://www.innergexrenewableenergyinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[110/161] Progress: 68.3%
+\n🏢 Scraping ATCO Power (utilities)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.atcopower.com/careers
+   ❌ Failed https://www.atcopower.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.atcopower.com/careers/
+   ❌ Failed https://www.atcopower.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.atcopower.com/en/careers
+   ❌ Failed https://www.atcopower.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[111/161] Progress: 68.9%
+\n🏢 Scraping Canadian National Railway Company (CN) (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.canadiannationalrailwaycompanycn.com/careers
+   ❌ Failed https://www.canadiannationalrailwaycompanycn.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.canadiannationalrailwaycompanycn.com/careers/
+   ❌ Failed https://www.canadiannationalrailwaycompanycn.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.canadiannationalrailwaycompanycn.com/en/careers
+   ❌ Failed https://www.canadiannationalrailwaycompanycn.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[112/161] Progress: 69.6%
+\n🏢 Scraping Canadian Pacific Kansas City Limited (CPKC) (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.canadianpacifickansascitylimitedcpkc.com/careers
+   ❌ Failed https://www.canadianpacifickansascitylimitedcpkc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.canadianpacifickansascitylimitedcpkc.com/careers/
+   ❌ Failed https://www.canadianpacifickansascitylimitedcpkc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.canadianpacifickansascitylimitedcpkc.com/en/careers
+   ❌ Failed https://www.canadianpacifickansascitylimitedcpkc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[113/161] Progress: 70.2%
+\n🏢 Scraping Ontario Northland Railway (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.ontarionorthlandrailway.com/careers
+   ❌ Failed https://www.ontarionorthlandrailway.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.ontarionorthlandrailway.com/careers/
+   ❌ Failed https://www.ontarionorthlandrailway.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.ontarionorthlandrailway.com/en/careers
+   ❌ Failed https://www.ontarionorthlandrailway.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[114/161] Progress: 70.8%
+\n🏢 Scraping Via Rail Canada Inc. (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.viarailcanadainc.com/careers
+   ❌ Failed https://www.viarailcanadainc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.viarailcanadainc.com/careers/
+   ❌ Failed https://www.viarailcanadainc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.viarailcanadainc.com/en/careers
+   ❌ Failed https://www.viarailcanadainc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[115/161] Progress: 71.4%
+\n🏢 Scraping Rocky Mountaineer (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.rockymountaineer.com/careers
+   ❌ Failed https://www.rockymountaineer.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.rockymountaineer.com/careers/
+   ❌ Failed https://www.rockymountaineer.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.rockymountaineer.com/en/careers
+   ❌ Failed https://www.rockymountaineer.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[116/161] Progress: 72.0%
+\n🏢 Scraping White Pass and Yukon Route (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.whitepassandyukonroute.com/careers
+   ❌ Failed https://www.whitepassandyukonroute.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.whitepassandyukonroute.com/careers/
+   ❌ Failed https://www.whitepassandyukonroute.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.whitepassandyukonroute.com/en/careers
+   ❌ Failed https://www.whitepassandyukonroute.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[117/161] Progress: 72.7%
+\n🏢 Scraping Enbridge Inc. (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.enbridgeinc.com/careers
+   ❌ Failed https://www.enbridgeinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.enbridgeinc.com/careers/
+   ❌ Failed https://www.enbridgeinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.enbridgeinc.com/en/careers
+   ❌ Failed https://www.enbridgeinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[118/161] Progress: 73.3%
+\n🏢 Scraping TC Energy Corporation (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.tcenergycorporation.com/careers
+   ❌ Failed https://www.tcenergycorporation.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.tcenergycorporation.com/careers/
+   ❌ Failed https://www.tcenergycorporation.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.tcenergycorporation.com/en/careers
+   ❌ Failed https://www.tcenergycorporation.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[119/161] Progress: 73.9%
+\n🏢 Scraping Kinder Morgan Canada (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.kindermorgancanada.com/careers
+   ❌ Failed https://www.kindermorgancanada.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.kindermorgancanada.com/careers/
+   ❌ Failed https://www.kindermorgancanada.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.kindermorgancanada.com/en/careers
+   ❌ Failed https://www.kindermorgancanada.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[120/161] Progress: 74.5%
+\n🏢 Scraping Pembina Pipeline Corporation (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.pembinapipelinecorporation.com/careers
+   ❌ Failed https://www.pembinapipelinecorporation.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.pembinapipelinecorporation.com/careers/
+   ❌ Failed https://www.pembinapipelinecorporation.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.pembinapipelinecorporation.com/en/careers
+   ❌ Failed https://www.pembinapipelinecorporation.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[121/161] Progress: 75.2%
+\n🏢 Scraping Inter Pipeline Ltd. (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.interpipelineltd.com/careers
+   ❌ Failed https://www.interpipelineltd.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.interpipelineltd.com/careers/
+   ❌ Failed https://www.interpipelineltd.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.interpipelineltd.com/en/careers
+   ❌ Failed https://www.interpipelineltd.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[122/161] Progress: 75.8%
+\n🏢 Scraping Port of Vancouver (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.portofvancouver.com/careers
+   ❌ Failed https://www.portofvancouver.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.portofvancouver.com/careers/
+   ❌ Failed https://www.portofvancouver.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.portofvancouver.com/en/careers
+   ❌ Failed https://www.portofvancouver.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[123/161] Progress: 76.4%
+\n🏢 Scraping Port of Montreal (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.portofmontreal.com/careers
+   ❌ Failed https://www.portofmontreal.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.portofmontreal.com/careers/
+   ❌ Failed https://www.portofmontreal.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.portofmontreal.com/en/careers
+   ❌ Failed https://www.portofmontreal.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[124/161] Progress: 77.0%
+\n🏢 Scraping Thunder Bay Port Authority (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.thunderbayportauthority.com/careers
+   ❌ Failed https://www.thunderbayportauthority.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.thunderbayportauthority.com/careers/
+   ❌ Failed https://www.thunderbayportauthority.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.thunderbayportauthority.com/en/careers
+   ❌ Failed https://www.thunderbayportauthority.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[125/161] Progress: 77.6%
+\n🏢 Scraping Hamilton-Oshawa Port Authority (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.hamiltonoshawaportauthority.com/careers
+   ❌ Failed https://www.hamiltonoshawaportauthority.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.hamiltonoshawaportauthority.com/careers/
+   ❌ Failed https://www.hamiltonoshawaportauthority.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.hamiltonoshawaportauthority.com/en/careers
+   ❌ Failed https://www.hamiltonoshawaportauthority.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n💾 Results saved to company-scraping-results-2025-07-31T23-41-47-351Z.json
+   💾 Intermediate save completed
+\n[126/161] Progress: 78.3%
+\n🏢 Scraping Seaway Marine Transport (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.seawaymarinetransport.com/careers
+   ❌ Failed https://www.seawaymarinetransport.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.seawaymarinetransport.com/careers/
+   ❌ Failed https://www.seawaymarinetransport.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.seawaymarinetransport.com/en/careers
+   ❌ Failed https://www.seawaymarinetransport.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[127/161] Progress: 78.9%
+\n🏢 Scraping Algoma Central Corporation (transportation)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.algomacentralcorporation.com/careers
+   ❌ Failed https://www.algomacentralcorporation.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.algomacentralcorporation.com/careers/
+   ❌ Failed https://www.algomacentralcorporation.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.algomacentralcorporation.com/en/careers
+   ❌ Failed https://www.algomacentralcorporation.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[128/161] Progress: 79.5%
+\n🏢 Scraping Cargill Limited (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.cargilllimited.com/careers
+   ❌ Failed https://www.cargilllimited.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.cargilllimited.com/careers/
+   ❌ Failed https://www.cargilllimited.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.cargilllimited.com/en/careers
+   ❌ Failed https://www.cargilllimited.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[129/161] Progress: 80.1%
+\n🏢 Scraping Richardson International Limited (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.richardsoninternationallimited.com/careers
+   ❌ Failed https://www.richardsoninternationallimited.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.richardsoninternationallimited.com/careers/
+   ❌ Failed https://www.richardsoninternationallimited.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.richardsoninternationallimited.com/en/careers
+   ❌ Failed https://www.richardsoninternationallimited.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[130/161] Progress: 80.7%
+\n🏢 Scraping Viterra Inc. (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.viterrainc.com/careers
+   ❌ Failed https://www.viterrainc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.viterrainc.com/careers/
+   ❌ Failed https://www.viterrainc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.viterrainc.com/en/careers
+   ❌ Failed https://www.viterrainc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[131/161] Progress: 81.4%
+\n🏢 Scraping Maple Leaf Foods Inc. (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.mapleleaffoodsinc.com/careers
+   ❌ Failed https://www.mapleleaffoodsinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.mapleleaffoodsinc.com/careers/
+   ❌ Failed https://www.mapleleaffoodsinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.mapleleaffoodsinc.com/en/careers
+   ❌ Failed https://www.mapleleaffoodsinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[132/161] Progress: 82.0%
+\n🏢 Scraping McCain Foods Limited (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.mccainfoodslimited.com/careers
+   ❌ Failed https://www.mccainfoodslimited.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.mccainfoodslimited.com/careers/
+   ❌ Failed https://www.mccainfoodslimited.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.mccainfoodslimited.com/en/careers
+   ❌ Failed https://www.mccainfoodslimited.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[133/161] Progress: 82.6%
+\n🏢 Scraping Tyson Foods Canada (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.tysonfoodscanada.com/careers
+   ❌ Failed https://www.tysonfoodscanada.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.tysonfoodscanada.com/careers/
+   ❌ Failed https://www.tysonfoodscanada.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.tysonfoodscanada.com/en/careers
+   ❌ Failed https://www.tysonfoodscanada.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[134/161] Progress: 83.2%
+\n🏢 Scraping JBS Canada (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.jbscanada.com/careers
+   ❌ Failed https://www.jbscanada.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.jbscanada.com/careers/
+   ❌ Failed https://www.jbscanada.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.jbscanada.com/en/careers
+   ❌ Failed https://www.jbscanada.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[135/161] Progress: 83.9%
+\n🏢 Scraping Nutrien Ltd. (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.nutrienltd.com/careers
+   ❌ Failed https://www.nutrienltd.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.nutrienltd.com/careers/
+   ❌ Failed https://www.nutrienltd.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.nutrienltd.com/en/careers
+   ❌ Failed https://www.nutrienltd.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[136/161] Progress: 84.5%
+\n🏢 Scraping Mosaic Company Canada (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.mosaiccompanycanada.com/careers
+   ❌ Failed https://www.mosaiccompanycanada.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.mosaiccompanycanada.com/careers/
+   ❌ Failed https://www.mosaiccompanycanada.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.mosaiccompanycanada.com/en/careers
+   ❌ Failed https://www.mosaiccompanycanada.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[137/161] Progress: 85.1%
+\n🏢 Scraping Yara Canada Inc. (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.yaracanadainc.com/careers
+   ❌ Failed https://www.yaracanadainc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.yaracanadainc.com/careers/
+   ❌ Failed https://www.yaracanadainc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.yaracanadainc.com/en/careers
+   ❌ Failed https://www.yaracanadainc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[138/161] Progress: 85.7%
+\n🏢 Scraping Saputo Inc. (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.saputoinc.com/careers
+   ❌ Failed https://www.saputoinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.saputoinc.com/careers/
+   ❌ Failed https://www.saputoinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.saputoinc.com/en/careers
+   ❌ Failed https://www.saputoinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[139/161] Progress: 86.3%
+\n🏢 Scraping Agropur Cooperative (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.agropurcooperative.com/careers
+   ❌ Failed https://www.agropurcooperative.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.agropurcooperative.com/careers/
+   ❌ Failed https://www.agropurcooperative.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.agropurcooperative.com/en/careers
+   ❌ Failed https://www.agropurcooperative.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[140/161] Progress: 87.0%
+\n🏢 Scraping Gay Lea Foods Co-operative Ltd. (agriculture)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.gayleafoodscooperativeltd.com/careers
+   ❌ Failed https://www.gayleafoodscooperativeltd.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.gayleafoodscooperativeltd.com/careers/
+   ❌ Failed https://www.gayleafoodscooperativeltd.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.gayleafoodscooperativeltd.com/en/careers
+   ❌ Failed https://www.gayleafoodscooperativeltd.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[141/161] Progress: 87.6%
+\n🏢 Scraping SNC-Lavalin Group Inc. (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.snclavalingroupinc.com/careers
+   ❌ Failed https://www.snclavalingroupinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.snclavalingroupinc.com/careers/
+   ❌ Failed https://www.snclavalingroupinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.snclavalingroupinc.com/en/careers
+   ❌ Failed https://www.snclavalingroupinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[142/161] Progress: 88.2%
+\n🏢 Scraping Stantec Inc. (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.stantecinc.com/careers
+   ❌ Failed https://www.stantecinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.stantecinc.com/careers/
+   ❌ Failed https://www.stantecinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.stantecinc.com/en/careers
+   ❌ Failed https://www.stantecinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[143/161] Progress: 88.8%
+\n🏢 Scraping AECOM Canada Ltd. (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.aecomcanadaltd.com/careers
+   ❌ Failed https://www.aecomcanadaltd.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.aecomcanadaltd.com/careers/
+   ❌ Failed https://www.aecomcanadaltd.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.aecomcanadaltd.com/en/careers
+   ❌ Failed https://www.aecomcanadaltd.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[144/161] Progress: 89.4%
+\n🏢 Scraping Hatch Ltd. (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.hatchltd.com/careers
+   ❌ Failed https://www.hatchltd.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.hatchltd.com/careers/
+   ❌ Failed https://www.hatchltd.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.hatchltd.com/en/careers
+   ❌ Failed https://www.hatchltd.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[145/161] Progress: 90.1%
+\n🏢 Scraping Worley Canada (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.worleycanada.com/careers
+   ❌ Failed https://www.worleycanada.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.worleycanada.com/careers/
+   ❌ Failed https://www.worleycanada.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.worleycanada.com/en/careers
+   ❌ Failed https://www.worleycanada.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[146/161] Progress: 90.7%
+\n🏢 Scraping Wood Canada Limited (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.woodcanadalimited.com/careers
+   ❌ Failed https://www.woodcanadalimited.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.woodcanadalimited.com/careers/
+   ❌ Failed https://www.woodcanadalimited.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.woodcanadalimited.com/en/careers
+   ❌ Failed https://www.woodcanadalimited.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[147/161] Progress: 91.3%
+\n🏢 Scraping Fluor Canada Ltd. (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.fluorcanadaltd.com/careers
+   ❌ Failed https://www.fluorcanadaltd.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.fluorcanadaltd.com/careers/
+   ❌ Failed https://www.fluorcanadaltd.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.fluorcanadaltd.com/en/careers
+   ❌ Failed https://www.fluorcanadaltd.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[148/161] Progress: 91.9%
+\n🏢 Scraping KBR Canada Co. (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.kbrcanadaco.com/careers
+   ❌ Failed https://www.kbrcanadaco.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.kbrcanadaco.com/careers/
+   ❌ Failed https://www.kbrcanadaco.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.kbrcanadaco.com/en/careers
+   ❌ Failed https://www.kbrcanadaco.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[149/161] Progress: 92.5%
+\n🏢 Scraping Jacobs Canada Inc. (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.jacobscanadainc.com/careers
+   ❌ Failed https://www.jacobscanadainc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.jacobscanadainc.com/careers/
+   ❌ Failed https://www.jacobscanadainc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.jacobscanadainc.com/en/careers
+   ❌ Failed https://www.jacobscanadainc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[150/161] Progress: 93.2%
+\n🏢 Scraping Aecon Group Inc. (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.aecongroupinc.com/careers
+   ❌ Failed https://www.aecongroupinc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.aecongroupinc.com/careers/
+   ❌ Failed https://www.aecongroupinc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.aecongroupinc.com/en/careers
+   ❌ Failed https://www.aecongroupinc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n💾 Results saved to company-scraping-results-2025-07-31T23-42-47-194Z.json
+   💾 Intermediate save completed
+\n[151/161] Progress: 93.8%
+\n🏢 Scraping PCL Construction (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.pclconstruction.com/careers
+   ❌ Failed https://www.pclconstruction.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.pclconstruction.com/careers/
+   ❌ Failed https://www.pclconstruction.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.pclconstruction.com/en/careers
+   ❌ Failed https://www.pclconstruction.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[152/161] Progress: 94.4%
+\n🏢 Scraping EllisDon Corporation (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.ellisdoncorporation.com/careers
+   ❌ Failed https://www.ellisdoncorporation.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.ellisdoncorporation.com/careers/
+   ❌ Failed https://www.ellisdoncorporation.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.ellisdoncorporation.com/en/careers
+   ❌ Failed https://www.ellisdoncorporation.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[153/161] Progress: 95.0%
+\n🏢 Scraping Graham Group Ltd. (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.grahamgroupltd.com/careers
+   ❌ Failed https://www.grahamgroupltd.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.grahamgroupltd.com/careers/
+   ❌ Failed https://www.grahamgroupltd.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.grahamgroupltd.com/en/careers
+   ❌ Failed https://www.grahamgroupltd.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[154/161] Progress: 95.7%
+\n🏢 Scraping Bird Construction Inc. (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.birdconstructioninc.com/careers
+   ❌ Failed https://www.birdconstructioninc.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.birdconstructioninc.com/careers/
+   ❌ Failed https://www.birdconstructioninc.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.birdconstructioninc.com/en/careers
+   ❌ Failed https://www.birdconstructioninc.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[155/161] Progress: 96.3%
+\n🏢 Scraping Oil & Gas: (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.oilgas.com/careers
+   ❌ Failed https://www.oilgas.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.oilgas.com/careers/
+   ❌ Failed https://www.oilgas.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.oilgas.com/en/careers
+   ❌ Failed https://www.oilgas.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[156/161] Progress: 96.9%
+\n🏢 Scraping Mining: (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.mining.com/careers
+   ❌ Failed https://www.mining.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.mining.com/careers/
+   ❌ Failed https://www.mining.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.mining.com/en/careers
+   ❌ Failed https://www.mining.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[157/161] Progress: 97.5%
+\n🏢 Scraping Forestry: (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.forestry.com/careers
+   ❌ Failed https://www.forestry.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.forestry.com/careers/
+   ❌ Failed https://www.forestry.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.forestry.com/en/careers
+   ❌ Failed https://www.forestry.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[158/161] Progress: 98.1%
+\n🏢 Scraping Renewable Energy & Utilities: (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.renewableenergyutilities.com/careers
+   ❌ Failed https://www.renewableenergyutilities.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.renewableenergyutilities.com/careers/
+   ❌ Failed https://www.renewableenergyutilities.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.renewableenergyutilities.com/en/careers
+   ❌ Failed https://www.renewableenergyutilities.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.5s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[159/161] Progress: 98.8%
+\n🏢 Scraping Transportation: (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.transportation.com/careers
+   ❌ Failed https://www.transportation.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.transportation.com/careers/
+   ❌ Failed https://www.transportation.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.transportation.com/en/careers
+   ❌ Failed https://www.transportation.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[160/161] Progress: 99.4%
+\n🏢 Scraping Agriculture: (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.agriculture.com/careers
+   ❌ Failed https://www.agriculture.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.agriculture.com/careers/
+   ❌ Failed https://www.agriculture.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.agriculture.com/en/careers
+   ❌ Failed https://www.agriculture.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.4s
+   📊 Running totals: 1 successful, 1 jobs found
+\n[161/161] Progress: 100.0%
+\n🏢 Scraping Engineering & Construction: (construction)
+   🔍 Testing 3 career URLs...
+   🧪 Testing: https://www.engineeringconstruction.com/careers
+   ❌ Failed https://www.engineeringconstruction.com/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.engineeringconstruction.com/careers/
+   ❌ Failed https://www.engineeringconstruction.com/careers/: ScrapingBee failed: 401 UNAUTHORIZED
+   🧪 Testing: https://www.engineeringconstruction.com/en/careers
+   ❌ Failed https://www.engineeringconstruction.com/en/careers: ScrapingBee failed: 401 UNAUTHORIZED
+   ⏱️  Completed in 0.3s
+   📊 Running totals: 1 successful, 1 jobs found
+\n======================================================================
+🎉 MASS SCRAPING COMPLETED!
+======================================================================
+\n📊 FINAL RESULTS:
+   Total companies scraped: 161
+   Successful companies: 1 (0.6%)
+   Total jobs found: 1
+   Average jobs per successful company: 1.0
+   Average time per company: 15.1s
+   Total scraping time: 40.5 minutes
+\n🏆 TOP 10 COMPANIES BY JOBS FOUND:
+   1. Spartan Delta Corp.: 1 jobs (oil_gas)
+\n🏭 RESULTS BY SECTOR:
+   • oil_gas: 1/32 companies (3.1%), 1 jobs
+   • mining: 0/38 companies (0.0%), 0 jobs
+   • forestry: 0/14 companies (0.0%), 0 jobs
+   • utilities: 0/26 companies (0.0%), 0 jobs
+   • transportation: 0/17 companies (0.0%), 0 jobs
+   • agriculture: 0/13 companies (0.0%), 0 jobs
+   • construction: 0/21 companies (0.0%), 0 jobs
+\n💾 Results saved to company-scraping-results-2025-07-31T23-43-13-606Z.json
+\n💡 CONCLUSIONS:
+   ✅ Mass scraping SUCCESS! Found 1 exclusive jobs
+   ✅ 1 companies have scrapable job listings
+   ✅ This proves companies post jobs directly on their sites
+   ✅ These are jobs NOT available on Indeed or other job boards
+\n📂 Detailed results saved to: company-scraping-results-2025-07-31T23-43-13-606Z.json
+🚀 Ready to integrate successful companies into production system!

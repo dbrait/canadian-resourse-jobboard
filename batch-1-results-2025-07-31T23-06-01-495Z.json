@@ -1,0 +1,506 @@
+{
+  "batchNumber": 1,
+  "scrapedAt": "2025-07-31T23:06:01.495Z",
+  "totalCompanies": 20,
+  "successfulCompanies": 10,
+  "totalJobs": 30,
+  "results": [
+    {
+      "company": "Suncor Energy Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5946,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Canadian Natural Resources Limited (CNRL)",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 3589,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Cenovus Energy Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6360,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Imperial Oil Limited",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 8206,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Husky Energy Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5116,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "MEG Energy Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.148Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.150Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/about-us/board-of-directors/",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.151Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.151Z"
+        },
+        {
+          "title": "Play\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\tZOYAProduction Engineering Co-op StudentMEG's Co-op Student Program",
+          "company": "MEG Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.megenergy.com/wp-content/uploads/2023/01/Zoya.jpg",
+          "sourceUrl": "https://www.megenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:03:53.151Z"
+        }
+      ],
+      "timeElapsed": 8778,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Enbridge Inc.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Enbridge Inc.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.enbridge.com/about-us/executive-leadership/board-of-directors",
+          "sourceUrl": "https://www.enbridge.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:05.342Z"
+        }
+      ],
+      "timeElapsed": 11187,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "TC Energy Corporation",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Analyst coverage",
+          "company": "TC Energy Corporation",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.tcenergy.com/investors/stock-information/",
+          "sourceUrl": "https://www.tcenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:14.545Z"
+        },
+        {
+          "title": "Engineering & Projects",
+          "company": "TC Energy Corporation",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tcenergy.wd3.myworkdayjobs.com/en-US/CAREER_SITE_TC?jobFamilyGroup=69babe4ce6380100bf60d67436e90000&jobFamilyGroup=69babe4ce6380100bf60da16e1e10000",
+          "sourceUrl": "https://www.tcenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:14.546Z"
+        }
+      ],
+      "timeElapsed": 8196,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Kinder Morgan Canada",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4771,
+      "discoveryMethod": "none",
+      "error": "HTTP 500"
+    },
+    {
+      "company": "Pembina Pipeline Corporation",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 7547,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Inter Pipeline Ltd.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 6652,
+      "discoveryMethod": "none"
+    },
+    {
+      "company": "Keyera Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Keyera Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.keyera.com/about/board-of-directors/",
+          "sourceUrl": "https://www.keyera.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:48.843Z"
+        },
+        {
+          "title": "Analyst coverage",
+          "company": "Keyera Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.keyera.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.keyera.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:48.843Z"
+        }
+      ],
+      "timeElapsed": 11297,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "AltaGas Ltd.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "AltaGas Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.altagas.com/about/governance/board-directors",
+          "sourceUrl": "https://www.altagas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:58.287Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "AltaGas Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.altagas.com/invest/share-information/analyst-coverage",
+          "sourceUrl": "https://www.altagas.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:04:58.288Z"
+        }
+      ],
+      "timeElapsed": 8437,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Veresen Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 5390,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    },
+    {
+      "company": "Tourmaline Oil Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Field Operator - Northeast B.C.chevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/Z2MBc5bqstJ98pZu_FieldOperator-NEBC.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.250Z"
+        },
+        {
+          "title": "Lead Operator - Fort St. Johnchevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/aEMlRLh8WN-LVxUY_LeadOp-FSJ.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.250Z"
+        },
+        {
+          "title": "Deep Basin Lead Operatorchevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/aDSm4ydWJ-7kSjW3_LeadOperator-DeepBasin.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.251Z"
+        },
+        {
+          "title": "Facilities Construction Engineer (June 2025)chevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/aFGPcrNJEFaPYCQi_FacilitiesConstructionEngineerJune2025.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.251Z"
+        },
+        {
+          "title": "Facilities Construction Technician (June 2025)chevron_right",
+          "company": "Tourmaline Oil Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://tourmaline.cdn.prismic.io/tourmaline/aFGPyLNJEFaPYCQy_FacilitiesConstructionTechnicianJune2025.pdf",
+          "sourceUrl": "https://www.tourmalineoil.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:11.251Z"
+        }
+      ],
+      "timeElapsed": 5565,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Arc Resources Ltd.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Our Board of Directors",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/who-we-are/board-of-directors/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.090Z"
+        },
+        {
+          "title": "Interactive Analyst Centre",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/investors/interactive-analyst-centre/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.090Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/who-we-are/board-of-directors/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.090Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/who-we-are/board-of-directors/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.091Z"
+        },
+        {
+          "title": "Interactive Analyst Centre",
+          "company": "Arc Resources Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.arcresources.com/investors/interactive-analyst-centre/",
+          "sourceUrl": "https://www.arcresources.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:18.091Z"
+        }
+      ],
+      "timeElapsed": 5838,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Birchcliff Energy Ltd.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 4,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Birchcliff Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.birchcliffenergy.com/who-we-are/board-of-directors",
+          "sourceUrl": "https://www.birchcliffenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:32.669Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Birchcliff Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.birchcliffenergy.com/investors#analyst-coverage",
+          "sourceUrl": "https://www.birchcliffenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:32.669Z"
+        },
+        {
+          "title": "Plant Operator",
+          "company": "Birchcliff Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.birchcliffenergy.com/sites/default/files/2025-07/Plant%20Operator%20%2816-31%29%2007292025.pdf",
+          "sourceUrl": "https://www.birchcliffenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:32.670Z"
+        },
+        {
+          "title": "Board of Directors",
+          "company": "Birchcliff Energy Ltd.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.birchcliffenergy.com/who-we-are/board-of-directors",
+          "sourceUrl": "https://www.birchcliffenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:32.670Z"
+        }
+      ],
+      "timeElapsed": 13564,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Crescent Point Energy Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Crescent Point Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.wcap.ca/about/board-directors",
+          "sourceUrl": "https://www.crescentpointenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:46.672Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Crescent Point Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.wcap.ca/investors/analyst-coverage",
+          "sourceUrl": "https://www.crescentpointenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:46.672Z"
+        }
+      ],
+      "timeElapsed": 12985,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Baytex Energy Corp.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 2,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Baytex Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.baytexenergy.com/about-baytex/board-of-directors/",
+          "sourceUrl": "https://www.baytexenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:54.510Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Baytex Energy Corp.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.baytexenergy.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.baytexenergy.com/careers",
+          "discoveryMethod": "quick_link_extraction",
+          "scrapedAt": "2025-07-31T23:05:54.510Z"
+        }
+      ],
+      "timeElapsed": 6824,
+      "discoveryMethod": "quick_extraction"
+    },
+    {
+      "company": "Whitecap Resources Inc.",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 4967,
+      "discoveryMethod": "none",
+      "error": "HTTP 404"
+    }
+  ]
+}

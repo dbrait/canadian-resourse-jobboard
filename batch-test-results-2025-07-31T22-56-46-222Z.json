@@ -1,0 +1,208 @@
+{
+  "results": [
+    {
+      "company": "Canadian National Railway Company",
+      "sector": "transportation",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Interactive Analyst Center TM",
+          "company": "Canadian National Railway Company",
+          "location": "Canada",
+          "sector": "transportation",
+          "applicationUrl": "https://icrm.indigotools.com/IR/IAC/?Ticker=CNI&Exchange=NYSE",
+          "sourceUrl": "https://www.cn.ca/en/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:55:49.936Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Canadian National Railway Company",
+          "location": "Canada",
+          "sector": "transportation",
+          "applicationUrl": "https://www.cn.ca/en/investors/analyst-coverage/",
+          "sourceUrl": "https://www.cn.ca/en/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:55:49.939Z"
+        },
+        {
+          "title": "Interactive Analyst Center TM",
+          "company": "Canadian National Railway Company",
+          "location": "Canada",
+          "sector": "transportation",
+          "applicationUrl": "https://icrm.indigotools.com/IR/IAC/?Ticker=CNI&Exchange=NYSE",
+          "sourceUrl": "https://www.cn.ca/en/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:55:49.948Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Canadian National Railway Company",
+          "location": "Canada",
+          "sector": "transportation",
+          "applicationUrl": "https://www.cn.ca/en/investors/analyst-coverage/",
+          "sourceUrl": "https://www.cn.ca/en/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:55:49.948Z"
+        },
+        {
+          "title": "Black Women in Science and Engineering (BWISE) Virtual Career Fair",
+          "company": "Canadian National Railway Company",
+          "location": "Canada",
+          "sector": "transportation",
+          "applicationUrl": "https://www.cn.ca/en/events/2025/08/black-women-in-science-and-engineering-bwise-virtual-career-fair/",
+          "sourceUrl": "https://www.cn.ca/en/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:55:49.949Z"
+        }
+      ],
+      "timeElapsed": 17340,
+      "discoveryMethod": "fallback_link_analysis"
+    },
+    {
+      "company": "Teck Resources Limited",
+      "sector": "mining",
+      "success": true,
+      "jobsFound": 5,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/about/board-of-directors/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:56:10.915Z"
+        },
+        {
+          "title": "Interactive Analyst Centre",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/investors/interactive-analyst-centre/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:56:10.917Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:56:10.917Z"
+        },
+        {
+          "title": "Interactive Analyst Centre",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/investors/interactive-analyst-centre/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:56:10.917Z"
+        },
+        {
+          "title": "Analyst Coverage",
+          "company": "Teck Resources Limited",
+          "location": "Canada",
+          "sector": "mining",
+          "applicationUrl": "https://www.teck.com/investors/analyst-coverage/",
+          "sourceUrl": "https://www.teck.com/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:56:10.917Z"
+        }
+      ],
+      "timeElapsed": 18966,
+      "discoveryMethod": "fallback_link_analysis"
+    },
+    {
+      "company": "Canadian Natural Resources Limited",
+      "sector": "oil_gas",
+      "success": false,
+      "jobsFound": 0,
+      "jobs": [],
+      "timeElapsed": 12078,
+      "discoveryMethod": "failed",
+      "error": "No jobs found"
+    },
+    {
+      "company": "Enbridge Inc.",
+      "sector": "oil_gas",
+      "success": true,
+      "jobsFound": 1,
+      "jobs": [
+        {
+          "title": "Board of Directors",
+          "company": "Enbridge Inc.",
+          "location": "Canada",
+          "sector": "oil_gas",
+          "applicationUrl": "https://www.enbridge.com/about-us/executive-leadership/board-of-directors",
+          "sourceUrl": "https://www.enbridge.com/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:56:35.467Z"
+        }
+      ],
+      "timeElapsed": 8451,
+      "discoveryMethod": "fallback_link_analysis"
+    },
+    {
+      "company": "West Fraser Timber Co. Ltd.",
+      "sector": "forestry",
+      "success": true,
+      "jobsFound": 4,
+      "jobs": [
+        {
+          "title": "Machine Operator Trainee",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/jobs/machine-operator-trainee",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:56:44.211Z"
+        },
+        {
+          "title": "EHS Supervisor",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/jobs/ehs-supervisor-0",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:56:44.211Z"
+        },
+        {
+          "title": "Production Operator Apprentice",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/jobs/production-operator-apprentice",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:56:44.211Z"
+        },
+        {
+          "title": "Sales Representative-Engineered Wood Products",
+          "company": "West Fraser Timber Co. Ltd.",
+          "location": "Canada",
+          "sector": "forestry",
+          "applicationUrl": "https://www.westfraser.com/jobs/sales-representative-engineered-wood-products",
+          "sourceUrl": "https://www.westfraser.com/careers",
+          "discoveryMethod": "fallback_link_analysis",
+          "scrapedAt": "2025-07-31T22:56:44.211Z"
+        }
+      ],
+      "timeElapsed": 6732,
+      "discoveryMethod": "fallback_link_analysis"
+    }
+  ],
+  "summary": {
+    "successful": 4,
+    "totalJobs": 15
+  }
+}
