@@ -290,8 +290,8 @@ export class DirectCompanyScraper extends CompanyBaseScraper {
         const $card = $(element)
         
         // Extract job details using the configured selectors
-        const title = this.extractText($card, this.companyConfig.selectors.title)
-        const location = this.extractText($card, this.companyConfig.selectors.location)
+        const title = this.extractTextFromElement($card, this.companyConfig.selectors.title)
+        const location = this.extractTextFromElement($card, this.companyConfig.selectors.location)
         
         // Extract apply link
         let applicationUrl = ''
@@ -340,7 +340,7 @@ export class DirectCompanyScraper extends CompanyBaseScraper {
     return jobs
   }
 
-  private extractText($element: cheerio.Cheerio, selectors: string[]): string {
+  private extractTextFromElement($element: cheerio.Cheerio, selectors: string[]): string {
     for (const selector of selectors) {
       const text = $element.find(selector).first().text().trim()
       if (text && text.length > 0) {
