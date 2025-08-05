@@ -197,7 +197,7 @@ export class DirectCompanyScraper extends CompanyBaseScraper {
 
           console.log(`   📄 Received ${html.length} characters of HTML`)
 
-          const jobs = this.parseJobsFromHtml(html, url)
+          const jobs = this.parseDirectJobsFromHtml(html, url)
           results.jobs.push(...jobs)
           
           console.log(`   ✅ Found ${jobs.length} jobs from this page`)
@@ -260,7 +260,7 @@ export class DirectCompanyScraper extends CompanyBaseScraper {
     return urls.slice(0, options?.maxPages || 2)
   }
 
-  private parseJobsFromHtml(html: string, sourceUrl: string): ScrapedJob[] {
+  private parseDirectJobsFromHtml(html: string, sourceUrl: string): ScrapedJob[] {
     const $ = cheerio.load(html)
     const jobs: ScrapedJob[] = []
 
