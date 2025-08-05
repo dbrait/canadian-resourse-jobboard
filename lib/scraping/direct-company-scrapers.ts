@@ -394,9 +394,6 @@ export class DirectCompanyScraper extends CompanyBaseScraper {
     return jobs.slice(0, 10) // Limit fallback results
   }
 
-  private delay(ms: number): Promise<void> {
-    return new Promise(resolve => setTimeout(resolve, ms))
-  }
 }
 
 // Factory to create working direct company scrapers
