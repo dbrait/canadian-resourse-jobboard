@@ -248,7 +248,7 @@ export abstract class CompanyBaseScraper extends BaseScraper {
     return ''
   }
 
-  private delay(ms: number): Promise<void> {
+  protected delay(ms: number): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, ms))
   }
 
