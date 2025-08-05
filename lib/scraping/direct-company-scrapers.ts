@@ -179,7 +179,7 @@ export class DirectCompanyScraper extends CompanyBaseScraper {
     console.log(`🏢 Starting direct scraping for ${this.companyConfig.name}...`)
 
     try {
-      const searchUrls = this.buildSearchUrls(options)
+      const searchUrls = this.buildDirectSearchUrls(options)
       
       for (const url of searchUrls) {
         try {
@@ -231,7 +231,7 @@ export class DirectCompanyScraper extends CompanyBaseScraper {
     return results
   }
 
-  private buildSearchUrls(options?: ScrapingOptions): string[] {
+  private buildDirectSearchUrls(options?: ScrapingOptions): string[] {
     if (this.companyConfig.customLogic?.buildSearchUrl) {
       return this.companyConfig.customLogic.buildSearchUrl(this.companyConfig.baseUrl, options)
     }
