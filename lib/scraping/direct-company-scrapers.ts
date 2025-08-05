@@ -281,7 +281,7 @@ export class DirectCompanyScraper extends CompanyBaseScraper {
       console.log('   ⚠️  No job cards found with any selector')
       
       // Fallback: look for any links that might be jobs
-      const fallbackJobs = this.findJobLinksAsFallback($, sourceUrl)
+      const fallbackJobs = this.findJobLinksAsFallback($ as any, sourceUrl)
       return fallbackJobs
     }
 
