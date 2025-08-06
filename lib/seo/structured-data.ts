@@ -1,5 +1,47 @@
 import { Job } from '@/types/job'
 
+// Article Schema for blog posts
+export function generateArticleSchema(
+  title: string,
+  description: string,
+  author: string,
+  publishedDate: string,
+  modifiedDate: string,
+  image?: string,
+  url?: string
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "author": {
+      "@type": "Person",
+      "name": author
+    },
+    "datePublished": publishedDate,
+    "dateModified": modifiedDate,
+    "publisher": {
+      "@type": "Organization",
+      "name": "Resource Careers Canada",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://resourcecareers.ca/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": url || "https://resourcecareers.ca/blog"
+    },
+    ...(image && {
+      "image": {
+        "@type": "ImageObject",
+        "url": image
+      }
+    })
+  }
+}
+
 // Organization Schema for the site
 export function generateOrganizationSchema() {
   return {

@@ -240,6 +240,9 @@ function HomeContent() {
               <Link href="/notifications" className="whitespace-nowrap hover:text-blue-200 transition-colors">
                 Job Alerts
               </Link>
+              <Link href="/blog" className="whitespace-nowrap hover:text-blue-200 transition-colors">
+                Industry Insights
+              </Link>
             </div>
           </div>
         </nav>
@@ -253,6 +256,46 @@ function HomeContent() {
           <Suspense fallback={<div>Loading sector statistics...</div>}>
             <SectorStats sectors={stats.sectors} />
           </Suspense>
+
+          {/* Blog CTA Section */}
+          <section className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg shadow-lg p-8 mb-8">
+            <div className="grid md:grid-cols-2 gap-6 items-center">
+              <div>
+                <h2 className="text-2xl font-bold mb-3">Industry Insights & Career Guides</h2>
+                <p className="text-blue-100 mb-4">
+                  Stay informed with expert analysis, career development guides, and job market trends 
+                  in Canada's natural resource sectors.
+                </p>
+                <Link
+                  href="/blog"
+                  className="inline-flex items-center bg-white text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition-colors"
+                >
+                  Explore Our Blog
+                  <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </Link>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <Link href="/blog/category/guides" className="bg-white/10 backdrop-blur-sm p-4 rounded-lg hover:bg-white/20 transition-colors">
+                  <h3 className="font-semibold mb-1">Career Guides</h3>
+                  <p className="text-sm text-blue-100">Build your resource sector career</p>
+                </Link>
+                <Link href="/blog/category/insights" className="bg-white/10 backdrop-blur-sm p-4 rounded-lg hover:bg-white/20 transition-colors">
+                  <h3 className="font-semibold mb-1">Industry Insights</h3>
+                  <p className="text-sm text-blue-100">Expert market analysis</p>
+                </Link>
+                <Link href="/blog/category/trends" className="bg-white/10 backdrop-blur-sm p-4 rounded-lg hover:bg-white/20 transition-colors">
+                  <h3 className="font-semibold mb-1">Job Trends</h3>
+                  <p className="text-sm text-blue-100">Salary & employment data</p>
+                </Link>
+                <Link href="/blog/category/analysis" className="bg-white/10 backdrop-blur-sm p-4 rounded-lg hover:bg-white/20 transition-colors">
+                  <h3 className="font-semibold mb-1">Market Analysis</h3>
+                  <p className="text-sm text-blue-100">Economic forecasts</p>
+                </Link>
+              </div>
+            </div>
+          </section>
 
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-8">
             {/* Filters Sidebar */}
@@ -329,6 +372,7 @@ function HomeContent() {
               <div>
                 <h4 className="font-medium mb-3">Resources</h4>
                 <ul className="space-y-2 text-sm text-gray-300">
+                  <li><Link href="/blog" className="hover:text-white">Industry Blog</Link></li>
                   <li><Link href="/notifications" className="hover:text-white">Job Alerts</Link></li>
                   <li><Link href="/locations" className="hover:text-white">Jobs by Location</Link></li>
                   <li><Link href="/about" className="hover:text-white">About Us</Link></li>

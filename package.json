@@ -29,6 +29,10 @@
     "node-cron": "^4.2.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "react-markdown": "^10.1.0",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^4.0.1",
     "scrapingbee": "^1.7.5",
     "zod": "^3.22.4"
   },
