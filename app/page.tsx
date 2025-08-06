@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import JobSearch from '@/components/JobSearch'
 import JobFilters from '@/components/JobFilters'
+import FeaturedCompanies from '@/components/FeaturedCompanies'
 
 interface JobStats {
   totalJobs: number
@@ -252,6 +253,9 @@ function HomeContent() {
           <div className="mb-8">
             <JobSearch />
           </div>
+
+          {/* Featured Companies Section */}
+          <FeaturedCompanies />
 
           <Suspense fallback={<div>Loading sector statistics...</div>}>
             <SectorStats sectors={stats.sectors} />
