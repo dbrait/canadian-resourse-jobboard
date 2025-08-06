@@ -4,6 +4,9 @@ import { Suspense, useEffect, useState } from 'react'
 import { Job } from '../types/job'
 import { generateCollectionPageSchema } from '@/lib/seo/structured-data'
 import Link from 'next/link'
+import { useSearchParams } from 'next/navigation'
+import JobSearch from '@/components/JobSearch'
+import JobFilters from '@/components/JobFilters'
 
 interface JobStats {
   totalJobs: number
@@ -117,7 +120,8 @@ function SectorStats({ sectors }: { sectors: Record<string, number> }) {
   )
 }
 
-export default function Home() {
+function HomeContent() {
+  const searchParams = useSearchParams()
   const [jobs, setJobs] = useState<Job[]>([])
   const [stats, setStats] = useState<JobStats>({ totalJobs: 0, sectors: {} })
   const [loading, setLoading] = useState(true)
@@ -126,8 +130,12 @@ export default function Home() {
   useEffect(() => {
     async function fetchData() {
       try {
+        // Build query string from search params
+        const queryString = searchParams.toString()
+        const jobsUrl = queryString ? `/api/jobs?${queryString}&limit=50` : '/api/jobs?limit=50'
+        
         // Fetch jobs
-        const jobsResponse = await fetch('/api/jobs?limit=50')
+        const jobsResponse = await fetch(jobsUrl)
         if (jobsResponse.ok) {
           const jobsData = await jobsResponse.json()
           setJobs(Array.isArray(jobsData) ? jobsData : [])
@@ -155,7 +163,7 @@ export default function Home() {
     }
 
     fetchData()
-  }, [])
+  }, [searchParams])
 
   if (loading) {
     return (
@@ -237,32 +245,46 @@ export default function Home() {
         </nav>
 
         <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          {/* Search Bar */}
+          <div className="mb-8">
+            <JobSearch />
+          </div>
+
           <Suspense fallback={<div>Loading sector statistics...</div>}>
             <SectorStats sectors={stats.sectors} />
           </Suspense>
 
-          <section>
-            <div className="flex justify-between items-center mb-6">
-              <div>
-                <h2 className="text-2xl font-semibold text-gray-800">Latest Job Postings</h2>
-                <p className="text-gray-600">{jobs.length} recent opportunities</p>
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-8">
+            {/* Filters Sidebar */}
+            <div className="lg:col-span-1">
+              <JobFilters />
+            </div>
+
+            {/* Jobs List */}
+            <section className="lg:col-span-3">
+              <div className="flex justify-between items-center mb-6">
+                <div>
+                  <h2 className="text-2xl font-semibold text-gray-800">
+                    {searchParams.toString() ? 'Search Results' : 'Latest Job Postings'}
+                  </h2>
+                  <p className="text-gray-600">{jobs.length} opportunities found</p>
+                </div>
+                <Link
+                  href="/jobs"
+                  className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors"
+                >
+                  View All Jobs
+                </Link>
               </div>
-              <Link
-                href="/jobs"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors"
-              >
-                View All Jobs
-              </Link>
-            </div>
 
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {jobs.map((job) => (
-                <JobCard key={job.id} job={job} />
-              ))}
-            </div>
+              <div className="grid gap-6 md:grid-cols-2">
+                {jobs.map((job) => (
+                  <JobCard key={job.id} job={job} />
+                ))}
+              </div>
 
-            {jobs.length === 0 && !loading && (
-              <div className="text-center py-12">
+              {jobs.length === 0 && !loading && (
+                <div className="text-center py-12">
                 <svg className="mx-auto h-12 w-12 text-gray-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255a23.931 23.931 0 01-1.787 4.654c-.395.714-.948 1.29-1.634 1.635a3.989 3.989 0 01-2.456.256c-.744-.127-1.49-.394-2.21-.816a15.923 15.923 0 01-2.346-1.506 11.96 11.96 0 01-1.964-2.09A9.868 9.868 0 017.5 12c0-5.523 4.477-10 10-10s10 4.477 10 10a9.95 9.95 0 01-.5 3.255z" />
                 </svg>
@@ -278,9 +300,10 @@ export default function Home() {
                 >
                   Get Job Alerts
                 </Link>
-              </div>
-            )}
-          </section>
+                </div>
+              )}
+            </section>
+          </div>
         </main>
 
         <footer className="bg-gray-800 text-white mt-16">
@@ -332,5 +355,18 @@ export default function Home() {
         </footer>
       </div>
     </>
+  )
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="text-center">
+        <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-600 mx-auto mb-4"></div>
+        <p className="text-gray-600">Loading job opportunities...</p>
+      </div>
+    </div>}>
+      <HomeContent />
+    </Suspense>
   )
 }

@@ -22,6 +22,9 @@ export async function GET(request: NextRequest) {
     const sector = searchParams.get('sector')
     const company = searchParams.get('company')
     const province = searchParams.get('province')
+    const location = searchParams.get('location')
+    const search = searchParams.get('search') // For role/title search
+    const employmentType = searchParams.get('employment_type')
 
     let query = supabase
       .from('jobs')
@@ -40,6 +43,19 @@ export async function GET(request: NextRequest) {
 
     if (province) {
       query = query.eq('province', province)
+    }
+
+    if (location) {
+      query = query.ilike('location', `%${location}%`)
+    }
+
+    if (search) {
+      // Search in title and description
+      query = query.or(`title.ilike.%${search}%,description.ilike.%${search}%`)
+    }
+
+    if (employmentType) {
+      query = query.eq('employment_type', employmentType)
     }
 
     // Apply limit
