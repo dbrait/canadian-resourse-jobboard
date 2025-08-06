@@ -31,9 +31,9 @@ const CATEGORY_INFO: Record<BlogCategory, { title: string; description: string }
 }
 
 interface CategoryPageProps {
-  params: {
+  params: Promise<{
     category: string
-  }
+  }>
 }
 
 async function getCategoryPosts(category: string): Promise<BlogPost[]> {
@@ -55,13 +55,14 @@ async function getCategoryPosts(category: string): Promise<BlogPost[]> {
 }
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
-  if (!VALID_CATEGORIES.includes(params.category as BlogCategory)) {
+  const { category: categoryParam } = await params
+  if (!VALID_CATEGORIES.includes(categoryParam as BlogCategory)) {
     return {
       title: 'Category Not Found',
     }
   }
 
-  const category = params.category as BlogCategory
+  const category = categoryParam as BlogCategory
   const categoryInfo = CATEGORY_INFO[category]
 
   return {
@@ -143,11 +144,12 @@ function BlogPostCard({ post }: { post: BlogPost }) {
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
-  if (!VALID_CATEGORIES.includes(params.category as BlogCategory)) {
+  const { category: categoryParam } = await params
+  if (!VALID_CATEGORIES.includes(categoryParam as BlogCategory)) {
     notFound()
   }
 
-  const category = params.category as BlogCategory
+  const category = categoryParam as BlogCategory
   const categoryInfo = CATEGORY_INFO[category]
   const posts = await getCategoryPosts(category)
 

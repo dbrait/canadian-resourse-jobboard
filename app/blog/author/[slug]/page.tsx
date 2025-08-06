@@ -5,9 +5,9 @@ import { Author, BlogPost } from '@/types/blog'
 import { createClient } from '@supabase/supabase-js'
 
 interface AuthorPageProps {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 async function getAuthor(slug: string): Promise<Author | null> {
@@ -40,7 +40,8 @@ async function getAuthorPosts(authorId: number): Promise<BlogPost[]> {
 }
 
 export async function generateMetadata({ params }: AuthorPageProps): Promise<Metadata> {
-  const author = await getAuthor(params.slug)
+  const { slug } = await params
+  const author = await getAuthor(slug)
   
   if (!author) {
     return {
@@ -93,7 +94,8 @@ function AuthorSchema(author: Author, posts: BlogPost[]) {
 }
 
 export default async function AuthorPage({ params }: AuthorPageProps) {
-  const author = await getAuthor(params.slug)
+  const { slug } = await params
+  const author = await getAuthor(slug)
   
   if (!author) {
     notFound()

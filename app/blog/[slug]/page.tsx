@@ -11,9 +11,9 @@ import RelatedPosts from '@/components/RelatedPosts'
 import ShareButtons from '@/components/ShareButtons'
 
 interface BlogPostPageProps {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 async function getBlogPost(slug: string): Promise<BlogPost | null> {
@@ -50,7 +50,7 @@ async function getRelatedPosts(post: BlogPost): Promise<BlogPost[]> {
   // Get related posts by category and tags
   const { data: relatedPosts } = await supabase
     .from('blog_posts')
-    .select('id, slug, title, excerpt, featured_image, featured_image_alt, category, published_at')
+    .select('*')
     .eq('status', 'published')
     .neq('id', post.id)
     .or(`category.eq.${post.category},tags.cs.{${post.tags?.join(',')}}`)
@@ -61,7 +61,8 @@ async function getRelatedPosts(post: BlogPost): Promise<BlogPost[]> {
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
-  const post = await getBlogPost(params.slug)
+  const { slug } = await params
+  const post = await getBlogPost(slug)
   
   if (!post) {
     return {
@@ -102,7 +103,8 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  const post = await getBlogPost(params.slug)
+  const { slug } = await params
+  const post = await getBlogPost(slug)
   
   if (!post) {
     notFound()
