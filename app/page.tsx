@@ -8,6 +8,7 @@ import { useSearchParams } from 'next/navigation'
 import JobSearch from '@/components/JobSearch'
 import JobFilters from '@/components/JobFilters'
 import FeaturedCompanies from '@/components/FeaturedCompanies'
+import { getCategoryName } from '@/lib/jobCategories'
 
 interface JobStats {
   totalJobs: number
@@ -28,9 +29,16 @@ function JobCard({ job }: { job: Job }) {
             {job.title}
           </Link>
         </h3>
-        <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full whitespace-nowrap ml-2">
-          {job.sector}
-        </span>
+        <div className="flex flex-col gap-1 ml-2">
+          <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full whitespace-nowrap">
+            {job.sector}
+          </span>
+          {job.job_category && (
+            <span className="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full whitespace-nowrap">
+              {getCategoryName(job.job_category)}
+            </span>
+          )}
+        </div>
       </div>
       
       <p className="text-gray-700 font-medium mb-2">{job.company}</p>
@@ -222,6 +230,9 @@ function HomeContent() {
             <div className="flex space-x-8 py-3 overflow-x-auto">
               <Link href="/" className="whitespace-nowrap hover:text-blue-200 transition-colors">
                 All Jobs
+              </Link>
+              <Link href="/categories" className="whitespace-nowrap hover:text-blue-200 transition-colors">
+                Job Categories
               </Link>
               <Link href="/sectors/mining" className="whitespace-nowrap hover:text-blue-200 transition-colors">
                 Mining

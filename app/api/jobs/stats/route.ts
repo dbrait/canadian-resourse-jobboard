@@ -56,6 +56,22 @@ export async function GET() {
       return acc
     }, {}) || {}
 
+    // Get jobs by category
+    const { data: categoryData, error: categoryError } = await supabase
+      .from('jobs')
+      .select('job_category')
+      .eq('is_active', true)
+
+    if (categoryError) {
+      throw categoryError
+    }
+
+    const categoryStats = categoryData?.reduce((acc: Record<string, number>, job) => {
+      const category = job.job_category || 'general_labor'
+      acc[category] = (acc[category] || 0) + 1
+      return acc
+    }, {}) || {}
+
     // Get recent jobs (last 7 days)
     const sevenDaysAgo = new Date()
     sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7)
@@ -75,6 +91,7 @@ export async function GET() {
       recentJobs: recentJobs || 0,
       sectorBreakdown: sectorStats,
       provinceBreakdown: provinceStats,
+      categoryBreakdown: categoryStats,
       lastUpdated: new Date().toISOString()
     }
 

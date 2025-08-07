@@ -5,6 +5,7 @@ export interface Job {
   location: string
   province: string
   sector: string
+  job_category?: string
   employment_type: string
   salary_range?: string
   description: string

@@ -25,6 +25,7 @@ export async function GET(request: NextRequest) {
     const location = searchParams.get('location')
     const search = searchParams.get('search') // For role/title search
     const employmentType = searchParams.get('employment_type')
+    const jobCategory = searchParams.get('job_category')
 
     let query = supabase
       .from('jobs')
@@ -56,6 +57,10 @@ export async function GET(request: NextRequest) {
 
     if (employmentType) {
       query = query.eq('employment_type', employmentType)
+    }
+
+    if (jobCategory) {
+      query = query.eq('job_category', jobCategory)
     }
 
     // Apply limit

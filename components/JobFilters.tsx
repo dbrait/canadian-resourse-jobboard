@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
+import { JOB_CATEGORIES } from '@/lib/jobCategories'
 
 interface FilterOption {
   value: string
@@ -47,6 +48,14 @@ const EMPLOYMENT_TYPES: FilterOption[] = [
   { value: 'Internship', label: 'Internship' },
 ]
 
+const JOB_CATEGORY_OPTIONS: FilterOption[] = [
+  { value: '', label: 'All Categories' },
+  ...JOB_CATEGORIES.map(cat => ({
+    value: cat.id,
+    label: cat.name
+  }))
+]
+
 export default function JobFilters() {
   const router = useRouter()
   const searchParams = useSearchParams()
@@ -54,6 +63,7 @@ export default function JobFilters() {
   const [sector, setSector] = useState(searchParams.get('sector') || '')
   const [province, setProvince] = useState(searchParams.get('province') || '')
   const [employmentType, setEmploymentType] = useState(searchParams.get('employment_type') || '')
+  const [jobCategory, setJobCategory] = useState(searchParams.get('job_category') || '')
 
   const applyFilters = () => {
     const params = new URLSearchParams(searchParams.toString())
@@ -68,6 +78,9 @@ export default function JobFilters() {
     if (employmentType) params.set('employment_type', employmentType)
     else params.delete('employment_type')
     
+    if (jobCategory) params.set('job_category', jobCategory)
+    else params.delete('job_category')
+    
     router.push(`/?${params.toString()}`)
   }
 
@@ -75,13 +88,14 @@ export default function JobFilters() {
     setSector('')
     setProvince('')
     setEmploymentType('')
+    setJobCategory('')
     router.push('/')
   }
 
   // Apply filters when they change
   useEffect(() => {
     applyFilters()
-  }, [sector, province, employmentType])
+  }, [sector, province, employmentType, jobCategory])
 
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
@@ -143,6 +157,24 @@ export default function JobFilters() {
             className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           >
             {EMPLOYMENT_TYPES.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div>
+          <label htmlFor="job_category" className="block text-sm font-medium text-gray-700 mb-1">
+            Job Category
+          </label>
+          <select
+            id="job_category"
+            value={jobCategory}
+            onChange={(e) => setJobCategory(e.target.value)}
+            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          >
+            {JOB_CATEGORY_OPTIONS.map((option) => (
               <option key={option.value} value={option.value}>
                 {option.label}
               </option>
