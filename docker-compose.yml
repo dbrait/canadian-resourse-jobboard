@@ -1,0 +1,115 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: resources_postgres
+    environment:
+      POSTGRES_USER: resources
+      POSTGRES_PASSWORD: resources_dev_password
+      POSTGRES_DB: resources_job_board
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U resources -d resources_job_board"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - resources_network
+
+  # Redis for caching and job queues
+  redis:
+    image: redis:7-alpine
+    container_name: resources_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - resources_network
+
+  # Elasticsearch for job search
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+    container_name: resources_elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - cluster.name=resources-cluster
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200/_cluster/health | grep -q 'green\\|yellow'"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    networks:
+      - resources_network
+
+  # Kibana for Elasticsearch visualization (optional, for development)
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.11.0
+    container_name: resources_kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    networks:
+      - resources_network
+    profiles:
+      - dev-tools
+
+  # Airflow for scraper scheduling (development)
+  airflow:
+    image: apache/airflow:2.8.0-python3.11
+    container_name: resources_airflow
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://resources:resources_dev_password@postgres:5432/resources_job_board
+      - AIRFLOW__CORE__FERNET_KEY=81HqDtbqAywKSOumSha3BhWNOdQ26slT6K0YaZeZyPs=
+      - AIRFLOW__WEBSERVER__SECRET_KEY=resources_airflow_secret_key
+      - AIRFLOW__CORE__LOAD_EXAMPLES=false
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./scraper/airflow/dags:/opt/airflow/dags
+      - airflow_logs:/opt/airflow/logs
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: >
+      bash -c "airflow db init &&
+               airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com || true &&
+               airflow webserver & airflow scheduler"
+    networks:
+      - resources_network
+    profiles:
+      - dev-tools
+
+volumes:
+  postgres_data:
+  redis_data:
+  elasticsearch_data:
+  airflow_logs:
+
+networks:
+  resources_network:
+    driver: bridge

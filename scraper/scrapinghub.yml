@@ -1,0 +1,35 @@
+# Scrapy Cloud (Zyte) Deployment Configuration
+# Deploy with: shub deploy
+
+project: ${SHUB_PROJECT_ID}
+
+# Stack with all dependencies
+stack: scrapy:2.11-py311
+
+# Requirements
+requirements:
+  file: requirements.txt
+
+# Additional system packages
+eggs:
+  - scrapy-zyte-api
+
+# Settings overrides for production
+settings:
+  LOG_LEVEL: INFO
+  ZYTE_API_ENABLED: "true"
+
+# Periodic jobs (scheduled scraping)
+# Configure these in Scrapy Cloud dashboard for more control
+periodic_jobs:
+  # Daily scrape of Job Bank
+  - spider: jobbank
+    schedule: "0 6 * * *"  # 6 AM UTC daily
+
+# Units allocation
+# Adjust based on your Scrapy Cloud plan
+units: 2
+
+# Addons
+addons:
+  - scrapy-zyte-api

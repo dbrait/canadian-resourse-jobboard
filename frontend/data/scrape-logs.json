@@ -1,0 +1,178 @@
+[
+  {
+    "id": "log_1766588125847_0u1zu16",
+    "source": "discover",
+    "started_at": "2025-12-24T14:55:25.847Z",
+    "finished_at": "2025-12-24T15:03:06.589Z",
+    "status": "completed",
+    "jobs_found": 0,
+    "jobs_added": 0,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766559110694_geisvph",
+    "source": "discover",
+    "started_at": "2025-12-24T06:51:50.694Z",
+    "finished_at": "2025-12-24T06:59:11.826Z",
+    "status": "completed",
+    "jobs_found": 0,
+    "jobs_added": 0,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766558515062_3p4w53j",
+    "source": "discover",
+    "started_at": "2025-12-24T06:41:55.062Z",
+    "finished_at": "2025-12-24T06:49:09.905Z",
+    "status": "completed",
+    "jobs_found": 0,
+    "jobs_added": 0,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766557879267_4b3g7h5",
+    "source": "discover",
+    "started_at": "2025-12-24T06:31:19.267Z",
+    "finished_at": "2025-12-24T06:39:07.195Z",
+    "status": "completed",
+    "jobs_found": 0,
+    "jobs_added": 0,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766557197720_1flgvlx",
+    "source": "companies",
+    "started_at": "2025-12-24T06:19:57.720Z",
+    "finished_at": "2025-12-24T06:21:21.866Z",
+    "status": "completed",
+    "jobs_found": 0,
+    "jobs_added": 0,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766556842230_bf3rx2z",
+    "source": "jobbank",
+    "started_at": "2025-12-24T06:14:02.230Z",
+    "finished_at": "2025-12-24T06:14:08.542Z",
+    "status": "completed",
+    "jobs_found": 0,
+    "jobs_added": 0,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766556840441_mfmkjr9",
+    "source": "ecocanada",
+    "started_at": "2025-12-24T06:14:00.441Z",
+    "finished_at": "2025-12-24T06:14:01.220Z",
+    "status": "completed",
+    "jobs_found": 24,
+    "jobs_added": 24,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766556838561_wkb5rp8",
+    "source": "infomine",
+    "started_at": "2025-12-24T06:13:58.561Z",
+    "finished_at": "2025-12-24T06:13:59.432Z",
+    "status": "completed",
+    "jobs_found": 0,
+    "jobs_added": 0,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766556837097_fiz0yl7",
+    "source": "rigzone",
+    "started_at": "2025-12-24T06:13:57.097Z",
+    "finished_at": "2025-12-24T06:13:57.554Z",
+    "status": "completed",
+    "jobs_found": 0,
+    "jobs_added": 0,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766556741791_br4p33l",
+    "source": "indeed",
+    "started_at": "2025-12-24T06:12:21.792Z",
+    "finished_at": "2025-12-24T06:13:56.085Z",
+    "status": "completed",
+    "jobs_found": 0,
+    "jobs_added": 0,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766556725105_zsz9jpp",
+    "source": "greenhouse",
+    "started_at": "2025-12-24T06:12:05.105Z",
+    "finished_at": "2025-12-24T06:12:20.781Z",
+    "status": "completed",
+    "jobs_found": 10,
+    "jobs_added": 10,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766556710816_t0sjw6y",
+    "source": "lever",
+    "started_at": "2025-12-24T06:11:50.816Z",
+    "finished_at": "2025-12-24T06:12:04.100Z",
+    "status": "completed",
+    "jobs_found": 3,
+    "jobs_added": 3,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766556638088_cwj5o3r",
+    "source": "workday",
+    "started_at": "2025-12-24T06:10:38.088Z",
+    "finished_at": "2025-12-24T06:11:49.812Z",
+    "status": "completed",
+    "jobs_found": 0,
+    "jobs_added": 0,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766556637065_oplb5s3",
+    "source": "adzuna",
+    "started_at": "2025-12-24T06:10:37.065Z",
+    "finished_at": "2025-12-24T06:10:37.086Z",
+    "status": "completed",
+    "jobs_found": 59,
+    "jobs_added": 59,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766552182339_9g7hzyn",
+    "source": "realistic",
+    "started_at": "2025-12-24T04:56:22.339Z",
+    "finished_at": "2025-12-24T04:56:22.350Z",
+    "status": "completed",
+    "jobs_found": 55,
+    "jobs_added": 55,
+    "jobs_updated": 0,
+    "error": null
+  },
+  {
+    "id": "log_1766551862107_ac2p891",
+    "source": "indeed",
+    "started_at": "2025-12-24T04:51:02.107Z",
+    "finished_at": "2025-12-24T04:51:03.063Z",
+    "status": "completed",
+    "jobs_found": 0,
+    "jobs_added": 0,
+    "jobs_updated": 0,
+    "error": null
+  }
+]
