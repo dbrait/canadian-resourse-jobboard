@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getAllJobs as getScrapedJobs, ScrapedJob } from '@/lib/scraper/db';
+import { getFreshJobs as getScrapedJobs, ScrapedJob } from '@/lib/scraper/db';
 import { getJobs as getGeneratedJobs } from './data';
 
 // Map scraped job format to API format

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { addJobs, addScrapeLog, updateScrapeLog, getAllScrapeLogs, getAllJobs, ScrapeLog, clearAllJobs } from '@/lib/scraper/db';
+import { addJobs, addScrapeLog, updateScrapeLog, getAllScrapeLogs, getAllJobs, getFreshJobs, removeStaleJobs, clearJobsBySource, ScrapeLog, clearAllJobs } from '@/lib/scraper/db';
 
 // Available scraper sources
 const AVAILABLE_SOURCES = [
@@ -16,7 +16,7 @@ const AVAILABLE_SOURCES = [
   'jobbank',     // Canada Job Bank
 ] as const;
 
-type ScraperSource = typeof AVAILABLE_SOURCES[number] | 'all' | 'clear';
+type ScraperSource = typeof AVAILABLE_SOURCES[number] | 'all' | 'clear' | 'cleanup';
 
 function generateLogId(): string {
   return `log_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`;
@@ -54,6 +54,7 @@ export async function GET() {
         ecocanada: 'POST with {"source":"ecocanada"} to scrape ECO Canada (Environmental)',
         jobbank: 'POST with {"source":"jobbank"} to scrape Canada Job Bank',
         clear: 'POST with {"source":"clear"} to clear all scraped jobs',
+        cleanup: 'POST with {"source":"cleanup"} to remove stale jobs (older than 30 days)',
       },
     });
   } catch (error) {
@@ -196,7 +197,7 @@ export async function POST(request: NextRequest) {
     const source = (body.source || 'adzuna') as ScraperSource;
 
     // Validate source
-    if (source !== 'all' && source !== 'clear' && !AVAILABLE_SOURCES.includes(source as any)) {
+    if (source !== 'all' && source !== 'clear' && source !== 'cleanup' && !AVAILABLE_SOURCES.includes(source as any)) {
       return NextResponse.json(
         { error: `Invalid source. Available: ${AVAILABLE_SOURCES.join(', ')}, all, clear` },
         { status: 400 }
@@ -209,6 +210,31 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({
         success: true,
         message: `Cleared ${removed} jobs from database`,
+      });
+    }
+
+    // Handle cleanup request (remove stale jobs older than 14 days)
+    if (source === 'cleanup') {
+      const removed = removeStaleJobs();
+      const remaining = getFreshJobs().length;
+      return NextResponse.json({
+        success: true,
+        message: `Removed ${removed} stale jobs, ${remaining} fresh jobs remaining`,
+        removed,
+        remaining,
+      });
+    }
+
+    // Handle clear_source request (remove jobs from a specific source)
+    if (body.clear_source) {
+      const sourceToRemove = body.clear_source;
+      const removed = clearJobsBySource(sourceToRemove);
+      const remaining = getAllJobs().length;
+      return NextResponse.json({
+        success: true,
+        message: `Removed ${removed} jobs from source "${sourceToRemove}", ${remaining} jobs remaining`,
+        removed,
+        remaining,
       });
     }
 

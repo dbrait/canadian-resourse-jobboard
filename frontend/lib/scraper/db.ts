@@ -64,9 +64,50 @@ function writeJsonFile<T>(filePath: string, data: T): void {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
 }
 
+// Job freshness settings
+const MAX_JOB_AGE_DAYS = 30; // Jobs older than this are considered stale
+
 // Job operations
 export function getAllJobs(): ScrapedJob[] {
   return readJsonFile<ScrapedJob[]>(JOBS_FILE, []);
+}
+
+// Get only fresh jobs (scraped within MAX_JOB_AGE_DAYS)
+export function getFreshJobs(): ScrapedJob[] {
+  const jobs = getAllJobs();
+  const now = new Date();
+  const cutoffDate = new Date(now.getTime() - MAX_JOB_AGE_DAYS * 24 * 60 * 60 * 1000);
+
+  return jobs.filter(job => {
+    // Check scraped_at date
+    const scrapedAt = new Date(job.scraped_at);
+    if (scrapedAt >= cutoffDate) return true;
+
+    // Also check posted_at date (some jobs may have recent post dates)
+    const postedAt = new Date(job.posted_at);
+    if (postedAt >= cutoffDate) return true;
+
+    return false;
+  });
+}
+
+// Remove stale jobs from database
+export function removeStaleJobs(): number {
+  const jobs = getAllJobs();
+  const now = new Date();
+  const cutoffDate = new Date(now.getTime() - MAX_JOB_AGE_DAYS * 24 * 60 * 60 * 1000);
+
+  const freshJobs = jobs.filter(job => {
+    const scrapedAt = new Date(job.scraped_at);
+    const postedAt = new Date(job.posted_at);
+    return scrapedAt >= cutoffDate || postedAt >= cutoffDate;
+  });
+
+  const removed = jobs.length - freshJobs.length;
+  if (removed > 0) {
+    writeJsonFile(JOBS_FILE, freshJobs);
+  }
+  return removed;
 }
 
 export function getJobById(id: string): ScrapedJob | undefined {
