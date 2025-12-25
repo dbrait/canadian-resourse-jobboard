@@ -27,44 +27,17 @@ interface WorkdayCompany {
 }
 
 // Major natural resources companies using Workday
+// VERIFIED WORKING configurations as of Dec 2024
 const WORKDAY_COMPANIES: WorkdayCompany[] = [
+  // ========== VERIFIED WORKING ==========
   // Oil & Gas
-  { name: 'Suncor Energy', subdomain: 'suncor', wdNumber: 'wd1', site: 'External', industry: 'oil_gas' },
-  { name: 'TC Energy', subdomain: 'tcenergy', wdNumber: 'wd3', site: 'External', industry: 'oil_gas' },
-  { name: 'Enbridge', subdomain: 'enbridge', wdNumber: 'wd3', site: 'External', industry: 'oil_gas' },
-  { name: 'Cenovus Energy', subdomain: 'cenovus', wdNumber: 'wd3', site: 'External', industry: 'oil_gas' },
-  { name: 'Imperial Oil', subdomain: 'imperialoil', wdNumber: 'wd3', site: 'External', industry: 'oil_gas' },
-  { name: 'Pembina Pipeline', subdomain: 'pembina', wdNumber: 'wd3', site: 'External', industry: 'oil_gas' },
-  { name: 'Canadian Natural Resources', subdomain: 'cnrl', wdNumber: 'wd3', site: 'External', industry: 'oil_gas' },
-  { name: 'MEG Energy', subdomain: 'megenergy', wdNumber: 'wd3', site: 'External', industry: 'oil_gas' },
-
-  // Mining
-  { name: 'Teck Resources', subdomain: 'teck', wdNumber: 'wd3', site: 'External', industry: 'mining' },
-  { name: 'Barrick Gold', subdomain: 'barrick', wdNumber: 'wd3', site: 'External', industry: 'mining' },
-  { name: 'Kinross Gold', subdomain: 'kinross', wdNumber: 'wd3', site: 'External', industry: 'mining' },
-  { name: 'Agnico Eagle', subdomain: 'agnicoeagle', wdNumber: 'wd3', site: 'External', industry: 'mining' },
-  { name: 'Newmont', subdomain: 'newmont', wdNumber: 'wd5', site: 'External', industry: 'mining' },
-  { name: 'Lundin Mining', subdomain: 'lundinmining', wdNumber: 'wd3', site: 'External', industry: 'mining' },
-  { name: 'First Quantum Minerals', subdomain: 'firstquantum', wdNumber: 'wd3', site: 'External', industry: 'mining' },
-  { name: 'Hudbay Minerals', subdomain: 'hudbay', wdNumber: 'wd3', site: 'External', industry: 'mining' },
-  { name: 'Cameco', subdomain: 'cameco', wdNumber: 'wd3', site: 'External', industry: 'mining' },
-  { name: 'Nutrien', subdomain: 'nutrien', wdNumber: 'wd5', site: 'Nutrien', industry: 'mining' },
-
-  // Forestry
-  { name: 'West Fraser Timber', subdomain: 'westfraser', wdNumber: 'wd3', site: 'External', industry: 'forestry' },
-  { name: 'Canfor', subdomain: 'canfor', wdNumber: 'wd3', site: 'External', industry: 'forestry' },
-  { name: 'Resolute Forest Products', subdomain: 'resolute', wdNumber: 'wd3', site: 'External', industry: 'forestry' },
-
-  // Environmental/Engineering
-  { name: 'Stantec', subdomain: 'stantec', wdNumber: 'wd3', site: 'External', industry: 'environmental' },
-  { name: 'WSP', subdomain: 'wsp', wdNumber: 'wd3', site: 'External', industry: 'environmental' },
-  { name: 'AECOM', subdomain: 'aecom', wdNumber: 'wd3', site: 'External', industry: 'environmental' },
-  { name: 'SNC-Lavalin', subdomain: 'snclavalin', wdNumber: 'wd3', site: 'External', industry: 'environmental' },
+  { name: 'Suncor Energy', subdomain: 'suncor', wdNumber: 'wd1', site: 'Suncor_External', industry: 'oil_gas' },
+  { name: 'TC Energy', subdomain: 'tcenergy', wdNumber: 'wd3', site: 'CAREER_SITE_TC', industry: 'oil_gas' },
+  { name: 'Enbridge', subdomain: 'enbridge', wdNumber: 'wd3', site: 'enbridge_careers', industry: 'oil_gas' },
+  { name: 'Cenovus Energy', subdomain: 'cenovus', wdNumber: 'wd3', site: 'Careers', industry: 'oil_gas' },
 
   // Renewable Energy
-  { name: 'TransAlta', subdomain: 'transalta', wdNumber: 'wd3', site: 'External', industry: 'renewable_energy' },
-  { name: 'Capital Power', subdomain: 'capitalpower', wdNumber: 'wd3', site: 'External', industry: 'renewable_energy' },
-  { name: 'Northland Power', subdomain: 'northlandpower', wdNumber: 'wd3', site: 'External', industry: 'renewable_energy' },
+  { name: 'Capital Power', subdomain: 'capitalpower', wdNumber: 'wd10', site: 'External', industry: 'renewable_energy' },
 ];
 
 interface WorkdayJob {
