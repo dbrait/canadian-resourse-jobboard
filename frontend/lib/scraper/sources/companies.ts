@@ -121,50 +121,24 @@ const COMPANIES: Company[] = [
   },
 
   // ============ OIL & GAS ============
+  // VERIFIED WORKING - Dec 2024
   {
     name: 'Suncor Energy',
     industry: 'oil_gas',
     ats: 'workday',
-    careerUrl: 'https://suncor.wd1.myworkdayjobs.com/ExternalSite',
+    careerUrl: 'https://suncor.wd1.myworkdayjobs.com/Suncor_External',
     wdSubdomain: 'suncor',
     wdNumber: 'wd1',
-    wdSite: 'ExternalSite',
-  },
-  {
-    name: 'Canadian Natural Resources',
-    industry: 'oil_gas',
-    ats: 'workday',
-    careerUrl: 'https://cnrl.wd3.myworkdayjobs.com/CNRL',
-    wdSubdomain: 'cnrl',
-    wdNumber: 'wd3',
-    wdSite: 'CNRL',
-  },
-  {
-    name: 'Cenovus Energy',
-    industry: 'oil_gas',
-    ats: 'workday',
-    careerUrl: 'https://cenovus.wd3.myworkdayjobs.com/CenovusCareers',
-    wdSubdomain: 'cenovus',
-    wdNumber: 'wd3',
-    wdSite: 'CenovusCareers',
-  },
-  {
-    name: 'Imperial Oil',
-    industry: 'oil_gas',
-    ats: 'workday',
-    careerUrl: 'https://jobs.imperialoil.ca/',
-    wdSubdomain: 'imperialoil',
-    wdNumber: 'wd3',
-    wdSite: 'imperialoil',
+    wdSite: 'Suncor_External',
   },
   {
     name: 'TC Energy',
     industry: 'oil_gas',
     ats: 'workday',
-    careerUrl: 'https://tcenergy.wd3.myworkdayjobs.com/TCEnergyCareers',
+    careerUrl: 'https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC',
     wdSubdomain: 'tcenergy',
     wdNumber: 'wd3',
-    wdSite: 'TCEnergyCareers',
+    wdSite: 'CAREER_SITE_TC',
   },
   {
     name: 'Enbridge',
@@ -176,35 +150,15 @@ const COMPANIES: Company[] = [
     wdSite: 'enbridge_careers',
   },
   {
-    name: 'Pembina Pipeline',
+    name: 'Cenovus Energy',
     industry: 'oil_gas',
     ats: 'workday',
-    careerUrl: 'https://pembina.wd3.myworkdayjobs.com/PembinaCareers',
-    wdSubdomain: 'pembina',
+    careerUrl: 'https://cenovus.wd3.myworkdayjobs.com/Careers',
+    wdSubdomain: 'cenovus',
     wdNumber: 'wd3',
-    wdSite: 'PembinaCareers',
+    wdSite: 'Careers',
   },
-  {
-    name: 'MEG Energy',
-    industry: 'oil_gas',
-    ats: 'smartrecruiters',
-    careerUrl: 'https://careers.megenergy.com/',
-    srCompanyId: 'MEGEnergy',
-  },
-  {
-    name: 'Tourmaline Oil',
-    industry: 'oil_gas',
-    ats: 'greenhouse',
-    careerUrl: 'https://boards.greenhouse.io/tourmalineoil',
-    ghToken: 'tourmalineoil',
-  },
-  {
-    name: 'ARC Resources',
-    industry: 'oil_gas',
-    ats: 'greenhouse',
-    careerUrl: 'https://boards.greenhouse.io/arcresources',
-    ghToken: 'arcresources',
-  },
+  // NOTE: Pembina, MEG Energy, Tourmaline, ARC Resources removed - configs not verified
 
   // ============ FORESTRY ============
   {
@@ -259,14 +213,15 @@ const COMPANIES: Company[] = [
     wdNumber: 'wd3',
     wdSite: 'TransAlta_Careers',
   },
+  // VERIFIED WORKING - Dec 2024
   {
     name: 'Capital Power',
     industry: 'renewable_energy',
     ats: 'workday',
-    careerUrl: 'https://capitalpower.wd3.myworkdayjobs.com/Capital_Power',
+    careerUrl: 'https://capitalpower.wd10.myworkdayjobs.com/External',
     wdSubdomain: 'capitalpower',
-    wdNumber: 'wd3',
-    wdSite: 'Capital_Power',
+    wdNumber: 'wd10',
+    wdSite: 'External',
   },
   {
     name: 'Northland Power',
